@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T22:25:02.311Z",
+  "generatedAt": "2026-07-28T22:58:32.411Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -16,6 +16,14 @@
       "suiteLabel": "Launch",
       "path": "data/docs-contentstack-ai-automation/launch/latest.json",
       "lastUpdated": "2026-07-28T22:25:01.602Z"
+    },
+    {
+      "project": "docs-contentstack-ai-automation",
+      "projectLabel": "Docs Contentstack AI Automation",
+      "suite": "administration",
+      "suiteLabel": "Administration",
+      "path": "data/docs-contentstack-ai-automation/administration/latest.json",
+      "lastUpdated": "2026-07-28T22:58:31.790Z"
     }
   ]
 }
