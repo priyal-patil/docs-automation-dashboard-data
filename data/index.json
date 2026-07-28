@@ -1,4 +1,13 @@
 {
-  "generatedAt": null,
-  "entries": []
+  "generatedAt": "2026-07-28T12:30:06.003Z",
+  "entries": [
+    {
+      "project": "docs-contentstack-ai-automation",
+      "projectLabel": "Docs Contentstack AI Automation",
+      "suite": "brandkit",
+      "suiteLabel": "BrandKit",
+      "path": "data/docs-contentstack-ai-automation/brandkit/latest.json",
+      "lastUpdated": "2026-07-28T12:30:05.299Z"
+    }
+  ]
 }

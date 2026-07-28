@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
+  "suite": "brandkit",
+  "suiteLabel": "BrandKit",
+  "runId": "30356841797",
+  "runUrl": "https://github.com/priyal-patil/docs-contentstack-ai-automation/actions/runs/30356841797",
+  "artifactsUrl": "https://github.com/priyal-patil/docs-contentstack-ai-automation/actions/runs/30356841797#artifacts",
+  "timestamp": "2026-07-28T12:30:05.299Z",
+  "durationSeconds": 1930,
+  "totals": {
+    "total": 15,
+    "passed": 2,
+    "failed": 13,
+    "skipped": 0,
+    "warnings": 2,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/edit-a-brand-kit",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/edit-a-brand-kit"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/get-started-with-brand-kit",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-BK-/i }).first()\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-BK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/get-started-with-brand-kit"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/invite-collaborators",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/invite-collaborators"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/create-a-voice-profile",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/create-a-voice-profile"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/edit-a-voice-profile",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/edit-a-voice-profile"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/export-a-voice-profile",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/export-a-voice-profile"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/import-a-voice-profile",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/import-a-voice-profile"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/delete-a-voice-profile",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/delete-a-voice-profile"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/add-item-in-knowledge-vault",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/add-item-in-knowledge-vault"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/edit-item-in-knowledge-vault",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/edit-item-in-knowledge-vault"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/export-item-from-knowledge-vault",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/export-item-from-knowledge-vault"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/import-item-in-knowledge-vault",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/import-item-in-knowledge-vault"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/brand-kit/delete-item-in-knowledge-vault",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('a.brand-kit-card-link').filter({ hasText: /AUTO-CBK-/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/brand-kit/delete-item-in-knowledge-vault"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/content-managers/brand-kit/create-a-brand-kit",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/delete-a-brand-kit",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/edit-a-brand-kit",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/get-started-with-brand-kit",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/invite-collaborators",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/create-a-voice-profile",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/edit-a-voice-profile",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/export-a-voice-profile",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/import-a-voice-profile",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/delete-a-voice-profile",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/add-item-in-knowledge-vault",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/edit-item-in-knowledge-vault",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/export-item-from-knowledge-vault",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/import-item-in-knowledge-vault",
+    "https://www.contentstack.com/docs/content-managers/brand-kit/delete-item-in-knowledge-vault"
+  ]
+}
