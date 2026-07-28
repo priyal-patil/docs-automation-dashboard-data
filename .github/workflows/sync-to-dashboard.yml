@@ -1,0 +1,42 @@
+name: Sync data to dashboard repo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          path: data-repo
+
+      - name: Checkout dashboard repo
+        uses: actions/checkout@v4
+        with:
+          repository: priyal-patil/docs-automation-dashboard
+          token: ${{ secrets.DASHBOARD_REPO_TOKEN }}
+          path: dashboard-repo
+
+      - name: Copy latest data into dashboard repo
+        run: |
+          rm -rf dashboard-repo/data
+          cp -R data-repo/data dashboard-repo/data
+
+      - name: Commit and push if changed
+        working-directory: dashboard-repo
+        run: |
+          git config user.name "docs-automation-dashboard-data sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes to sync."
+            exit 0
+          fi
+          git commit -m "Sync data from docs-automation-dashboard-data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git push origin main
