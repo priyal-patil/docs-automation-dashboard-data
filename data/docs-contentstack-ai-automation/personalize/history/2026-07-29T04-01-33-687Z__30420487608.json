@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
+  "suite": "personalize",
+  "suiteLabel": "Personalize",
+  "runId": "30420487608",
+  "runUrl": "https://github.com/priyal-patil/docs-contentstack-ai-automation/actions/runs/30420487608",
+  "artifactsUrl": "https://github.com/priyal-patil/docs-contentstack-ai-automation/actions/runs/30420487608#artifacts",
+  "timestamp": "2026-07-29T04:01:33.687Z",
+  "durationSeconds": 822,
+  "totals": {
+    "total": 23,
+    "passed": 10,
+    "failed": 13,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "https://www.contentstack.com/docs/personalize/create-personalized-content",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-testid=\"connected-stack-url\"] .font-weight-semi-bold, [data-testid=\"connected-stack-url\"] .font-size-xl').first()\nExpected: visible\nTimeout: 45000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 45000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-testid=\"connected-stack-url\"] .font-weight-semi-bold, [data-testid=\"connected-stack-url\"] .font-size-xl').f",
+      "docLink": "https://www.contentstack.com/docs/personalize/create-personalized-content"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/get-started-with-personalize-with-ab-test-end-to-end-guide",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel(/Personalize New Project Name field \\(doc step\\)/i).first().or(getByPlaceholder(/Personalize New Project Name field \\(doc step\\)/i).first()).or(locator('input[name=\"Personalize New Project Name field (doc step)\"], textarea[name=\"Personalize New Project Name field (doc step)\"]').first()).or(locator('input[name*=\"Personalize New Project Name field \\\\(doc step\\\\)\" i], textarea[name*=\"Perso",
+      "docLink": "https://www.contentstack.com/docs/personalize/get-started-with-personalize-with-ab-test-end-to-end-guide"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/user-permissions",
+      "detail": "Error: Label/field-name verification mismatch for \"Manage doc: Users Invite User button (doc step)\": Label validation failed: expected \"+ Invite User\" (contains), got \"invite user\".",
+      "docLink": "https://www.contentstack.com/docs/personalize/user-permissions"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/add-event-to-ab-test-experience",
+      "detail": "Error: A/B Test (doc): could not select a Metrics event — create at least one Event in this Personalize project (doc Prerequisites), or set PERSONALIZE_AB_TEST_METRIC_EVENT_CONTAINS.",
+      "docLink": "https://www.contentstack.com/docs/personalize/add-event-to-ab-test-experience"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/create-ab-test-experience",
+      "detail": "Error: A/B Test (doc): could not select a Metrics event — create at least one Event in this Personalize project (doc Prerequisites), or set PERSONALIZE_AB_TEST_METRIC_EVENT_CONTAINS.",
+      "docLink": "https://www.contentstack.com/docs/personalize/create-ab-test-experience"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/create-event",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-testid=\"new-event-button\"], [data-test-id=\"cs-page-layout-header\"] button.Button--primary:has-text(\"New Event\")').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-testid=\"new-event-button\"], [data-test-id=\"cs-page-layout-header\"] button.Button--primary:has-text(",
+      "docLink": "https://www.contentstack.com/docs/personalize/create-event"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/create-segmented-experience",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"cs-global-dashboard-product-tile-launch\"]').first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-global-dashboard-product-tile-launch\"]').first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/personalize/create-segmented-experience"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/edit-audience",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"cs-table\"] [role=\"columnheader\"]').filter({ hasText: /^Actions$/i }).first()\nExpected: visible\nTimeout: 45000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 45000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-table\"] [role=\"columnheader\"]').filter({ hasText: /^Actions$/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/personalize/edit-audience"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/edit-event",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[role=\"row\"]').filter({ hasText: /AUTO_EVENT/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"row\"]').filter({ hasText: /AUTO_EVENT/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/personalize/edit-event"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/edit-experience",
+      "detail": "Error: Personalize listing row ⋮ Edit did not become visible within 30000ms (expected cs-vertical-action-tooltip-actions→cs-ct-action-edit, VerticalActionTooltip, #tableRowActionNode, plain Edit in #tableRowActionNode, or main#react-personalize menuitem Edit / Edit Text).",
+      "docLink": "https://www.contentstack.com/docs/personalize/edit-experience"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/entry-variants/create-an-entry-variant",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: /\\[\\s*Base Entry\\s*\\]|^Base Entry$/i }).first().or(getByRole('combobox', { name: /\\[\\s*Base Entry\\s*\\]|^Base Entry$/i }).first())\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /\\[\\s*Base Entry\\s*\\]|^Base Entry$/i }).first().or(getByRole('com",
+      "docLink": "https://www.contentstack.com/docs/content-managers/entry-variants/create-an-entry-variant"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/delete-event",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[role=\"row\"]').filter({ hasText: /AUTO_EVENT/i }).first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"row\"]').filter({ hasText: /AUTO_EVENT/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/personalize/delete-event"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/personalize/delete-experience",
+      "detail": "Error: Personalize Audiences: row ⋮ Delete did not become visible within 30000ms (expected cs-vertical-action-tooltip-actions→cs-ct-action-delete, VerticalActionTooltip, #tableRowActionNode Delete, or menuitem Delete in main).",
+      "docLink": "https://www.contentstack.com/docs/personalize/delete-experience"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/personalize/create-personalized-content",
+    "https://www.contentstack.com/docs/personalize/about-personalize",
+    "https://www.contentstack.com/docs/personalize/get-started-with-personalize-with-ab-test-end-to-end-guide",
+    "https://www.contentstack.com/docs/personalize/user-permissions",
+    "https://www.contentstack.com/docs/personalize/add-custom-attribute-to-audience",
+    "https://www.contentstack.com/docs/personalize/add-event-to-ab-test-experience",
+    "https://www.contentstack.com/docs/personalize/create-ab-test-experience",
+    "https://www.contentstack.com/docs/personalize/create-audience",
+    "https://www.contentstack.com/docs/personalize/create-custom-attribute",
+    "https://www.contentstack.com/docs/personalize/create-event",
+    "https://www.contentstack.com/docs/personalize/create-personalize-project",
+    "https://www.contentstack.com/docs/personalize/create-segmented-experience",
+    "https://www.contentstack.com/docs/personalize/edit-audience",
+    "https://www.contentstack.com/docs/personalize/edit-custom-attribute",
+    "https://www.contentstack.com/docs/personalize/edit-event",
+    "https://www.contentstack.com/docs/personalize/edit-experience",
+    "https://www.contentstack.com/docs/personalize/manage-personalize-project",
+    "https://www.contentstack.com/docs/personalize/prioritize-experiences",
+    "https://www.contentstack.com/docs/content-managers/entry-variants/create-an-entry-variant",
+    "https://www.contentstack.com/docs/personalize/delete-audience",
+    "https://www.contentstack.com/docs/personalize/delete-event",
+    "https://www.contentstack.com/docs/personalize/delete-experience",
+    "https://www.contentstack.com/docs/personalize/delete-personalize-project"
+  ]
+}
