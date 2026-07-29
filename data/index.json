@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T23:47:17.205Z",
+  "generatedAt": "2026-07-29T01:19:19.138Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -32,6 +32,14 @@
       "suiteLabel": "CMS Batch 1",
       "path": "data/docs-contentstack-ai-automation/cms-batch1/latest.json",
       "lastUpdated": "2026-07-28T23:47:16.451Z"
+    },
+    {
+      "project": "docs-contentstack-ai-automation",
+      "projectLabel": "Docs Contentstack AI Automation",
+      "suite": "data-and-insights",
+      "suiteLabel": "Data-and-Insights",
+      "path": "data/docs-contentstack-ai-automation/data-and-insights/latest.json",
+      "lastUpdated": "2026-07-29T01:19:18.650Z"
     }
   ]
 }
