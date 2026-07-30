@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-07-30T04:05:24.333Z",
+    "runId": "30511733788",
+    "path": "data/docs-contentstack-ai-automation/personalize/history/2026-07-30T04-05-24-333Z__30511733788.json",
+    "totals": {
+      "total": 23,
+      "passed": 10,
+      "failed": 13,
+      "skipped": 0,
+      "warnings": 1,
+      "timedOut": 1,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-07-29T04:01:33.687Z",
+    "runId": "30420487608",
+    "path": "data/docs-contentstack-ai-automation/personalize/history/2026-07-29T04-01-33-687Z__30420487608.json",
+    "totals": {
+      "total": 23,
+      "passed": 10,
+      "failed": 13,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]

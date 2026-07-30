@@ -78,3 +78,24 @@ Each publishing workflow step should:
 3. Update its own entry in `data/index.json` (add if missing, replace if present — match on `project`+`suite`).
 4. Commit and push. Use `git pull --rebase` before push (or retry-on-conflict) since multiple
    projects/suites push independently and pushes can race.
+
+## `history-index.json` (added for the calendar/recent-runs view)
+
+Each `data/<project>/<suite>/history-index.json` is maintained automatically
+by `scripts/publish.js` — nothing else needs to write it. It's an array,
+newest first, capped at the last 30 runs:
+
+```json
+[
+  {
+    "timestamp": "2026-07-30T05:39:18.725Z",
+    "runId": "30499925084",
+    "path": "data/docs-contentstack-ai-automation/cms-batch3/history/2026-07-30T05-39-18-725Z__30499925084.json",
+    "totals": { "total": 35, "passed": 18, "failed": 17, "skipped": 0, "warnings": 13, "timedOut": 2, "interrupted": 0 }
+  }
+]
+```
+
+The dashboard fetches this alongside `latest.json` to render a short
+"recent runs" strip on each suite page, so gaps in the schedule or a run
+history stay visible instead of only ever showing the single latest result.

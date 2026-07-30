@@ -10,6 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const REQUIRED = ['project', 'suite', 'timestamp', 'totals'];
+const HISTORY_INDEX_LIMIT = 30; // dashboard UI only shows the last few days of this, but keep some slack
 
 function safeTimestamp(iso) {
   return iso.replace(/[:.]/g, '-');
@@ -49,8 +50,28 @@ function main() {
     fs.writeFileSync(path.join(dir, 'latest.json'), JSON.stringify(report, null, 2));
 
     const runId = report.runId || 'unknown';
-    const historyFile = path.join(dir, 'history', `${safeTimestamp(report.timestamp)}__${runId}.json`);
+    const historyFileName = `${safeTimestamp(report.timestamp)}__${runId}.json`;
+    const historyFile = path.join(dir, 'history', historyFileName);
     fs.writeFileSync(historyFile, JSON.stringify(report, null, 2));
+
+    // Maintain a small index of recent runs for this suite, newest first, so
+    // the dashboard can render a "recent runs" strip without needing
+    // directory-listing support (static hosting can't list directories).
+    const historyIndexPath = path.join(dir, 'history-index.json');
+    let historyIndex = [];
+    if (fs.existsSync(historyIndexPath)) {
+      try { historyIndex = JSON.parse(fs.readFileSync(historyIndexPath, 'utf-8')); } catch { historyIndex = []; }
+    }
+    historyIndex = historyIndex.filter(h => h.runId !== runId);
+    historyIndex.unshift({
+      timestamp: report.timestamp,
+      runId,
+      path: `data/${report.project}/${report.suite}/history/${historyFileName}`,
+      totals: report.totals,
+    });
+    historyIndex.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+    historyIndex = historyIndex.slice(0, HISTORY_INDEX_LIMIT);
+    fs.writeFileSync(historyIndexPath, JSON.stringify(historyIndex, null, 2));
 
     const relPath = `data/${report.project}/${report.suite}/latest.json`;
     const existingIdx = index.entries.findIndex(
