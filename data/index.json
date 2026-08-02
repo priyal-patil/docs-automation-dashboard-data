@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T03:58:52.400Z",
+  "generatedAt": "2026-08-02T04:15:28.749Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -63,7 +63,7 @@
       "suite": "personalize",
       "suiteLabel": "Personalize",
       "path": "data/docs-contentstack-ai-automation/personalize/latest.json",
-      "lastUpdated": "2026-08-01T04:11:07.215Z"
+      "lastUpdated": "2026-08-02T04:15:28.169Z"
     },
     {
       "project": "docs-contentstack-ai-automation",
