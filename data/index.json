@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:13:27.229Z",
+  "generatedAt": "2026-08-03T06:14:28.559Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -280,6 +280,14 @@
       "suiteLabel": "Bulk Publish and Unpublish Content",
       "path": "data/developer-resources-docs-automation/bulk-publish/latest.json",
       "lastUpdated": "2026-08-03T06:12:25.640Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "cli-for-launch",
+      "suiteLabel": "CLI for Launch",
+      "path": "data/developer-resources-docs-automation/cli-for-launch/latest.json",
+      "lastUpdated": "2026-08-03T06:13:25.645Z"
     }
   ]
 }
