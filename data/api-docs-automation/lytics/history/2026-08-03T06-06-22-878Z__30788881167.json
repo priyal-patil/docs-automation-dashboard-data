@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "lytics",
+  "suiteLabel": "Lytics CDP Management API",
+  "runId": "30788881167",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881167",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881167#artifacts",
+  "timestamp": "2026-08-03T06:06:22.878Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 10,
+    "passed": 3,
+    "failed": 9,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Create a project",
+      "detail": "Live request returned 400 — {\"message\":\"Bad request\",\"status\":400,\"errors\":{\"project\":[{\"code\":\"lytics.PROJECTS.MAX_PROJECT_LIMIT_REACHED\"}]}}",
+      "docLink": null
+    },
+    {
+      "name": "Get a project by ID",
+      "detail": "Live request returned 403 — {\"message\":\"Forbidden resource\",\"status\":403,\"error\":\"Forbidden\"}",
+      "docLink": null
+    },
+    {
+      "name": "Update a project",
+      "detail": "Live request returned 403 — {\"message\":\"Forbidden resource\",\"status\":403,\"error\":\"Forbidden\"}",
+      "docLink": null
+    },
+    {
+      "name": "Delete a project",
+      "detail": "Live request returned 403 — {\"message\":\"Forbidden resource\",\"status\":403,\"error\":\"Forbidden\"}",
+      "docLink": null
+    },
+    {
+      "name": "Invite collaborators to a project",
+      "detail": "Live request returned 403 — {\"message\":\"Forbidden resource\",\"status\":403,\"error\":\"Forbidden\"}",
+      "docLink": null
+    },
+    {
+      "name": "List collaborators for a project",
+      "detail": "Live request returned 403 — {\"message\":\"Forbidden resource\",\"status\":403,\"error\":\"Forbidden\"}",
+      "docLink": null
+    },
+    {
+      "name": "List roles assignable to project collaborators",
+      "detail": "Live request returned 403 — {\"message\":\"Forbidden resource\",\"status\":403,\"error\":\"Forbidden\"}",
+      "docLink": null
+    },
+    {
+      "name": "Remove a collaborator from a project",
+      "detail": "❌  Client error: 403 — check credentials, required params, or org quota (see README \"Lytics\" section)",
+      "docLink": null
+    },
+    {
+      "name": "Update a collaborator's roles",
+      "detail": "❌  Client error: 403 — check credentials, required params, or org quota (see README \"Lytics\" section)",
+      "docLink": null
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/lytics-cdp-management-api"
+  ]
+}

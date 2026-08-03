@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:06:09.363Z",
+  "generatedAt": "2026-08-03T06:06:23.633Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -192,6 +192,14 @@
       "suiteLabel": "CLI Authentication and Adding Tokens",
       "path": "data/developer-resources-docs-automation/cli-authentication/latest.json",
       "lastUpdated": "2026-08-03T06:05:11.876Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "lytics",
+      "suiteLabel": "Lytics CDP Management API",
+      "path": "data/api-docs-automation/lytics/latest.json",
+      "lastUpdated": "2026-08-03T06:06:22.878Z"
     }
   ]
 }
