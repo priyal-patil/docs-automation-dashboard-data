@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "export-content",
+  "suiteLabel": "Export Content Using the CLI",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:03:33.025Z",
+  "durationSeconds": 301,
+  "totals": {
+    "total": 47,
+    "passed": 45,
+    "failed": 0,
+    "skipped": 2,
+    "warnings": 19,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "export-content: doc/CLI gaps (verdict GAPS)",
+      "detail": "description-mismatch: --data-dir — The path or the location in your file system to store the exported content. For e.g., ./content; short-flag-mismatch: --branch — -B; short-flag-mismatch: --module — -m; short-flag-mismatch: --content-types — -t; description-mismatch: --secured-assets — [optional] Use this flag for assets that are secured.; description-mismatch: --config — [optional] Path of the config; description-mismatch: --data-dir — The path or the location in your file system to store the exported content. For e.g., ./content; short-flag-mismatch: --branch — -B; short-flag-mismatch: --module — -m; short-flag-mismatch: --content-types — -t; description-mismatch: --secured-assets — [optional] Use this flag for assets that are secured.; description-mismatch: --config — [optional] Path of the config; missing-on-disk: (top-level layout) — Doc tree shows modules directly under ./export/, but the export actually wrote branches.json, main with the modules nested inside \"main/\"; missing-on-disk: stack.json — Promised in doc tree, absent after full export; extra-on-disk: composable_studio — Written by export, absent from doc tree; extra-on-disk: export-info.json — Written by export, absent from doc tree; extra-on-disk: marketplace_apps — Written by export, absent from doc tree; extra-on-disk: personalize — Written by export, absent from doc tree; extra-on-disk: stack — Written by export, absent from doc tree; note: content-types — Doc tree says \"content-types/\" but export writes \"content_types/\"; note: global-fields — Doc tree says \"global-fields/\" but export writes \"global_fields/\"",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/export-content-using-the-cli"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/export-content-using-the-cli"
+  ]
+}
