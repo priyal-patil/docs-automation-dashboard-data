@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "personalizeedge",
+  "suiteLabel": "Personalize Edge API",
+  "runId": "30788881160",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881160",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881160#artifacts",
+  "timestamp": "2026-08-03T06:04:34.021Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 4,
+    "passed": 3,
+    "failed": 1,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Get Manifest",
+      "detail": "Live request returned 500 — Internal Server Error",
+      "docLink": null
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/personalize-edge-api"
+  ]
+}
