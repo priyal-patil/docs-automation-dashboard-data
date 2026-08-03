@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "bulk-publish",
+  "suiteLabel": "Bulk Publish and Unpublish Content",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:12:25.640Z",
+  "durationSeconds": 60,
+  "totals": {
+    "total": 15,
+    "passed": 12,
+    "failed": 3,
+    "skipped": 0,
+    "warnings": 44,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Commands > Bulk Unpublish Entries/Assets: csdx cm:entries:unpublish -e <environment_name> --locale <locale_code> --stack-api-key <stack_api_key>",
+      "detail": "? Enter delivery token of your source environment ? Enter delivery token of your source environment \n ›   Error: A delivery token is required to execute this command.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-publish-and-unpublish-content"
+    },
+    {
+      "name": "Commands > Bulk Unpublish Entries/Assets: csdx cm:assets:unpublish -e <environment_name> --locale <locale_code> --stack-api-key <stack_api_key>",
+      "detail": "? Enter delivery token of your source environment ? Enter delivery token of your source environment \n ›   Error: A delivery token is required to execute this command.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-publish-and-unpublish-content"
+    },
+    {
+      "name": "Commands > Bulk Unpublish Entries with Variants: csdx cm:entries:unpublish -e <environment_name> --locale <locale_code> --stack-api-key <stack_api_key> --include-variants",
+      "detail": "? Enter delivery token of your source environment ? Enter delivery token of your source environment \n ›   Error: A delivery token is required to execute this command.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-publish-and-unpublish-content"
+    },
+    {
+      "name": "bulk-publish: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --entry-uid — --entry-uid — Entry Uid for publish all associated variant entries.; short-flag-mismatch: --locales — -l; short-flag-mismatch: --stack-api-key — -k; short-flag-mismatch: --branch — -B; description-mismatch: --include-variants — Include Variants flag will publish all associated variant entries with base entry.; extra-in-doc: --entry_uid —; short-flag-mismatch: --locales — -l; short-flag-mismatch: --stack-api-key — -k; short-flag-mismatch: --branch — -B; short-flag-mismatch: --stack-api-key — -k; short-flag-mismatch: --branch — -B; short-flag-mismatch: --bulk-publish — -b; missing-in-doc: --delivery-token — --delivery-token — The delivery token of the source environment.; missing-in-doc: --source-env — --source-env — Source environment; short-flag-mismatch: --stack-api-key — -k; short-flag-mismatch: --branch — -B; extra-in-doc: --backup-dir —; short-flag-mismatch: --locales — -l; missing-in-doc: --contentTypes — -t, --contentTypes — The Contenttypes from which entries will be published.; missing-in-doc: --force — --force — Update and publish all entries even if no fields have been added.; short-flag-mismatch: --locales — -l; short-flag-mismatch: --stack-api-key — -k; short-flag-mismatch: --branch — -B; short-flag-mismatch: --stack-api-key — -k; short-flag-mismatch: --branch — -B; short-flag-mismatch: --stack-api-key — -k; description-mismatch: --branch — [default: main] Specify the branch to fetch the content. If not mentioned, the main branch will be used by default.; description-mismatch: --include-variants — Include Variants flag will unpublish all associated variant entries.; missing-in-doc: --alias — -a, --alias — Alias (name) of the management token. You must use either the --alias flag or the; missing-in-doc: --stack-api-key — --stack-api-key — flag.; missing-in-doc: --config — -c, --config — (optional) Path of an optional configuration JSON file containing all the options for a single run. Refer to the configure command to create a configuration file.; missing-in-doc: --environment — -e, --environment — The name of the environment from where entries/assets need to be unpublished.; missing-in-doc: --stack-api-key — -k, --stack-api-key — API key of the source stack. You must use either the --stack-api-key flag or the --alias flag.; missing-in-doc: --yes — -y, --yes — Set it to true to process the command with the current configuration.; missing-in-doc: --api-version — --api-version — API version to be used. Values [Default: 3, Nested Reference Publishing: 3.2].; missing-in-doc: --branch — --branch — [default: main] The name of the branch where you want to perform the bulk unpublish operation. If you don’t mention the branch name, then by default the content from the main branch will be unpublished.; missing-in-doc: --bulk-unpublish — --bulk-unpublish — [default: true] Set this flag to use Contentstack’s Bulk Publish APIs. It is true, by default.; missing-in-doc: --delivery-token — --delivery-token — The delivery token of the source environment.; missing-in-doc: --locale — --locale — Locale from which entries/assets will be unpublished, e.g., en-us.; missing-in-doc: --retry-failed — --retry-failed — (optional) Use this option to retry unpublishing the failed entries from the logfile. Specify the name of the logfile that lists failed unpublish calls. If this option is used, it will override all other flags.; short-flag-mismatch: --stack-api-key — -k; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-publish-and-unpublish-content"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/bulk-publish-and-unpublish-content"
+  ]
+}
