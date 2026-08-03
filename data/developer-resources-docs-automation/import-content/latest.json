@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "import-content",
+  "suiteLabel": "Import Content Using the CLI",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:05:34.730Z",
+  "durationSeconds": 429,
+  "totals": {
+    "total": 59,
+    "passed": 57,
+    "failed": 0,
+    "skipped": 2,
+    "warnings": 8,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "import-content: doc/CLI gaps (verdict GAPS)",
+      "detail": "short-flag-mismatch: --branch — -B; description-mismatch: --branch-alias — Specify the branch alias where you want to import your content. If not specified, the content is imported into the main branch by default.; short-flag-mismatch: --module — -m; short-flag-mismatch: --backup-dir — -b; short-flag-mismatch: --branch — -B; description-mismatch: --branch-alias — Specify the branch alias where you want to import your content. If not specified, the content is imported into the main branch by default.; short-flag-mismatch: --module — -m; short-flag-mismatch: --backup-dir — -b; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/import-content-using-the-cli"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/import-content-using-the-cli"
+  ]
+}
