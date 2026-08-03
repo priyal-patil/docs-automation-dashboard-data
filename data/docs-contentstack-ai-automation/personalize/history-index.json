@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-03T04:16:32.519Z",
+    "runId": "30783341274",
+    "path": "data/docs-contentstack-ai-automation/personalize/history/2026-08-03T04-16-32-519Z__30783341274.json",
+    "totals": {
+      "total": 23,
+      "passed": 11,
+      "failed": 12,
+      "skipped": 0,
+      "warnings": 1,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-02T04:15:28.169Z",
     "runId": "30731626743",
     "path": "data/docs-contentstack-ai-automation/personalize/history/2026-08-02T04-15-28-169Z__30731626743.json",
