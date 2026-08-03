@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:09:12.121Z",
+  "generatedAt": "2026-08-03T06:09:46.079Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -216,6 +216,14 @@
       "suiteLabel": "SCIM API",
       "path": "data/api-docs-automation/scim/latest.json",
       "lastUpdated": "2026-08-03T06:09:11.566Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "personalize",
+      "suiteLabel": "Personalize Management API",
+      "path": "data/api-docs-automation/personalize/latest.json",
+      "lastUpdated": "2026-08-03T06:09:45.096Z"
     }
   ]
 }

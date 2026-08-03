@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "personalize",
+  "suiteLabel": "Personalize Management API",
+  "runId": "30788881184",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881184",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881184#artifacts",
+  "timestamp": "2026-08-03T06:09:45.096Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 28,
+    "passed": 22,
+    "failed": 20,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Create an Attribute",
+      "detail": "Live request returned 400 — {\"error\":\"personalization.ATTRIBUTES.MAX_ATTRIBUTES_COUNT_EXCEEDED\",\"message\":\"Bad request\"}",
+      "docLink": null
+    },
+    {
+      "name": "Create an Audience",
+      "detail": "Live request returned 400 — {\"error\":\"personalization.AUDIENCES.MAX_AUDIENCES_COUNT_EXCEEDED\",\"message\":\"Bad request\"}",
+      "docLink": null
+    },
+    {
+      "name": "Create an Experience",
+      "detail": "Live request returned 400 — {\"error\":\"personalization.EXPERIENCES.MAX_EXPERIENCES_COUNT_EXCEEDED\",\"message\":\"Bad request\"}",
+      "docLink": null
+    },
+    {
+      "name": "Update an Experience",
+      "detail": "OpenAPI request schema has field \"tags\" that is missing from the doc's declared Sample Request",
+      "docLink": null
+    },
+    {
+      "name": "Update an Experience Version",
+      "detail": "OpenAPI request schema has field \"targeting\" that is missing from the doc's declared Sample Request",
+      "docLink": null
+    },
+    {
+      "name": "Create an Event",
+      "detail": "Live request returned 400 — {\"error\":\"personalization.EVENTS.MAX_EVENTS_COUNT_EXCEEDED\",\"message\":\"Bad request\"}",
+      "docLink": null
+    },
+    {
+      "name": "Delete an Attribute",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Update an Attribute",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Delete an audience",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Update an audience",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Delete an Event",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Update an Event",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Get Analytics Summary",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Get Time-series Analytics",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Create an Experience Version",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Delete an Experience",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Delete an Experience Version",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Get a Single Experience",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Get all Experience Versions",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    },
+    {
+      "name": "Update Experiences Priority",
+      "detail": "❌  Client error: 400 — check credentials, required params, or a genuine business rule",
+      "docLink": null
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/personalize-management-api"
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:09:45.096Z",
+    "runId": "30788881184",
+    "path": "data/api-docs-automation/personalize/history/2026-08-03T06-09-45-096Z__30788881184.json",
+    "totals": {
+      "total": 28,
+      "passed": 22,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]
