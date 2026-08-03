@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "scim",
+  "suiteLabel": "SCIM API",
+  "runId": "30788881175",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881175",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881175#artifacts",
+  "timestamp": "2026-08-03T06:09:11.566Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 19,
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 5,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/scim-api"
+  ]
+}

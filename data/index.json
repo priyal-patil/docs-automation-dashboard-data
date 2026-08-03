@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:08:36.741Z",
+  "generatedAt": "2026-08-03T06:09:12.121Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -208,6 +208,14 @@
       "suiteLabel": "Export Content Using the CLI",
       "path": "data/developer-resources-docs-automation/export-content/latest.json",
       "lastUpdated": "2026-08-03T06:03:33.025Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "scim",
+      "suiteLabel": "SCIM API",
+      "path": "data/api-docs-automation/scim/latest.json",
+      "lastUpdated": "2026-08-03T06:09:11.566Z"
     }
   ]
 }
