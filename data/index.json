@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:03:52.205Z",
+  "generatedAt": "2026-08-03T06:04:00.728Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -136,6 +136,14 @@
       "suiteLabel": "Brand Kit Management API",
       "path": "data/api-docs-automation/brandkit/latest.json",
       "lastUpdated": "2026-08-03T06:03:51.470Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "automations",
+      "suiteLabel": "Automations Management API",
+      "path": "data/api-docs-automation/automations/latest.json",
+      "lastUpdated": "2026-08-03T06:03:59.971Z"
     }
   ]
 }
