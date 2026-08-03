@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "compare-and-merge-branches",
+  "suiteLabel": "Compare and Merge Branches Using the CLI",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:13:25.474Z",
+  "durationSeconds": 120,
+  "totals": {
+    "total": 48,
+    "passed": 32,
+    "failed": 16,
+    "skipped": 0,
+    "warnings": 17,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Steps to List, Create, and Delete Branches > Delete a Branch: csdx cm:branches --stack-api-key bltxxxxxxxx7",
+      "detail": "Error: We can't find that Stack. Please try again.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff",
+      "detail": "f07154? Enter Stack API key: blt7f071546? Enter Stack API key: blt7f0715462? Enter Stack API key: blt7f07154629? Enter Stack API key: blt7f07154629a? Enter Stack API key: blt7f07154629ad? Enter Stack API key: blt7f07154629ade? Enter Stack API key: blt7f07154629ade3? Enter Stack API key: blt7f07154629ade31? Enter Stack API key: blt7f07154629ade316? Enter Stack API key: blt7f07154629ade316\n? Enter base branch name: ? Enter base branch name: m? Enter base branch name: ma? Enter base branch name: mai? Enter base branch name: main? Enter base branch name: main\n? Enter compare branch name: ? Enter compare branch name: d? Enter compare branch name: de? Enter compare branch name: dev? Enter compare branch name: deve? Enter compare branch name: devel? Enter compare branch name: develo? Enter compare branch name: develop? Enter compare branch name: develop\n? Choose a module: (Use arrow keys)\n❯ Content Types \n  Global Fields \n  All ? Choose a module: Content Types\n- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff --stack-api-key <value> --base-branch <value> --compare-branch <value> --module <value>",
+      "detail": "- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff --stack-api-key <value> --base-branch <value> --compare-branch <value> --format detailed-text",
+      "detail": "? Choose a module: (Use arrow keys)\n❯ Content Types \n  Global Fields \n  All ? Choose a module: Content Types\n- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff",
+      "detail": "f07154? Enter Stack API key: blt7f071546? Enter Stack API key: blt7f0715462? Enter Stack API key: blt7f07154629? Enter Stack API key: blt7f07154629a? Enter Stack API key: blt7f07154629ad? Enter Stack API key: blt7f07154629ade? Enter Stack API key: blt7f07154629ade3? Enter Stack API key: blt7f07154629ade31? Enter Stack API key: blt7f07154629ade316? Enter Stack API key: blt7f07154629ade316\n? Enter base branch name: ? Enter base branch name: m? Enter base branch name: ma? Enter base branch name: mai? Enter base branch name: main? Enter base branch name: main\n? Enter compare branch name: ? Enter compare branch name: d? Enter compare branch name: de? Enter compare branch name: dev? Enter compare branch name: deve? Enter compare branch name: devel? Enter compare branch name: develo? Enter compare branch name: develop? Enter compare branch name: develop\n? Choose a module: (Use arrow keys)\n❯ Content Types \n  Global Fields \n  All ? Choose a module: Content Types\n- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff --stack-api-key <value> --base-branch <value> --compare-branch <value> --module <value>",
+      "detail": "- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff --stack-api-key <value> --base-branch <value> --compare-branch <value> --module <value> --format <value>",
+      "detail": "- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff --stack-api-key bltxxxxxxxx --base-branch main --compare-branch develop --module content-types",
+      "detail": "- Loading branch differences...\nError: Branches are not part of your plan. Please contact support@contentstack.com to upgrade your plan.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff --stack-api-key bltxxxxxxxx --base-branch main --compare-branch develop --module global-fields --format detailed-text",
+      "detail": "- Loading branch differences...\nError: Branches are not part of your plan. Please contact support@contentstack.com to upgrade your plan.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Compare Branches: csdx cm:branches:diff --stack-api-key bltxxxxxxxx --base-branch main --compare-branch develop --module global-fields --format detailed-text --csv-path \"/path/to/folder\"",
+      "detail": "- Loading branch differences...\nError: Branches are not part of your plan. Please contact support@contentstack.com to upgrade your plan.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Merge Branches: csdx cm:branches:merge",
+      "detail": " API key: blt7f07? Enter Stack API key: blt7f071? Enter Stack API key: blt7f0715? Enter Stack API key: blt7f07154? Enter Stack API key: blt7f071546? Enter Stack API key: blt7f0715462? Enter Stack API key: blt7f07154629? Enter Stack API key: blt7f07154629a? Enter Stack API key: blt7f07154629ad? Enter Stack API key: blt7f07154629ade? Enter Stack API key: blt7f07154629ade3? Enter Stack API key: blt7f07154629ade31? Enter Stack API key: blt7f07154629ade316? Enter Stack API key: blt7f07154629ade316\n? Enter base branch name: ? Enter base branch name: m? Enter base branch name: ma? Enter base branch name: mai? Enter base branch name: main? Enter base branch name: main\n? Enter compare branch name: ? Enter compare branch name: d? Enter compare branch name: de? Enter compare branch name: dev? Enter compare branch name: deve? Enter compare branch name: devel? Enter compare branch name: develo? Enter compare branch name: develop? Enter compare branch name: develop\n- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Merge Branches: csdx cm:branches:merge --stack-api-key <value> --base-branch <value> --compare-branch <value>",
+      "detail": "- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Merge Branches: csdx cm:branches:merge",
+      "detail": " API key: blt7f07? Enter Stack API key: blt7f071? Enter Stack API key: blt7f0715? Enter Stack API key: blt7f07154? Enter Stack API key: blt7f071546? Enter Stack API key: blt7f0715462? Enter Stack API key: blt7f07154629? Enter Stack API key: blt7f07154629a? Enter Stack API key: blt7f07154629ad? Enter Stack API key: blt7f07154629ade? Enter Stack API key: blt7f07154629ade3? Enter Stack API key: blt7f07154629ade31? Enter Stack API key: blt7f07154629ade316? Enter Stack API key: blt7f07154629ade316\n? Enter base branch name: ? Enter base branch name: m? Enter base branch name: ma? Enter base branch name: mai? Enter base branch name: main? Enter base branch name: main\n? Enter compare branch name: ? Enter compare branch name: d? Enter compare branch name: de? Enter compare branch name: dev? Enter compare branch name: deve? Enter compare branch name: devel? Enter compare branch name: develo? Enter compare branch name: develop? Enter compare branch name: develop\n- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Merge Branches: csdx cm:branches:merge --stack-api-key <value> --base-branch <value> --compare-branch <value>",
+      "detail": "- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Merge Branches: csdx cm:branches:merge --stack-api-key bltxxxxxxxx --compare-branch feature-branch",
+      "detail": "? Enter base branch name: ? Enter base branch name: m? Enter base branch name: ma? Enter base branch name: mai? Enter base branch name: main? Enter base branch name: main\n- Loading branch differences...\nError: Branches are not part of your plan. Please contact support@contentstack.com to upgrade your plan.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "Steps to Merge Branches: csdx cm:branches:merge --export-summary-path \"/file/path\"",
+      "detail": " API key: blt7f07? Enter Stack API key: blt7f071? Enter Stack API key: blt7f0715? Enter Stack API key: blt7f07154? Enter Stack API key: blt7f071546? Enter Stack API key: blt7f0715462? Enter Stack API key: blt7f07154629? Enter Stack API key: blt7f07154629a? Enter Stack API key: blt7f07154629ad? Enter Stack API key: blt7f07154629ade? Enter Stack API key: blt7f07154629ade3? Enter Stack API key: blt7f07154629ade31? Enter Stack API key: blt7f07154629ade316? Enter Stack API key: blt7f07154629ade316\n? Enter base branch name: ? Enter base branch name: m? Enter base branch name: ma? Enter base branch name: mai? Enter base branch name: main? Enter base branch name: main\n? Enter compare branch name: ? Enter compare branch name: d? Enter compare branch name: de? Enter compare branch name: dev? Enter compare branch name: deve? Enter compare branch name: devel? Enter compare branch name: develo? Enter compare branch name: develop? Enter compare branch name: develop\n- Loading branch differences...\nError: Invalid compare branch\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    },
+    {
+      "name": "compare-and-merge-branches: doc/CLI gaps (verdict GAPS)",
+      "detail": "description-mismatch: --source — Source branch from which a new branch is to be created.; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
+  ]
+}

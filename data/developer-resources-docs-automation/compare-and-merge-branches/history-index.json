@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:13:25.474Z",
+    "runId": "30788884603",
+    "path": "data/developer-resources-docs-automation/compare-and-merge-branches/history/2026-08-03T06-13-25-474Z__30788884603.json",
+    "totals": {
+      "total": 48,
+      "passed": 32,
+      "failed": 16,
+      "skipped": 0,
+      "warnings": 17,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]
