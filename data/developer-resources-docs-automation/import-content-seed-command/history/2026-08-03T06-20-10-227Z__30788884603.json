@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "import-content-seed-command",
+  "suiteLabel": "Import Content Using the Seed Command",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:20:10.227Z",
+  "durationSeconds": 21,
+  "totals": {
+    "total": 8,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 3,
+    "warnings": 2,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "import-content-seed-command: doc/CLI gaps (verdict GAPS)",
+      "detail": "note: - — Doc has no Export Directory Structure tree to verify; lint: {\"blockId\":1,\"section\":\"Commands > Import from a Non-Contentstack GitHub Repository\",\"label\":\"\",\"issue\":\"Smart/curly quote (“) instead of a straight quote — breaks copy-paste\",\"snippet\":\"csdx cm:stacks:seed --repo “<account/repository>”\"}; lint: {\"blockId\":7,\"section\":\"Upload Stack’s Content on GitHub\",\"label\":\"\",\"issue\":\"Smart/curly quote (“) instead of a straight quote — breaks copy-paste\",\"snippet\":\"s:export -k <stack_ApiKey> -d “<path_to_store_content>”\"}",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/import-content-using-the-seed-command"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/import-content-using-the-seed-command"
+  ]
+}

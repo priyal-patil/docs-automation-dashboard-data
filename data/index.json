@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:19:31.617Z",
+  "generatedAt": "2026-08-03T06:20:32.075Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -360,6 +360,14 @@
       "suiteLabel": "CLI for CS Assets",
       "path": "data/developer-resources-docs-automation/cli-for-cs-assets/latest.json",
       "lastUpdated": "2026-08-03T06:18:46.364Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "import-content-seed-command",
+      "suiteLabel": "Import Content Using the Seed Command",
+      "path": "data/developer-resources-docs-automation/import-content-seed-command/latest.json",
+      "lastUpdated": "2026-08-03T06:20:10.227Z"
     }
   ]
 }
