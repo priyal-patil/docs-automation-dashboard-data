@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:23:47.159Z",
+    "runId": "30788884603",
+    "path": "data/developer-resources-docs-automation/bootstrap-starter-apps/history/2026-08-03T06-23-47-159Z__30788884603.json",
+    "totals": {
+      "total": 17,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 9,
+      "warnings": 3,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]

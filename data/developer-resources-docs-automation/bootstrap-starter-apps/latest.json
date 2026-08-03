@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "bootstrap-starter-apps",
+  "suiteLabel": "Bootstrap Starter Apps",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:23:47.159Z",
+  "durationSeconds": 311,
+  "totals": {
+    "total": 17,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 9,
+    "warnings": 3,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "bootstrap-starter-apps: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --run-dev-server — --run-dev-server — Automatically start the development server after setup; description-mismatch: --app-name — App name, kickstart-next, kickstart-next-ssr, kickstart-next-ssg, kickstart-next-graphql, kickstart-next-middleware, kickstart-nuxt, kickstart-nuxt-ssr; description-mismatch: --stack-api-key — Provide stack API key to seed content; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bootstrap-starter-apps"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/bootstrap-starter-apps"
+  ]
+}
