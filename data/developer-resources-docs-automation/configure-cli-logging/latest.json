@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "configure-cli-logging",
+  "suiteLabel": "Configure CLI Logging Preferences",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:16:04.431Z",
+  "durationSeconds": 19,
+  "totals": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "configure-cli-logging: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --show-console-logs — --show-console-logs — Enable console logging.; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/configure-cli-logging-preferences"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/configure-cli-logging-preferences"
+  ]
+}

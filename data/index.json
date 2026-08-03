@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:15:48.341Z",
+  "generatedAt": "2026-08-03T06:16:26.123Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -312,6 +312,14 @@
       "suiteLabel": "Configure Rate Limits in the CLI",
       "path": "data/developer-resources-docs-automation/configure-rate-limits/latest.json",
       "lastUpdated": "2026-08-03T06:15:15.584Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "configure-cli-logging",
+      "suiteLabel": "Configure CLI Logging Preferences",
+      "path": "data/developer-resources-docs-automation/configure-cli-logging/latest.json",
+      "lastUpdated": "2026-08-03T06:16:04.431Z"
     }
   ]
 }
