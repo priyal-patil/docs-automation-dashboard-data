@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:56:44.684Z",
+  "generatedAt": "2026-08-03T06:03:42.599Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -112,6 +112,14 @@
       "suiteLabel": "Administration API",
       "path": "data/api-docs-automation/administration/latest.json",
       "lastUpdated": "2026-08-03T05:56:43.844Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "genai",
+      "suiteLabel": "Generative AI API",
+      "path": "data/api-docs-automation/genai/latest.json",
+      "lastUpdated": "2026-08-03T06:03:42.099Z"
     }
   ]
 }
