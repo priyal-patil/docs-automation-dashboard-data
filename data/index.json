@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:10:05.269Z",
+  "generatedAt": "2026-08-03T06:10:12.334Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -224,6 +224,14 @@
       "suiteLabel": "Personalize Management API",
       "path": "data/api-docs-automation/personalize/latest.json",
       "lastUpdated": "2026-08-03T06:09:45.096Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "imagedelivery",
+      "suiteLabel": "Image Delivery API",
+      "path": "data/api-docs-automation/imagedelivery/latest.json",
+      "lastUpdated": "2026-08-03T06:10:11.270Z"
     }
   ]
 }

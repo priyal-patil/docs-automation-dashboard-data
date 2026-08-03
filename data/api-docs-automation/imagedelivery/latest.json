@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "imagedelivery",
+  "suiteLabel": "Image Delivery API",
+  "runId": "30788881128",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881128",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881128#artifacts",
+  "timestamp": "2026-08-03T06:10:11.270Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 56,
+    "passed": 56,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/image-delivery-api"
+  ]
+}
