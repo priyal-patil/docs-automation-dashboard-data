@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:05:11.876Z",
+    "runId": "30788884603",
+    "path": "data/developer-resources-docs-automation/cli-authentication/history/2026-08-03T06-05-11-876Z__30788884603.json",
+    "totals": {
+      "total": 23,
+      "passed": 22,
+      "failed": 0,
+      "skipped": 1,
+      "warnings": 11,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "cli-authentication",
+  "suiteLabel": "CLI Authentication and Adding Tokens",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:05:11.876Z",
+  "durationSeconds": 56,
+  "totals": {
+    "total": 23,
+    "passed": 22,
+    "failed": 0,
+    "skipped": 1,
+    "warnings": 11,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "cli-authentication: doc/CLI gaps (verdict GAPS)",
+      "detail": "description-mismatch: --yes — Force log out by skipping the confirmation.; short-flag-mismatch: --management — -m; short-flag-mismatch: --token — -t; description-mismatch: --token — [env: TOKEN] Add the token name; description-mismatch: --yes — Use this flag to skip confirmation; short-flag-mismatch: --delivery — -d; description-mismatch: --columns — Specify columns to display, comma-separated.; description-mismatch: --filter — Filter rows by a column value (e.g., name=foo).; description-mismatch: --no-truncate — Prevent truncation of long text in columns.; description-mismatch: --output — Specify output format: csv, json, or yaml. <options: csv|json|yaml>; description-mismatch: --sort — Sort the table by a column. Use \"-\" for descending.; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/cli-authentication"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/cli-authentication"
+  ]
+}
