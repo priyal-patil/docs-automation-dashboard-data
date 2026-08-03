@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T07:03:02.148Z",
+  "generatedAt": "2026-08-03T07:57:46.048Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -95,7 +95,7 @@
       "suite": "building-websites-automation",
       "suiteLabel": "Building Websites Automation",
       "path": "data/developer-resources-docs-automation/building-websites-automation/latest.json",
-      "lastUpdated": "2026-08-03T06:04:37.163Z"
+      "lastUpdated": "2026-08-03T07:57:42.545Z"
     },
     {
       "project": "developer-resources-docs-automation",
