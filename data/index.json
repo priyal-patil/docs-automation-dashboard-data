@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:39:01.778Z",
+  "generatedAt": "2026-08-03T23:40:00.356Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -111,7 +111,7 @@
       "suite": "administration",
       "suiteLabel": "Administration API",
       "path": "data/api-docs-automation/administration/latest.json",
-      "lastUpdated": "2026-08-03T06:10:04.367Z"
+      "lastUpdated": "2026-08-03T23:39:59.519Z"
     },
     {
       "project": "api-docs-automation",
