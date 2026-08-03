@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:18:11.639Z",
+  "generatedAt": "2026-08-03T06:19:28.753Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -344,6 +344,14 @@
       "suiteLabel": "Configure Proxy Settings in CLI",
       "path": "data/developer-resources-docs-automation/configure-proxy-settings/latest.json",
       "lastUpdated": "2026-08-03T06:17:36.044Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "export-content-to-csv",
+      "suiteLabel": "Export Content to CSV File Using the CLI",
+      "path": "data/developer-resources-docs-automation/export-content-to-csv/latest.json",
+      "lastUpdated": "2026-08-03T06:18:53.758Z"
     }
   ]
 }

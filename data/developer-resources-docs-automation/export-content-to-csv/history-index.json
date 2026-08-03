@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:18:53.758Z",
+    "runId": "30788884603",
+    "path": "data/developer-resources-docs-automation/export-content-to-csv/history/2026-08-03T06-18-53-758Z__30788884603.json",
+    "totals": {
+      "total": 16,
+      "passed": 16,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]
