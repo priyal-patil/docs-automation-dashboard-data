@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "overwrite-existing-content",
+  "suiteLabel": "Overwrite Existing Content using CLI Import",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:09:37.897Z",
+  "durationSeconds": 53,
+  "totals": {
+    "total": 14,
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 4,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "overwrite-existing-content: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --branch — -B, --branch — The name of the branch where you want to import your content. If you don't mention the branch name, then by default the content will be imported to the main branch.; missing-in-doc: --alias — -a, --alias — The management token of the destination stack where you will import the content.; description-mismatch: --data-dir — The path or the location in your file system where the content, you intend to import, is stored. For example, -d \"C:\\Users\\Name\\Desktop\\cli\\content\". If the export folder has branches involved, then the path should point till the particular branch. For example, “-d \"C:\\Users\\Name\\Desktop\\cli\\content\\branch_name\"; note: - — Doc has no Export Directory Structure tree to verify; lint: {\"blockId\":2,\"section\":\"Steps for Execution > Overwrite Specific Modules\",\"label\":\"Usage\",\"issue\":\"Missing \\\"csdx\\\" prefix — \\\"cm:stacks:import-setup\\\" as printed is not a runnable command\",\"snippet\":\"cm:stacks:import-setup --module module-name1 module-name2 -d <exported-content-d\"}",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/overwrite-existing-content-using-cli-import"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/overwrite-existing-content-using-cli-import"
+  ]
+}
