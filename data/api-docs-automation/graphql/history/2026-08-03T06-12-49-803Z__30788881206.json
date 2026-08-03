@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "graphql",
+  "suiteLabel": "GraphQL Content Delivery API",
+  "runId": "30788881206",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881206",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881206#artifacts",
+  "timestamp": "2026-08-03T06:12:49.803Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 90,
+    "passed": 68,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 22,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/graphql-content-delivery-api"
+  ]
+}

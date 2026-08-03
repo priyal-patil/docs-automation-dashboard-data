@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:12:45.461Z",
+  "generatedAt": "2026-08-03T06:12:50.654Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -264,6 +264,14 @@
       "suiteLabel": "Import Content Using the CLI",
       "path": "data/developer-resources-docs-automation/import-content/latest.json",
       "lastUpdated": "2026-08-03T06:05:34.730Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "graphql",
+      "suiteLabel": "GraphQL Content Delivery API",
+      "path": "data/api-docs-automation/graphql/latest.json",
+      "lastUpdated": "2026-08-03T06:12:49.803Z"
     }
   ]
 }
