@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "launch",
+  "suiteLabel": "Launch API",
+  "runId": "30788881203",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881203",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881203#artifacts",
+  "timestamp": "2026-08-03T06:05:34.735Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 22,
+    "passed": 15,
+    "failed": 3,
+    "skipped": 0,
+    "warnings": 5,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Create a Project",
+      "detail": "Live request returned 403 — {\"errors\":[{\"code\":\"launch.PROJECT.LIMIT_REACHED\",\"message\":\"Project limit has reached.\"}],\"status\":403}",
+      "docLink": null
+    },
+    {
+      "name": "Get Server Logs",
+      "detail": "Live request returned 500 — {\"statusCode\":500,\"message\":\"Internal server error\"}",
+      "docLink": null
+    },
+    {
+      "name": "Get cache revalidation usage",
+      "detail": "❌  Could not read response code from panel after Send — selector may have changed",
+      "docLink": null
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/launch-api"
+  ]
+}
