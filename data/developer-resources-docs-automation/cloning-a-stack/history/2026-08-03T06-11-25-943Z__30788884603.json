@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "cloning-a-stack",
+  "suiteLabel": "Cloning a Stack",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:11:25.943Z",
+  "durationSeconds": 63,
+  "totals": {
+    "total": 5,
+    "passed": 3,
+    "failed": 1,
+    "skipped": 1,
+    "warnings": 3,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Options: (sample config JSON)",
+      "detail": "exited undefined",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/cloning-a-stack"
+    },
+    {
+      "name": "cloning-a-stack: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --yes — -y, --yes — Force override all Marketplace prompts.; note: - — Doc has no Export Directory Structure tree to verify; lint: {\"blockId\":-1,\"section\":\"Options\",\"label\":\"(prose)\",\"issue\":\"En/em dash instead of a hyphen on short flag \\\"-y\\\" — breaks copy-paste and the flag never parses as documented\",\"snippet\":\"–y, --yes: Force override all\"}",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/cloning-a-stack"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/cloning-a-stack"
+  ]
+}

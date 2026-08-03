@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:11:47.243Z",
+  "generatedAt": "2026-08-03T06:12:30.455Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -248,6 +248,14 @@
       "suiteLabel": "CLI-Supported Features for Export, Import, and Clone Operations",
       "path": "data/developer-resources-docs-automation/cli-supported-features/latest.json",
       "lastUpdated": "2026-08-03T06:06:51.776Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "cloning-a-stack",
+      "suiteLabel": "Cloning a Stack",
+      "path": "data/developer-resources-docs-automation/cloning-a-stack/latest.json",
+      "lastUpdated": "2026-08-03T06:11:25.943Z"
     }
   ]
 }
