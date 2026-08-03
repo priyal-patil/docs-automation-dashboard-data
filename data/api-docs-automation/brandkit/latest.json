@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "brandkit",
+  "suiteLabel": "Brand Kit Management API",
+  "runId": "30788881190",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881190",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881190#artifacts",
+  "timestamp": "2026-08-03T06:03:51.470Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 12,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/brand-kit-management-api"
+  ]
+}

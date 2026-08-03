@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:03:43.790Z",
+  "generatedAt": "2026-08-03T06:03:52.205Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -128,6 +128,14 @@
       "suiteLabel": "Knowledge Vault API",
       "path": "data/api-docs-automation/knowledgevault/latest.json",
       "lastUpdated": "2026-08-03T06:03:43.237Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "brandkit",
+      "suiteLabel": "Brand Kit Management API",
+      "path": "data/api-docs-automation/brandkit/latest.json",
+      "lastUpdated": "2026-08-03T06:03:51.470Z"
     }
   ]
 }
