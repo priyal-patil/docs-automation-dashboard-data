@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "building-websites-automation",
+  "suiteLabel": "Building Websites Automation",
+  "runId": "30788212899",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788212899",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788212899#artifacts",
+  "timestamp": "2026-08-03T05:50:53.421Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "get-started-building-a-website",
+      "detail": "Failed step(s): Create Entries, Configure Contentstack, Run the app — page renders, Nav route /menu, Nav route /about-us, Nav route /contact",
+      "docLink": null
+    }
+  ],
+  "docLinks": []
+}
