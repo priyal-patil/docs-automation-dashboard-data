@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:03:43.237Z",
+    "runId": "30788881178",
+    "path": "data/api-docs-automation/knowledgevault/history/2026-08-03T06-03-43-237Z__30788881178.json",
+    "totals": {
+      "total": 3,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]

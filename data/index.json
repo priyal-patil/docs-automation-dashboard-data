@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:03:42.599Z",
+  "generatedAt": "2026-08-03T06:03:43.790Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -120,6 +120,14 @@
       "suiteLabel": "Generative AI API",
       "path": "data/api-docs-automation/genai/latest.json",
       "lastUpdated": "2026-08-03T06:03:42.099Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "knowledgevault",
+      "suiteLabel": "Knowledge Vault API",
+      "path": "data/api-docs-automation/knowledgevault/latest.json",
+      "lastUpdated": "2026-08-03T06:03:43.237Z"
     }
   ]
 }
