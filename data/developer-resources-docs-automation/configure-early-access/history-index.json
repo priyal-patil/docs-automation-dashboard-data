@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:14:18.985Z",
+    "runId": "30788884603",
+    "path": "data/developer-resources-docs-automation/configure-early-access/history/2026-08-03T06-14-18-985Z__30788884603.json",
+    "totals": {
+      "total": 14,
+      "passed": 14,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]

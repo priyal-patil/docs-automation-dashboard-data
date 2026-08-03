@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:14:28.559Z",
+  "generatedAt": "2026-08-03T06:14:54.046Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -288,6 +288,14 @@
       "suiteLabel": "CLI for Launch",
       "path": "data/developer-resources-docs-automation/cli-for-launch/latest.json",
       "lastUpdated": "2026-08-03T06:13:25.645Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "configure-early-access",
+      "suiteLabel": "Configure Early Access in the CLI",
+      "path": "data/developer-resources-docs-automation/configure-early-access/latest.json",
+      "lastUpdated": "2026-08-03T06:14:18.985Z"
     }
   ]
 }
