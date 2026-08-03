@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:04:06.082Z",
+  "generatedAt": "2026-08-03T06:04:21.580Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -152,6 +152,14 @@
       "suiteLabel": "Analytics API",
       "path": "data/api-docs-automation/analytics/latest.json",
       "lastUpdated": "2026-08-03T06:04:05.204Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "install-the-cli",
+      "suiteLabel": "Install the CLI",
+      "path": "data/developer-resources-docs-automation/install-the-cli/latest.json",
+      "lastUpdated": "2026-08-03T06:03:46.551Z"
     }
   ]
 }
