@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "tsgen-plugin",
+  "suiteLabel": "Generate Typescript Typings with TSGen Plugin",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:22:45.091Z",
+  "durationSeconds": 42,
+  "totals": {
+    "total": 12,
+    "passed": 9,
+    "failed": 3,
+    "skipped": 0,
+    "warnings": 6,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Usage: csdx tsgen",
+      "detail": "[2026-08-03 06:23:06] ERROR: Type generation failed: The following errors occurred:\n  Missing required flag output\n  Missing required flag token-alias\nSee more help with --help\n[2026-08-03 06:23:06] WARN: Tip: Check the error details and try again.\n[2026-08-03 06:23:06] INFO: Error context: tsgen\n[2026-08-03 06:23:06] INFO: Timestamp: 2026-08-03T06:23:06.403Z\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/tsgen-plugin"
+    },
+    {
+      "name": "Examples: csdx tsgen -a \"delivery token alias\" -o \"contentstack/generated.d.ts\" --api-type graphql",
+      "detail": "[2026-08-03 06:23:16] ERROR: Type generation failed: An error occurred while processing GraphQL schema\n[2026-08-03 06:23:16] WARN: Tip: Check the error details and try again.\n[2026-08-03 06:23:16] INFO: Error context: graphql\n[2026-08-03 06:23:16] INFO: Timestamp: 2026-08-03T06:23:16.981Z\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/tsgen-plugin"
+    },
+    {
+      "name": "Examples: csdx tsgen -a \"delivery token alias\" -o \"contentstack/generated.d.ts\" --api-type graphql --namespace \"GraphQL\"",
+      "detail": "[2026-08-03 06:23:18] ERROR: Type generation failed: An error occurred while processing GraphQL schema\n[2026-08-03 06:23:18] WARN: Tip: Check the error details and try again.\n[2026-08-03 06:23:18] INFO: Error context: graphql\n[2026-08-03 06:23:18] INFO: Timestamp: 2026-08-03T06:23:18.726Z\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/tsgen-plugin"
+    },
+    {
+      "name": "tsgen-plugin: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --doc — -d, --doc — include documentation comments; description-mismatch: --branch — branch; description-mismatch: --include-editable-tags — include editable tags in generated types; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/tsgen-plugin"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/tsgen-plugin"
+  ]
+}
