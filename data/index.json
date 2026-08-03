@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:10:34.071Z",
+  "generatedAt": "2026-08-03T06:11:47.243Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -240,6 +240,14 @@
       "suiteLabel": "Overwrite Existing Content using CLI Import",
       "path": "data/developer-resources-docs-automation/overwrite-existing-content/latest.json",
       "lastUpdated": "2026-08-03T06:09:37.897Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "cli-supported-features",
+      "suiteLabel": "CLI-Supported Features for Export, Import, and Clone Operations",
+      "path": "data/developer-resources-docs-automation/cli-supported-features/latest.json",
+      "lastUpdated": "2026-08-03T06:06:51.776Z"
     }
   ]
 }

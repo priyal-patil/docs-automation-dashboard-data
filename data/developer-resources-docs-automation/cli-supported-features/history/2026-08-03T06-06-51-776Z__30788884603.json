@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "cli-supported-features",
+  "suiteLabel": "CLI-Supported Features for Export, Import, and Clone Operations",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:06:51.776Z",
+  "durationSeconds": 293,
+  "totals": {
+    "total": 13,
+    "passed": 11,
+    "failed": 2,
+    "skipped": 0,
+    "warnings": 2,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Module-Wise Operations > Export Specific Modules: csdx cm:stacks:export -a <alias> --data-dir ./export --module entries",
+      "detail": " INFO: Skipping stack settings export: Operation is not supported when using a management token.\n[2026-08-03 06:09:11] INFO: Exporting module: 'locales'...\n[2026-08-03 06:09:11] SUCCESS: Successfully exported 0 locale(s) including 1 master locale(s)\n[2026-08-03 06:09:11] INFO: Exporting module: 'content-types'...\n[2026-08-03 06:09:11] SUCCESS: Content types exported successfully\n[2026-08-03 06:09:11] INFO: Exporting module: 'entries'...\n[2026-08-03 06:09:12] SUCCESS: Successfully exported entries (Content Type: blog_post, Locale: en-us)\n[2026-08-03 06:09:12] SUCCESS: Successfully exported entries (Content Type: article, Locale: en-us)\n[2026-08-03 06:09:12] SUCCESS: Successfully exported entries (Content Type: product_page, Locale: en-us)\n[2026-08-03 06:09:12] SUCCESS: All entries exported successfully\n[2026-08-03 06:09:12] SUCCESS: The content of branch main has been exported successfully!\n[2026-08-03 06:09:12] SUCCESS: The content of the stack bltc2aa92f7e957f11d has been exported successfully!\n[2026-08-03 06:09:12] INFO: The exported content has been stored at '/home/runner/work/Developer-Resources/Developer-Resources/cli-automation/workdir/run-2026-08-03-06-06-51/export'.\n[2026-08-03 06:09:12] SUCCESS: The log has been stored at '/home/runner/work/Developer-Resources/Developer-Resources/cli-automation/workdir/run-2026-08-03-06-06-51/logs'.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/cli-supported-features-for-export-import-and-clone-operations"
+    },
+    {
+      "name": "Module-Wise Operations > Export Specific Modules: csdx cm:stacks:export -a <alias> --data-dir ./export --module entries assets content-types",
+      "detail": "[2026-08-03 06:09:13] ERROR: Unexpected arguments: assets, content-types\nSee more help with --help\n[2026-08-03 06:09:13] INFO: The log has been stored at '/home/runner/work/Developer-Resources/Developer-Resources/cli-automation/workdir/run-2026-08-03-06-06-51/logs'.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/cli-supported-features-for-export-import-and-clone-operations"
+    },
+    {
+      "name": "cli-supported-features: doc/CLI gaps (verdict GAPS)",
+      "detail": "note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/cli-supported-features-for-export-import-and-clone-operations"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/cli-supported-features-for-export-import-and-clone-operations"
+  ]
+}
