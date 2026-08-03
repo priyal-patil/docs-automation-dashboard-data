@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "query-based-export",
+  "suiteLabel": "Query-based Export",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:16:39.592Z",
+  "durationSeconds": 77,
+  "totals": {
+    "total": 6,
+    "passed": 5,
+    "failed": 1,
+    "skipped": 0,
+    "warnings": 10,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Query Format: (sample config JSON)",
+      "detail": "exited undefined",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/query-based-export"
+    },
+    {
+      "name": "query-based-export: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --yes — -y, --yes — Skip confirmation prompts; description-mismatch: --secured-assets — Export secured assets; note: - — Doc has no Export Directory Structure tree to verify; lint: {\"blockId\":3,\"section\":\"Query Format\",\"label\":\"\",\"issue\":\"Invisible non-breaking space (U+00A0) — breaks copy-paste\",\"snippet\":\"\\\"modules\\\": {\"}; lint: {\"blockId\":3,\"section\":\"Query Format\",\"label\":\"\",\"issue\":\"Invisible non-breaking space (U+00A0) — breaks copy-paste\",\"snippet\":\"\\\"content-types\\\": {\"}; lint: {\"blockId\":3,\"section\":\"Query Format\",\"label\":\"\",\"issue\":\"Invisible non-breaking space (U+00A0) — breaks copy-paste\",\"snippet\":\"\\\"\\\": {\"}; lint: {\"blockId\":3,\"section\":\"Query Format\",\"label\":\"\",\"issue\":\"Invisible non-breaking space (U+00A0) — breaks copy-paste\",\"snippet\":\"\\\"\\\": \\\"\\\"\"}; lint: {\"blockId\":3,\"section\":\"Query Format\",\"label\":\"\",\"issue\":\"Invisible non-breaking space (U+00A0) — breaks copy-paste\",\"snippet\":\"}\"}; lint: {\"blockId\":3,\"section\":\"Query Format\",\"label\":\"\",\"issue\":\"Invisible non-breaking space (U+00A0) — breaks copy-paste\",\"snippet\":\"}\"}; lint: {\"blockId\":3,\"section\":\"Query Format\",\"label\":\"\",\"issue\":\"Invisible non-breaking space (U+00A0) — breaks copy-paste\",\"snippet\":\"}\"}",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/query-based-export"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/query-based-export"
+  ]
+}

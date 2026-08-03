@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:16:26.123Z",
+  "generatedAt": "2026-08-03T06:17:58.023Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -320,6 +320,14 @@
       "suiteLabel": "Configure CLI Logging Preferences",
       "path": "data/developer-resources-docs-automation/configure-cli-logging/latest.json",
       "lastUpdated": "2026-08-03T06:16:04.431Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "query-based-export",
+      "suiteLabel": "Query-based Export",
+      "path": "data/developer-resources-docs-automation/query-based-export/latest.json",
+      "lastUpdated": "2026-08-03T06:16:39.592Z"
     }
   ]
 }

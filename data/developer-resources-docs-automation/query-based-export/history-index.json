@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:16:39.592Z",
+    "runId": "30788884603",
+    "path": "data/developer-resources-docs-automation/query-based-export/history/2026-08-03T06-16-39-592Z__30788884603.json",
+    "totals": {
+      "total": 6,
+      "passed": 5,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 10,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]
