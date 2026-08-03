@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "bulk-operations",
+  "suiteLabel": "Bulk Operations in CLI",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:18:44.588Z",
+  "durationSeconds": 247,
+  "totals": {
+    "total": 59,
+    "passed": 52,
+    "failed": 4,
+    "skipped": 3,
+    "warnings": 23,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Commands > Bulk Entries > Examples: csdx auth:tokens:add  -a prod-delivery  --delivery-token prod-delivery-token  --api-key blt*******  --environment production  --type delivery",
+      "detail": " ›   Error: Nonexistent flags: --delivery-token, --type\n ›   See more help with --help\n\nUSAGE\n  $ csdx auth:tokens:add [-a <value>] [--delivery] [--management] [-e\n    <value>] [-k <value>] [-y] [--token <value>]\n\nFLAGS\n  -a, --alias=<value>          Alias (name) you want to assign to the token\n  -d, --delivery               Set this flag to save delivery token\n  -e, --environment=<value>    Environment name for delivery token\n  -k, --stack-api-key=<value>  Stack API Key\n  -m, --management             Set this flag to save management token\n  -t, --token=<value>          [env: TOKEN] Add the token name\n  -y, --yes                    Use this flag to skip confirmation\n\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-operations-in-cli"
+    },
+    {
+      "name": "Cross-Publish Setup > Setting Up Delivery Tokens: csdx auth:tokens:add  -a prod-delivery  --delivery-token prod-delivery-token  --api-key blt********  --environment production  --type delivery",
+      "detail": " ›   Error: Nonexistent flags: --delivery-token, --type\n ›   See more help with --help\n\nUSAGE\n  $ csdx auth:tokens:add [-a <value>] [--delivery] [--management] [-e\n    <value>] [-k <value>] [-y] [--token <value>]\n\nFLAGS\n  -a, --alias=<value>          Alias (name) you want to assign to the token\n  -d, --delivery               Set this flag to save delivery token\n  -e, --environment=<value>    Environment name for delivery token\n  -k, --stack-api-key=<value>  Stack API Key\n  -m, --management             Set this flag to save management token\n  -t, --token=<value>          [env: TOKEN] Add the token name\n  -y, --yes                    Use this flag to skip confirmation\n\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-operations-in-cli"
+    },
+    {
+      "name": "Cross-Publish Setup > Setting Up Delivery Tokens: csdx auth:tokens:add  -a staging-delivery  --delivery-token stag-delivery-token  --api-key blt********  --environment staging  --type delivery",
+      "detail": " ›   Error: Nonexistent flags: --delivery-token, --type\n ›   See more help with --help\n\nUSAGE\n  $ csdx auth:tokens:add [-a <value>] [--delivery] [--management] [-e\n    <value>] [-k <value>] [-y] [--token <value>]\n\nFLAGS\n  -a, --alias=<value>          Alias (name) you want to assign to the token\n  -d, --delivery               Set this flag to save delivery token\n  -e, --environment=<value>    Environment name for delivery token\n  -k, --stack-api-key=<value>  Stack API Key\n  -m, --management             Set this flag to save management token\n  -t, --token=<value>          [env: TOKEN] Add the token name\n  -y, --yes                    Use this flag to skip confirmation\n\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-operations-in-cli"
+    },
+    {
+      "name": "Use Cases > Use Case 3: Cross-Environment Promotion: csdx auth:tokens:add  -a staging-delivery  --delivery-token blt_staging_token  --api-key blt********  --environment staging  --type delivery",
+      "detail": " ›   Error: Nonexistent flags: --delivery-token, --type\n ›   See more help with --help\n\nUSAGE\n  $ csdx auth:tokens:add [-a <value>] [--delivery] [--management] [-e\n    <value>] [-k <value>] [-y] [--token <value>]\n\nFLAGS\n  -a, --alias=<value>          Alias (name) you want to assign to the token\n  -d, --delivery               Set this flag to save delivery token\n  -e, --environment=<value>    Environment name for delivery token\n  -k, --stack-api-key=<value>  Stack API Key\n  -m, --management             Set this flag to save management token\n  -t, --token=<value>          [env: TOKEN] Add the token name\n  -y, --yes                    Use this flag to skip confirmation\n\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-operations-in-cli"
+    },
+    {
+      "name": "bulk-operations: doc/CLI gaps (verdict GAPS)",
+      "detail": "description-mismatch: --operation — Specifies whether to `publish` or `unpublish` content. <options: publish|unpublish>; description-mismatch: --environments — Specifies one or more environments where the entries or assets should be published. Separate multiple environments with spaces.; description-mismatch: --alias — Uses the name of a saved Management Token to authenticate the command. The command can only access the branches allowed for that token. This option can be used as an alternative to` --stack-api-key.`; description-mismatch: --yes — Skips interactive confirmation prompts and runs the command immediately using the provided options. Useful for automation and scripts.; missing-in-doc: --alias — -a, --alias — Uses the name of a saved Management Token to authenticate the command. The command can only access the branches allowed for that token. This option can be used as an alternative to` --stack-api-key.`; missing-in-doc: --config — -c, --config — (optional) Specifies the path to a JSON configuration file that defines the options for the command. Use this file instead of passing multiple CLI flags for a single run.; missing-in-doc: --stack-api-key — -k, --stack-api-key — API key of the source stack. You must use either the --stack-api-key flag or the --alias flag.; missing-in-doc: --yes — -y, --yes — Skips interactive confirmation prompts and runs the command immediately using the provided options. Useful for automation and scripts.; missing-in-doc: --branch — --branch — [default: main] The name of the branch where you want to perform the bulk publish operation. If you don't mention the branch name, then by default the content from main branch will be published.; missing-in-doc: --bulk-operation-file — --bulk-operation-file — [default: bulk-operation] (optional) Folder path to store operation logs. Creates separate files for success and failed operations. Default: bulk-operation; missing-in-doc: --environments — --environments — Specifies one or more environments where the entries or assets should be published. Separate multiple environments with spaces.; missing-in-doc: --locales — --locales — Specifies one or more locale codes for which the entries or assets should be published. Separate multiple locales with spaces.; missing-in-doc: --operation — --operation — Specifies whether to `publish` or `unpublish` content. <options: publish|unpublish>; missing-in-doc: --publish-mode — --publish-mode — [default: bulk] Publish mode: bulk (uses Bulk Publish API) or single (individual API calls) <options: bulk|single>; missing-in-doc: --retry-failed — --retry-failed — (optional) Use this option to retry publishing the failed entries/assets from the logfile. Specify the name of the logfile that lists failed publish calls. If this option is used, it will override all other flags.; missing-in-doc: --revert — --revert — (optional) Revert publish operations from a log folder. Specify the folder path containing success logs. Works similar to retry-failed.; missing-in-doc: --source-alias — --source-alias — Alias name for source environment delivery token (required for cross-publish). Add delivery token using: csdx auth:tokens:add; missing-in-doc: --source-env — --source-env — Source environment for cross-publish; extra-in-doc: (command \"cm:stacks:bulk-am-assets\" itself) —; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/bulk-operations-in-cli"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/bulk-operations-in-cli"
+  ]
+}

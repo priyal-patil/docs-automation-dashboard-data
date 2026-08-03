@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:22:31.614Z",
+  "generatedAt": "2026-08-03T06:22:54.038Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -392,6 +392,14 @@
       "suiteLabel": "Change Master Locale",
       "path": "data/developer-resources-docs-automation/change-master-locale/latest.json",
       "lastUpdated": "2026-08-03T06:21:41.792Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "bulk-operations",
+      "suiteLabel": "Bulk Operations in CLI",
+      "path": "data/developer-resources-docs-automation/bulk-operations/latest.json",
+      "lastUpdated": "2026-08-03T06:18:44.588Z"
     }
   ]
 }
