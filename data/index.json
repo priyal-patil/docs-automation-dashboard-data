@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:20:55.525Z",
+  "generatedAt": "2026-08-03T06:21:43.746Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -376,6 +376,14 @@
       "suiteLabel": "Migrate your Content using the CLI Migration Command",
       "path": "data/developer-resources-docs-automation/migration-command/latest.json",
       "lastUpdated": "2026-08-03T06:20:23.494Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "migrate-html-rte-to-json-rte",
+      "suiteLabel": "Migrate Content from HTML RTE to JSON RTE using CLI",
+      "path": "data/developer-resources-docs-automation/migrate-html-rte-to-json-rte/latest.json",
+      "lastUpdated": "2026-08-03T06:21:16.406Z"
     }
   ]
 }

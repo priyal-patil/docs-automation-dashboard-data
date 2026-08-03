@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "migrate-html-rte-to-json-rte",
+  "suiteLabel": "Migrate Content from HTML RTE to JSON RTE using CLI",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:21:16.406Z",
+  "durationSeconds": 26,
+  "totals": {
+    "total": 6,
+    "passed": 5,
+    "failed": 1,
+    "skipped": 0,
+    "warnings": 13,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Using a Config File to Pass the Commands: (sample config JSON)",
+      "detail": "exited undefined",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/migrate-content-from-html-rte-to-json-rte"
+    },
+    {
+      "name": "migrate-html-rte-to-json-rte: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --batch-limit — --batch-limit — [default: 50] Provide batch limit for updating entries (default: 50).; missing-in-doc: --locale — --locale — The locale from which entries will be migrated.; description-mismatch: --config-path — Specify the path where your config file is located.; short-flag-mismatch: --alias — (no short flag in CLI); missing-in-doc: --delivery — -d, --delivery — Set this flag to save delivery token; missing-in-doc: --environment — -e, --environment — Environment name for delivery token; missing-in-doc: --management — -m, --management — Set this flag to save management token; missing-in-doc: --yes — -y, --yes — Use this flag to skip confirmation; short-flag-mismatch: --token — -t; description-mismatch: --token — [env: TOKEN] Add the token name; note: - — Doc has no Export Directory Structure tree to verify; lint: {\"blockId\":3,\"section\":\"Using a Config File to Pass the Commands\",\"label\":\"\",\"issue\":\"Smart/curly quote (“) instead of a straight quote — breaks copy-paste\",\"snippet\":\"m:entries:migrate-html-rte -c “/home/admin/Desktop/config.js\"}; lint: {\"blockId\":3,\"section\":\"Using a Config File to Pass the Commands\",\"label\":\"\",\"issue\":\"Unbalanced double quotes (1 found)\",\"snippet\":\"csdx cm:entries:migrate-html-rte -c “/home/admin/Desktop/config.json\\\"\"}",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/migrate-content-from-html-rte-to-json-rte"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/migrate-content-from-html-rte-to-json-rte"
+  ]
+}
