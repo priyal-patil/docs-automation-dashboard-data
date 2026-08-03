@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "analytics",
+  "suiteLabel": "Analytics API",
+  "runId": "30788881129",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881129",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881129#artifacts",
+  "timestamp": "2026-08-03T06:04:05.204Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/analytics-api"
+  ]
+}
