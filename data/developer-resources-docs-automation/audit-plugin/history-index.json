@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:16:20.067Z",
+    "runId": "30788884603",
+    "path": "data/developer-resources-docs-automation/audit-plugin/history/2026-08-03T06-16-20-067Z__30788884603.json",
+    "totals": {
+      "total": 40,
+      "passed": 37,
+      "failed": 3,
+      "skipped": 0,
+      "warnings": 10,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]

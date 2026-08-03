@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:17:58.023Z",
+  "generatedAt": "2026-08-03T06:18:08.008Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -328,6 +328,14 @@
       "suiteLabel": "Query-based Export",
       "path": "data/developer-resources-docs-automation/query-based-export/latest.json",
       "lastUpdated": "2026-08-03T06:16:39.592Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "audit-plugin",
+      "suiteLabel": "Audit Plugin",
+      "path": "data/developer-resources-docs-automation/audit-plugin/latest.json",
+      "lastUpdated": "2026-08-03T06:16:20.067Z"
     }
   ]
 }

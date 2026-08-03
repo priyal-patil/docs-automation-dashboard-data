@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "audit-plugin",
+  "suiteLabel": "Audit Plugin",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:16:20.067Z",
+  "durationSeconds": 105,
+  "totals": {
+    "total": 40,
+    "passed": 37,
+    "failed": 3,
+    "skipped": 0,
+    "warnings": 10,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Commands > Issue Resolution: csdx cm:stacks:audit:fix --copy-dir",
+      "detail": "[2026-08-03 06:16:48] INFO: Starting audit command: cm:stacks:audit:fix\n? Path where the data is stored ? Path where the data is stored \n[2026-08-03 06:16:48] ERROR: Provided path '' is not valid.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/audit-plugin"
+    },
+    {
+      "name": "Common Use Cases > Branch Migration Preparation: csdx cm:stacks:export  --data-dir ./branch-data  --branch my-feature-branch",
+      "detail": "? Enter the stack api key ? Enter the stack api key b? Enter the stack api key bl? Enter the stack api key blt? Enter the stack api key blte? Enter the stack api key bltec? Enter the stack api key bltecc? Enter the stack api key bltecc0? Enter the stack api key bltecc04? Enter the stack api key bltecc04a? Enter the stack api key bltecc04ae? Enter the stack api key bltecc04ae2? Enter the stack api key bltecc04ae22? Enter the stack api key bltecc04ae220? Enter the stack api key bltecc04ae220c? Enter the stack api key bltecc04ae220c1? Enter the stack api key bltecc04ae220c19? Enter the stack api key bltecc04ae220c197? Enter the stack api key bltecc04ae220c1979? Enter the stack api key bltecc04ae220c1979f? Enter the stack api key bltecc04ae220c1979f\n[2026-08-03 06:17:34] ERROR: No branch found with the given name my-feature-branch\n[2026-08-03 06:17:34] INFO: The log has been stored at '/home/runner/work/Developer-Resources/Developer-Resources/cli-automation/workdir/run-2026-08-03-06-16-20/logs'.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/audit-plugin"
+    },
+    {
+      "name": "Common Use Cases > CI/CD Pipeline Integration > Shell Script Example:: csdx cm:stacks:export --data-dir \"$EXPORT_DIR\"",
+      "detail": "ted entries (Content Type: blog_post, Locale: en-us)\n[2026-08-03 06:17:53] SUCCESS: Successfully exported entries (Content Type: article, Locale: en-us)\n[2026-08-03 06:17:54] SUCCESS: Successfully exported entries (Content Type: product_page, Locale: en-us)\n[2026-08-03 06:17:54] SUCCESS: All entries exported successfully\n[2026-08-03 06:17:54] INFO: Exporting module: 'labels'...\n[2026-08-03 06:17:54] INFO: Label 'cli-automation-label' exported successfully\n[2026-08-03 06:17:54] SUCCESS: Successfully exported 1 label(s)\n[2026-08-03 06:17:54] INFO: Exporting module: 'marketplace-apps'...\n[2026-08-03 06:17:54] INFO: No marketplace apps found in the current stack\n[2026-08-03 06:17:54] INFO: Exporting module: 'composable-studio'...\n[2026-08-03 06:17:54] INFO: No Studio project found for this stack\n[2026-08-03 06:17:54] SUCCESS: The content of branch main has been exported successfully!\n[2026-08-03 06:17:54] SUCCESS: The content of the stack bltecc04ae220c1979f has been exported successfully!\n[2026-08-03 06:17:54] INFO: The exported content has been stored at '/home/runner/work/Developer-Resources/Developer-Resources/cli-automation/workdir/run-2026-08-03-06-16-20/export'.\n[2026-08-03 06:17:54] SUCCESS: The log has been stored at '/home/runner/work/Developer-Resources/Developer-Resources/cli-automation/workdir/run-2026-08-03-06-16-20/logs'.\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/audit-plugin"
+    },
+    {
+      "name": "audit-plugin: doc/CLI gaps (verdict GAPS)",
+      "detail": "description-mismatch: --columns — Specify columns to display, comma-separated.; description-mismatch: --filter — Filter rows by a column value (e.g., name=foo).; description-mismatch: --no-truncate — Prevent truncation of long text in columns.; description-mismatch: --columns — Specify columns to display, comma-separated.; description-mismatch: --filter — Filter rows by a column value (e.g., name=foo).; description-mismatch: --no-truncate — Prevent truncation of long text in columns.; description-mismatch: --sort — Sort the table by a column. Use \"-\" for descending.; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/audit-plugin"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/audit-plugin"
+  ]
+}
