@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "cma",
+  "suiteLabel": "Content Management API",
+  "runId": "30788881182",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881182",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/30788881182#artifacts",
+  "timestamp": "2026-08-03T07:03:01.276Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/content-management-api"
+  ]
+}
