@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:04:39.904Z",
+  "generatedAt": "2026-08-03T06:04:47.733Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -168,6 +168,14 @@
       "suiteLabel": "Personalize Edge API",
       "path": "data/api-docs-automation/personalizeedge/latest.json",
       "lastUpdated": "2026-08-03T06:04:34.021Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "configure-regions",
+      "suiteLabel": "Configure Regions in the CLI",
+      "path": "data/developer-resources-docs-automation/configure-regions/latest.json",
+      "lastUpdated": "2026-08-03T06:04:01.115Z"
     }
   ]
 }

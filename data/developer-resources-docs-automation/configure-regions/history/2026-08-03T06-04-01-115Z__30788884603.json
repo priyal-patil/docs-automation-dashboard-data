@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "configure-regions",
+  "suiteLabel": "Configure Regions in the CLI",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:04:01.115Z",
+  "durationSeconds": 44,
+  "totals": {
+    "total": 24,
+    "passed": 24,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 2,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "configure-regions: doc/CLI gaps (verdict GAPS)",
+      "detail": "missing-in-doc: --auth-api — --auth-api — Custom host to set for Auth API; missing-in-doc: --studio — --studio — Custom host to set for Studio API; note: - — Doc has no Export Directory Structure tree to verify",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/configure-regions-in-the-cli"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/configure-regions-in-the-cli"
+  ]
+}
