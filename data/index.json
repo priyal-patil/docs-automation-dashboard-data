@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:19:28.753Z",
+  "generatedAt": "2026-08-03T06:19:31.617Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -352,6 +352,14 @@
       "suiteLabel": "Export Content to CSV File Using the CLI",
       "path": "data/developer-resources-docs-automation/export-content-to-csv/latest.json",
       "lastUpdated": "2026-08-03T06:18:53.758Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "cli-for-cs-assets",
+      "suiteLabel": "CLI for CS Assets",
+      "path": "data/developer-resources-docs-automation/cli-for-cs-assets/latest.json",
+      "lastUpdated": "2026-08-03T06:18:46.364Z"
     }
   ]
 }
