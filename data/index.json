@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:20:32.075Z",
+  "generatedAt": "2026-08-03T06:20:55.525Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -368,6 +368,14 @@
       "suiteLabel": "Import Content Using the Seed Command",
       "path": "data/developer-resources-docs-automation/import-content-seed-command/latest.json",
       "lastUpdated": "2026-08-03T06:20:10.227Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "migration-command",
+      "suiteLabel": "Migrate your Content using the CLI Migration Command",
+      "path": "data/developer-resources-docs-automation/migration-command/latest.json",
+      "lastUpdated": "2026-08-03T06:20:23.494Z"
     }
   ]
 }

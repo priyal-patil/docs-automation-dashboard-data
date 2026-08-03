@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "migration-command",
+  "suiteLabel": "Migrate your Content using the CLI Migration Command",
+  "runId": "30788884603",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/30788884603#artifacts",
+  "timestamp": "2026-08-03T06:20:23.494Z",
+  "durationSeconds": 30,
+  "totals": {
+    "total": 10,
+    "passed": 6,
+    "failed": 2,
+    "skipped": 2,
+    "warnings": 7,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Steps for Execution: csdx cm:stacks:migration -a <alias> --file-path <file_path> -k <api_key>",
+      "detail": " ›   Error: The following error occurred:\n ›     --alias=production cannot also be provided when using --stack-api-key\n ›   See more help with --help\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/migrate-your-content-using-the-cli-migration-command"
+    },
+    {
+      "name": "Get Started with the Migration Script > Execute the Migration File: csdx cm:stacks:migration -a <alias> --file-path <file_path> -k <api_key>",
+      "detail": " ›   Error: The following error occurred:\n ›     --alias=production cannot also be provided when using --stack-api-key\n ›   See more help with --help\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/migrate-your-content-using-the-cli-migration-command"
+    },
+    {
+      "name": "migration-command: doc/CLI gaps (verdict GAPS)",
+      "detail": "short-flag-mismatch: --branch — -B; note: - — Doc has no Export Directory Structure tree to verify; lint: {\"blockId\":4,\"section\":\"Steps for Execution\",\"label\":\"\",\"issue\":\"Smart/curly quote (“) instead of a straight quote — breaks copy-paste\",\"snippet\":\"entTypeUID:author --file-path “path/to/migrate/single/conten\"}; lint: {\"blockId\":5,\"section\":\"Steps for Execution\",\"label\":\"\",\"issue\":\"Smart/curly quote (“) instead of a straight quote — breaks copy-paste\",\"snippet\":\"ntentTypeUID:blog --file-path “path/to/update/first/100/entr\"}; lint: {\"blockId\":7,\"section\":\"Get Started with the Migration Script > Create Migration File\",\"label\":\"\",\"issue\":\"Smart/curly quote (“) instead of a straight quote — breaks copy-paste\",\"snippet\":\"“migration”\"}; lint: {\"blockId\":9,\"section\":\"Get Started with the Migration Script > Create Migration File\",\"label\":\"\",\"issue\":\"Smart/curly quote (“) instead of a straight quote — breaks copy-paste\",\"snippet\":\"“stackSDKInstance”\"}",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/migrate-your-content-using-the-cli-migration-command"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/migrate-your-content-using-the-cli-migration-command"
+  ]
+}

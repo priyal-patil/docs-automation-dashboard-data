@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-03T06:20:23.494Z",
+    "runId": "30788884603",
+    "path": "data/developer-resources-docs-automation/migration-command/history/2026-08-03T06-20-23-494Z__30788884603.json",
+    "totals": {
+      "total": 10,
+      "passed": 6,
+      "failed": 2,
+      "skipped": 2,
+      "warnings": 7,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]
