@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T23:01:23.706Z",
+  "generatedAt": "2026-08-04T23:30:48.641Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -135,7 +135,7 @@
       "suite": "brandkit",
       "suiteLabel": "Brand Kit Management API",
       "path": "data/api-docs-automation/brandkit/latest.json",
-      "lastUpdated": "2026-08-03T23:33:34.330Z"
+      "lastUpdated": "2026-08-04T23:30:47.739Z"
     },
     {
       "project": "api-docs-automation",
