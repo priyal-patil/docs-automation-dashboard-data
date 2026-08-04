@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T04:11:41.891Z",
+  "generatedAt": "2026-08-04T04:13:26.698Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -415,7 +415,7 @@
       "suite": "bootstrap-starter-apps",
       "suiteLabel": "Bootstrap Starter Apps",
       "path": "data/developer-resources-docs-automation/bootstrap-starter-apps/latest.json",
-      "lastUpdated": "2026-08-03T06:23:47.159Z"
+      "lastUpdated": "2026-08-04T04:08:08.410Z"
     },
     {
       "project": "api-docs-automation",
