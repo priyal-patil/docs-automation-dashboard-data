@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:11:14.189Z",
+  "generatedAt": "2026-08-04T10:59:43.151Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -424,6 +424,14 @@
       "suiteLabel": "Content Management API",
       "path": "data/api-docs-automation/cma/latest.json",
       "lastUpdated": "2026-08-04T00:35:47.717Z"
+    },
+    {
+      "project": "docs-contentstack-ai-automation",
+      "projectLabel": "Docs Contentstack AI Automation",
+      "suite": "cms-tokens",
+      "suiteLabel": "CMS Tokens",
+      "path": "data/docs-contentstack-ai-automation/cms-tokens/latest.json",
+      "lastUpdated": "2026-08-04T10:59:42.121Z"
     }
   ]
 }
