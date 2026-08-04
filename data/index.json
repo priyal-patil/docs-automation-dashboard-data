@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T03:57:12.158Z",
+  "generatedAt": "2026-08-04T03:57:56.811Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -279,7 +279,7 @@
       "suite": "bulk-publish",
       "suiteLabel": "Bulk Publish and Unpublish Content",
       "path": "data/developer-resources-docs-automation/bulk-publish/latest.json",
-      "lastUpdated": "2026-08-03T06:12:25.640Z"
+      "lastUpdated": "2026-08-04T03:56:54.050Z"
     },
     {
       "project": "developer-resources-docs-automation",
