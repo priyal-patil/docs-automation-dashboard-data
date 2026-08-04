@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T04:06:47.650Z",
+  "generatedAt": "2026-08-04T04:07:02.572Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -399,7 +399,7 @@
       "suite": "bulk-operations",
       "suiteLabel": "Bulk Operations in CLI",
       "path": "data/developer-resources-docs-automation/bulk-operations/latest.json",
-      "lastUpdated": "2026-08-03T06:18:44.588Z"
+      "lastUpdated": "2026-08-04T04:03:07.848Z"
     },
     {
       "project": "developer-resources-docs-automation",
