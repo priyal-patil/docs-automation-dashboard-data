@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T04:00:59.382Z",
+  "generatedAt": "2026-08-04T04:02:17.510Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -343,7 +343,7 @@
       "suite": "configure-proxy-settings",
       "suiteLabel": "Configure Proxy Settings in CLI",
       "path": "data/developer-resources-docs-automation/configure-proxy-settings/latest.json",
-      "lastUpdated": "2026-08-03T06:17:36.044Z"
+      "lastUpdated": "2026-08-04T04:01:47.866Z"
     },
     {
       "project": "developer-resources-docs-automation",
