@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-04T01:43:48.602Z",
+    "runId": "30867307301",
+    "path": "data/docs-contentstack-ai-automation/brandkit/history/2026-08-04T01-43-48-602Z__30867307301.json",
+    "totals": {
+      "total": 15,
+      "passed": 9,
+      "failed": 6,
+      "skipped": 0,
+      "warnings": 9,
+      "timedOut": 3,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-03T01:36:34.332Z",
     "runId": "30776076221",
     "path": "data/docs-contentstack-ai-automation/brandkit/history/2026-08-03T01-36-34-332Z__30776076221.json",
