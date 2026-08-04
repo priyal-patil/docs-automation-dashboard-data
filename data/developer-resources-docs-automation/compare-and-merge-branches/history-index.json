@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-04T03:58:02.859Z",
+    "runId": "30875789895",
+    "path": "data/developer-resources-docs-automation/compare-and-merge-branches/history/2026-08-04T03-58-02-859Z__30875789895.json",
+    "totals": {
+      "total": 48,
+      "passed": 32,
+      "failed": 16,
+      "skipped": 0,
+      "warnings": 17,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-03T06:13:25.474Z",
     "runId": "30788884603",
     "path": "data/developer-resources-docs-automation/compare-and-merge-branches/history/2026-08-03T06-13-25-474Z__30788884603.json",
