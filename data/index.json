@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T04:02:29.888Z",
+  "generatedAt": "2026-08-04T04:02:52.348Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -327,7 +327,7 @@
       "suite": "query-based-export",
       "suiteLabel": "Query-based Export",
       "path": "data/developer-resources-docs-automation/query-based-export/latest.json",
-      "lastUpdated": "2026-08-03T06:16:39.592Z"
+      "lastUpdated": "2026-08-04T04:01:28.645Z"
     },
     {
       "project": "developer-resources-docs-automation",
