@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-04T04:06:21.214Z",
+    "runId": "30875789895",
+    "path": "data/developer-resources-docs-automation/migrate-html-rte-to-json-rte/history/2026-08-04T04-06-21-214Z__30875789895.json",
+    "totals": {
+      "total": 6,
+      "passed": 5,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 13,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-03T06:21:16.406Z",
     "runId": "30788884603",
     "path": "data/developer-resources-docs-automation/migrate-html-rte-to-json-rte/history/2026-08-03T06-21-16-406Z__30788884603.json",
