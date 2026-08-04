@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 // Shared publisher: writes normalized report JSON files into this repo's
 // data/ folder (latest.json + history/) and upserts data/index.json.
-// Usage: node scripts/publish.js <path-to-normalized-report.json> [more.json ...]
+// Usage: node scripts/publish.js <report.json>[:<reports-dir>] [more ...]
+// The optional `:<reports-dir>` suffix on any argument points at a local
+// directory of per-item HTML report files to copy into
+// data/<project>/<suite>/reports/ (overwritten every run -- NOT kept in
+// history, see SCHEMA.md). Omit it if the report has no reportUrl fields.
 // Run from within a checkout of docs-automation-dashboard-data. Does NOT
 // commit/push -- the calling workflow step does that (so it can retry on
 // push conflicts from other projects publishing concurrently).
@@ -14,6 +18,16 @@ const HISTORY_INDEX_LIMIT = 30; // dashboard UI only shows the last few days of 
 
 function safeTimestamp(iso) {
   return iso.replace(/[:.]/g, '-');
+}
+
+function copyDirRecursive(src, dest) {
+  fs.mkdirSync(dest, { recursive: true });
+  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+    const s = path.join(src, entry.name);
+    const d = path.join(dest, entry.name);
+    if (entry.isDirectory()) copyDirRecursive(s, d);
+    else fs.copyFileSync(s, d);
+  }
 }
 
 function loadIndex(repoRoot) {
@@ -36,7 +50,8 @@ function main() {
   const repoRoot = process.cwd();
   const index = loadIndex(repoRoot);
 
-  for (const file of files) {
+  for (const arg of files) {
+    const [file, reportsDir] = arg.split(':');
     const report = JSON.parse(fs.readFileSync(file, 'utf-8'));
     for (const key of REQUIRED) {
       if (!(key in report)) {
@@ -46,6 +61,13 @@ function main() {
 
     const dir = path.join(repoRoot, 'data', report.project, report.suite);
     fs.mkdirSync(path.join(dir, 'history'), { recursive: true });
+
+    if (reportsDir) {
+      const reportsDest = path.join(dir, 'reports');
+      fs.rmSync(reportsDest, { recursive: true, force: true }); // latest-run only, never accumulates
+      copyDirRecursive(reportsDir, reportsDest);
+      console.log(`Copied per-item reports from ${reportsDir} -> ${reportsDest}`);
+    }
 
     fs.writeFileSync(path.join(dir, 'latest.json'), JSON.stringify(report, null, 2));
 

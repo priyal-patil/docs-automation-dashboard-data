@@ -35,9 +35,69 @@ directly.
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/developers/apis/content-management-api"
+  ],
+  "items": [
+    {
+      "name": "Delete Environment",
+      "status": "pass",                              // "pass" | "fail" | "warning" | "skipped"
+      "detail": null,                                 // failure/warning reason, null for clean passes
+      "docLink": "https://www.contentstack.com/docs/developers/apis/content-management-api#delete-environment",
+      "reportUrl": "data/api-docs-automation/cma/reports/run-report.html#delete-environment"
+    }
+  ],
+  "warnings": [
+    {
+      "name": "Edit an Environment",
+      "detail": "Position verification mismatch — doc container mismatch",
+      "docLink": "https://www.contentstack.com/docs/developers/set-up-environments/edit-an-environment",
+      "reportUrl": "data/docs-contentstack-ai-automation/cms-batch2/reports/edit-an-environment.html"
+    }
   ]
 }
 ```
+
+### `items` and `warnings` (optional, additive — v1.1)
+
+`items` covers **every** checked item, pass or fail (superset of `failedItems`,
+which stays for backward compatibility — the dashboard prefers `items` when
+present and falls back to `failedItems`-only rendering otherwise). `warnings`
+is a flat list of non-blocking issues found, independent of pass/fail status.
+
+`reportUrl` is a repo-relative path (resolved the same way `index.json`'s
+`path` field is — relative to the `docs-automation-dashboard` repo root),
+optionally with a `#fragment` anchor into a shared multi-item report file.
+Both fields are optional per item — omit `reportUrl` entirely if no
+viewable report exists for that item.
+
+## `reports/` folder (per-item HTML reports, latest run only)
+
+```
+data/
+  <project>/
+    <suite>/
+      latest.json
+      history/...
+      history-index.json
+      reports/                    <- OPTIONAL, overwritten every run (NOT kept in history —
+        run-report.html              unbounded HTML accumulation across every historical run
+        <flow-slug>.html             would blow up repo size, so only the latest run's
+        ...                          reports are ever kept)
+```
+
+Two supported shapes, pick whichever fits the source project's own report
+generator:
+- **One shared file, many anchors** (used when the project already emits a
+  single HTML report per run with one row/section per item): copy that one
+  file to `reports/run-report.html`, and give each item's `reportUrl` a
+  `#<anchor>` fragment matching an `id` added to that item's row/section in
+  the generator.
+- **One file per item** (used when the project already emits one file per
+  URL/flow/doc, e.g. Playwright's per-flow reports or SDK per-doc reports):
+  copy each into `reports/<slug>.html`, one per item, no anchor needed.
+
+Publishing workflows that want this: after writing the normalized JSON,
+also assemble a local directory of the report HTML file(s) and pass it to
+`scripts/publish.js` as a second argument — see `PUBLISHING.md`.
 
 ## File layout in this repo
 
