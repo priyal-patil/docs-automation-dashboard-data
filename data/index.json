@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T03:55:42.969Z",
+  "generatedAt": "2026-08-05T03:56:24.622Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -319,7 +319,7 @@
       "suite": "configure-cli-logging",
       "suiteLabel": "Configure CLI Logging Preferences",
       "path": "data/developer-resources-docs-automation/configure-cli-logging/latest.json",
-      "lastUpdated": "2026-08-04T04:00:12.401Z"
+      "lastUpdated": "2026-08-05T03:56:03.342Z"
     },
     {
       "project": "developer-resources-docs-automation",
