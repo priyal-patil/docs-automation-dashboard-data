@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-05T00:32:48.328Z",
+    "runId": "30960336865",
+    "path": "data/api-docs-automation/cma/history/2026-08-05T00-32-48-328Z__30960336865.json",
+    "totals": {
+      "total": 0,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-04T00:35:47.717Z",
     "runId": "30862779145",
     "path": "data/api-docs-automation/cma/history/2026-08-04T00-35-47-717Z__30862779145.json",
