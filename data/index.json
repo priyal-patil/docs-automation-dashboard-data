@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T03:54:13.771Z",
+  "generatedAt": "2026-08-05T03:54:18.858Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -287,7 +287,7 @@
       "suite": "cli-for-launch",
       "suiteLabel": "CLI for Launch",
       "path": "data/developer-resources-docs-automation/cli-for-launch/latest.json",
-      "lastUpdated": "2026-08-04T03:58:11.055Z"
+      "lastUpdated": "2026-08-05T03:53:15.260Z"
     },
     {
       "project": "developer-resources-docs-automation",
