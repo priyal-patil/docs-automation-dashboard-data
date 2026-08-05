@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T03:45:09.182Z",
+  "generatedAt": "2026-08-05T03:46:44.264Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -191,7 +191,7 @@
       "suite": "cli-authentication",
       "suiteLabel": "CLI Authentication and Adding Tokens",
       "path": "data/developer-resources-docs-automation/cli-authentication/latest.json",
-      "lastUpdated": "2026-08-04T03:50:38.493Z"
+      "lastUpdated": "2026-08-05T03:45:47.081Z"
     },
     {
       "project": "api-docs-automation",
