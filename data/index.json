@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T03:44:54.460Z",
+  "generatedAt": "2026-08-05T03:45:09.182Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -175,7 +175,7 @@
       "suite": "configure-regions",
       "suiteLabel": "Configure Regions in the CLI",
       "path": "data/developer-resources-docs-automation/configure-regions/latest.json",
-      "lastUpdated": "2026-08-04T03:49:18.791Z"
+      "lastUpdated": "2026-08-05T03:44:19.529Z"
     },
     {
       "project": "api-docs-automation",
