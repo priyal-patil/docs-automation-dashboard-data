@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T03:54:18.858Z",
+  "generatedAt": "2026-08-05T03:55:15.594Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -303,7 +303,7 @@
       "suite": "compare-and-merge-branches",
       "suiteLabel": "Compare and Merge Branches Using the CLI",
       "path": "data/developer-resources-docs-automation/compare-and-merge-branches/latest.json",
-      "lastUpdated": "2026-08-04T03:58:02.859Z"
+      "lastUpdated": "2026-08-05T03:53:19.733Z"
     },
     {
       "project": "developer-resources-docs-automation",
