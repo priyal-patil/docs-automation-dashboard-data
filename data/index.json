@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T01:15:02.644Z",
+  "generatedAt": "2026-08-05T01:18:28.394Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -103,7 +103,7 @@
       "suite": "kickstart-automation",
       "suiteLabel": "Kickstart Automation",
       "path": "data/developer-resources-docs-automation/kickstart-automation/latest.json",
-      "lastUpdated": "2026-08-04T01:21:43.783Z"
+      "lastUpdated": "2026-08-05T01:18:24.797Z"
     },
     {
       "project": "api-docs-automation",
