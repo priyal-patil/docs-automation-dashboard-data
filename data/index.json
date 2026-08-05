@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T03:58:07.092Z",
+  "generatedAt": "2026-08-05T03:59:21.385Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -359,7 +359,7 @@
       "suite": "cli-for-cs-assets",
       "suiteLabel": "CLI for CS Assets",
       "path": "data/developer-resources-docs-automation/cli-for-cs-assets/latest.json",
-      "lastUpdated": "2026-08-04T04:03:17.329Z"
+      "lastUpdated": "2026-08-05T03:58:36.402Z"
     },
     {
       "project": "developer-resources-docs-automation",
