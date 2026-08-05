@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T03:52:12.925Z",
+  "generatedAt": "2026-08-05T03:52:31.751Z",
   "entries": [
     {
       "project": "docs-contentstack-ai-automation",
@@ -255,7 +255,7 @@
       "suite": "cloning-a-stack",
       "suiteLabel": "Cloning a Stack",
       "path": "data/developer-resources-docs-automation/cloning-a-stack/latest.json",
-      "lastUpdated": "2026-08-04T03:56:18.310Z"
+      "lastUpdated": "2026-08-05T03:51:40.295Z"
     },
     {
       "project": "developer-resources-docs-automation",
