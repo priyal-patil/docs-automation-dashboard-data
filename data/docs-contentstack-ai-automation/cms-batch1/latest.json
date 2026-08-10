@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
+  "suite": "cms-batch1",
+  "suiteLabel": "CMS Batch 1",
+  "runId": "31441152373",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31441152373",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31441152373#artifacts",
+  "timestamp": "2026-08-10T23:32:53.462Z",
+  "durationSeconds": 1421,
+  "totals": {
+    "total": 31,
+    "passed": 30,
+    "failed": 1,
+    "skipped": 0,
+    "warnings": 19,
+    "timedOut": 1,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "https://www.contentstack.com/docs/content-managers/create-and-manage-releases/create-a-new-release",
+      "detail": "\u001b[31mTest timeout of 300000ms exceeded.\u001b[39m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/create-and-manage-releases/create-a-new-release"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/content-managers/author-content/add-a-comment",
+    "https://www.contentstack.com/docs/developers/multilingual-content/add-a-custom-language",
+    "https://www.contentstack.com/docs/developers/multilingual-content/add-a-language",
+    "https://www.contentstack.com/docs/developers/set-up-environments/add-an-environment",
+    "https://www.contentstack.com/docs/developers/set-up-workflows-and-publish-rules/add-workflows-and-stages",
+    "https://www.contentstack.com/docs/developers/branches/create-a-branch",
+    "https://www.contentstack.com/docs/developers/create-tokens/create-a-delivery-token",
+    "https://www.contentstack.com/docs/content-managers/author-content/create-a-folder",
+    "https://www.contentstack.com/docs/developers/global-field/create-a-global-field",
+    "https://www.contentstack.com/docs/content-managers/create-and-manage-releases/create-a-new-release",
+    "https://www.contentstack.com/docs/developers/set-up-stack/create-a-new-stack",
+    "https://www.contentstack.com/docs/developers/taxonomy/create-a-taxonomy",
+    "https://www.contentstack.com/docs/developers/taxonomy/create-a-term",
+    "https://www.contentstack.com/docs/developers/set-up-webhooks/create-a-webhook",
+    "https://www.contentstack.com/docs/content-managers/author-content/create-an-entry",
+    "https://www.contentstack.com/docs/developers/create-content-types/create-and-apply-labels",
+    "https://www.contentstack.com/docs/developers/create-content-types/create-a-content-type",
+    "https://www.contentstack.com/docs/content-managers/author-content/create-upload-assets",
+    "https://www.contentstack.com/docs/developers/create-tokens/generate-a-management-token",
+    "https://www.contentstack.com/docs/developers/set-up-live-preview/set-up-live-preview-for-your-stack"
+  ]
+}
