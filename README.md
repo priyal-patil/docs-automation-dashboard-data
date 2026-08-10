@@ -4,7 +4,7 @@ Normalized JSON report data, pushed here by the GHA workflows of:
 
 - [api-docs-automation](https://github.com/priyal-patil/api-docs-automation)
 - [Developer-Resources-Docs-Automation](https://github.com/priyal-patil/Developer-Resources)
-- [docs-contentstack-ai-automation](https://github.com/priyal-patil/docs-contentstack-ai-automation)
+- [contentstack-docs-automation-suite](https://github.com/priyal-patil/contentstack-docs-automation-suite)
 
 See [SCHEMA.md](SCHEMA.md) for the shape every project writes to.
 

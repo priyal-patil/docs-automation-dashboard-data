@@ -50,7 +50,7 @@ directly.
       "name": "Edit an Environment",
       "detail": "Position verification mismatch — doc container mismatch",
       "docLink": "https://www.contentstack.com/docs/developers/set-up-environments/edit-an-environment",
-      "reportUrl": "data/docs-contentstack-ai-automation/cms-batch2/reports/edit-an-environment.html"
+      "reportUrl": "data/contentstack-docs-automation-suite/cms-batch2/reports/edit-an-environment.html"
     }
   ]
 }
@@ -150,7 +150,7 @@ newest first, capped at the last 30 runs:
   {
     "timestamp": "2026-07-30T05:39:18.725Z",
     "runId": "30499925084",
-    "path": "data/docs-contentstack-ai-automation/cms-batch3/history/2026-07-30T05-39-18-725Z__30499925084.json",
+    "path": "data/contentstack-docs-automation-suite/cms-batch3/history/2026-07-30T05-39-18-725Z__30499925084.json",
     "totals": { "total": 35, "passed": 18, "failed": 17, "skipped": 0, "warnings": 13, "timedOut": 2, "interrupted": 0 }
   }
 ]

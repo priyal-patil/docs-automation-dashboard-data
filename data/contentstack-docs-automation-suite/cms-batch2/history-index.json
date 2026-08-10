@@ -1,0 +1,184 @@
+[
+  {
+    "timestamp": "2026-08-10T03:31:06.065Z",
+    "runId": "31340848631",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-10T03-31-06-065Z__31340848631.json",
+    "totals": {
+      "total": 215,
+      "passed": 119,
+      "failed": 96,
+      "skipped": 0,
+      "warnings": 64,
+      "timedOut": 12,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-09T03:28:16.889Z",
+    "runId": "31282957460",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-09T03-28-16-889Z__31282957460.json",
+    "totals": {
+      "total": 215,
+      "passed": 121,
+      "failed": 94,
+      "skipped": 0,
+      "warnings": 65,
+      "timedOut": 11,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-08T03:41:09.576Z",
+    "runId": "31226127741",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-08T03-41-09-576Z__31226127741.json",
+    "totals": {
+      "total": 215,
+      "passed": 120,
+      "failed": 95,
+      "skipped": 0,
+      "warnings": 63,
+      "timedOut": 13,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-07T06:03:45.933Z",
+    "runId": "31138586917",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-07T06-03-45-933Z__31138586917.json",
+    "totals": {
+      "total": 215,
+      "passed": 121,
+      "failed": 94,
+      "skipped": 0,
+      "warnings": 65,
+      "timedOut": 12,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-06T03:58:03.358Z",
+    "runId": "31056621416",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-06T03-58-03-358Z__31056621416.json",
+    "totals": {
+      "total": 215,
+      "passed": 123,
+      "failed": 92,
+      "skipped": 0,
+      "warnings": 68,
+      "timedOut": 13,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-05T03:53:17.243Z",
+    "runId": "30960458192",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-05T03-53-17-243Z__30960458192.json",
+    "totals": {
+      "total": 215,
+      "passed": 122,
+      "failed": 93,
+      "skipped": 0,
+      "warnings": 66,
+      "timedOut": 12,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-04T04:17:15.256Z",
+    "runId": "30863013036",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-04T04-17-15-256Z__30863013036.json",
+    "totals": {
+      "total": 215,
+      "passed": 120,
+      "failed": 95,
+      "skipped": 0,
+      "warnings": 65,
+      "timedOut": 13,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-03T03:55:11.822Z",
+    "runId": "30772425402",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-03T03-55-11-822Z__30772425402.json",
+    "totals": {
+      "total": 215,
+      "passed": 122,
+      "failed": 93,
+      "skipped": 0,
+      "warnings": 64,
+      "timedOut": 11,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-02T03:58:51.495Z",
+    "runId": "30723514685",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-02T03-58-51-495Z__30723514685.json",
+    "totals": {
+      "total": 215,
+      "passed": 123,
+      "failed": 92,
+      "skipped": 0,
+      "warnings": 65,
+      "timedOut": 12,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-01T03:53:02.014Z",
+    "runId": "30673197892",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-01T03-53-02-014Z__30673197892.json",
+    "totals": {
+      "total": 215,
+      "passed": 120,
+      "failed": 95,
+      "skipped": 0,
+      "warnings": 63,
+      "timedOut": 11,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-07-31T03:54:48.946Z",
+    "runId": "30590922047",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-07-31T03-54-48-946Z__30590922047.json",
+    "totals": {
+      "total": 215,
+      "passed": 126,
+      "failed": 89,
+      "skipped": 0,
+      "warnings": 68,
+      "timedOut": 11,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-07-30T03:48:53.464Z",
+    "runId": "30499925084",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-07-30T03-48-53-464Z__30499925084.json",
+    "totals": {
+      "total": 215,
+      "passed": 123,
+      "failed": 92,
+      "skipped": 0,
+      "warnings": 65,
+      "timedOut": 11,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-07-29T03:09:41.126Z",
+    "runId": "30408270059",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-07-29T03-09-41-126Z__30408270059.json",
+    "totals": {
+      "total": 215,
+      "passed": 124,
+      "failed": 91,
+      "skipped": 0,
+      "warnings": 66,
+      "timedOut": 11,
+      "interrupted": 0
+    }
+  }
+]

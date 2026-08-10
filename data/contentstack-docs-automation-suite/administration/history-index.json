@@ -1,0 +1,184 @@
+[
+  {
+    "timestamp": "2026-08-09T22:21:39.714Z",
+    "runId": "31338343764",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-09T22-21-39-714Z__31338343764.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-08T22:18:40.564Z",
+    "runId": "31280649024",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-08T22-18-40-564Z__31280649024.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-07T22:35:14.378Z",
+    "runId": "31223198196",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-07T22-35-14-378Z__31223198196.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-07T01:23:30.406Z",
+    "runId": "31136794733",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-07T01-23-30-406Z__31136794733.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-05T22:59:22.943Z",
+    "runId": "31053582431",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-05T22-59-22-943Z__31053582431.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-04T23:01:22.989Z",
+    "runId": "30957350769",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-04T23-01-22-989Z__30957350769.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-03T22:57:41.618Z",
+    "runId": "30859358874",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-03T22-57-41-618Z__30859358874.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-02T22:54:51.771Z",
+    "runId": "30770429350",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-02T22-54-51-771Z__30770429350.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-08-01T22:53:35.614Z",
+    "runId": "30721552445",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-08-01T22-53-35-614Z__30721552445.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-07-31T22:59:01.005Z",
+    "runId": "30670637618",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-07-31T22-59-01-005Z__30670637618.json",
+    "totals": {
+      "total": 28,
+      "passed": 8,
+      "failed": 20,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-07-30T23:01:13.545Z",
+    "runId": "30588164928",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-07-30T23-01-13-545Z__30588164928.json",
+    "totals": {
+      "total": 28,
+      "passed": 7,
+      "failed": 21,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-07-29T22:55:00.060Z",
+    "runId": "30496689253",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-07-29T22-55-00-060Z__30496689253.json",
+    "totals": {
+      "total": 28,
+      "passed": 6,
+      "failed": 22,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
+    "timestamp": "2026-07-28T22:58:31.790Z",
+    "runId": "30405363552",
+    "path": "data/contentstack-docs-automation-suite/administration/history/2026-07-28T22-58-31-790Z__30405363552.json",
+    "totals": {
+      "total": 28,
+      "passed": 6,
+      "failed": 22,
+      "skipped": 0,
+      "warnings": 2,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]

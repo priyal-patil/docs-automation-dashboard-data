@@ -2,91 +2,91 @@
   "generatedAt": "2026-08-10T05:23:52.717Z",
   "entries": [
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "brandkit",
       "suiteLabel": "BrandKit",
-      "path": "data/docs-contentstack-ai-automation/brandkit/latest.json",
+      "path": "data/contentstack-docs-automation-suite/brandkit/latest.json",
       "lastUpdated": "2026-08-10T00:28:20.640Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "launch",
       "suiteLabel": "Launch",
-      "path": "data/docs-contentstack-ai-automation/launch/latest.json",
+      "path": "data/contentstack-docs-automation-suite/launch/latest.json",
       "lastUpdated": "2026-08-09T21:17:50.630Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "administration",
       "suiteLabel": "Administration",
-      "path": "data/docs-contentstack-ai-automation/administration/latest.json",
+      "path": "data/contentstack-docs-automation-suite/administration/latest.json",
       "lastUpdated": "2026-08-09T22:21:39.714Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "cms-batch1",
       "suiteLabel": "CMS Batch 1",
-      "path": "data/docs-contentstack-ai-automation/cms-batch1/latest.json",
+      "path": "data/contentstack-docs-automation-suite/cms-batch1/latest.json",
       "lastUpdated": "2026-08-09T23:17:51.063Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "data-and-insights",
       "suiteLabel": "Data-and-Insights",
-      "path": "data/docs-contentstack-ai-automation/data-and-insights/latest.json",
+      "path": "data/contentstack-docs-automation-suite/data-and-insights/latest.json",
       "lastUpdated": "2026-08-10T00:14:48.302Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "developer-hub",
       "suiteLabel": "Developer-Hub",
-      "path": "data/docs-contentstack-ai-automation/developer-hub/latest.json",
+      "path": "data/contentstack-docs-automation-suite/developer-hub/latest.json",
       "lastUpdated": "2026-08-10T01:45:27.349Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "cms-batch2",
       "suiteLabel": "CMS Batch 2",
-      "path": "data/docs-contentstack-ai-automation/cms-batch2/latest.json",
+      "path": "data/contentstack-docs-automation-suite/cms-batch2/latest.json",
       "lastUpdated": "2026-08-10T03:31:06.065Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "personalize",
       "suiteLabel": "Personalize",
-      "path": "data/docs-contentstack-ai-automation/personalize/latest.json",
+      "path": "data/contentstack-docs-automation-suite/personalize/latest.json",
       "lastUpdated": "2026-08-10T03:05:48.825Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "studio",
       "suiteLabel": "Studio",
-      "path": "data/docs-contentstack-ai-automation/studio/latest.json",
+      "path": "data/contentstack-docs-automation-suite/studio/latest.json",
       "lastUpdated": "2026-08-10T03:04:51.198Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "marketplace",
       "suiteLabel": "Marketplace",
-      "path": "data/docs-contentstack-ai-automation/marketplace/latest.json",
+      "path": "data/contentstack-docs-automation-suite/marketplace/latest.json",
       "lastUpdated": "2026-08-10T03:40:58.373Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "cms-batch3",
       "suiteLabel": "CMS Batch 3",
-      "path": "data/docs-contentstack-ai-automation/cms-batch3/latest.json",
+      "path": "data/contentstack-docs-automation-suite/cms-batch3/latest.json",
       "lastUpdated": "2026-08-10T05:23:51.370Z"
     },
     {
@@ -426,11 +426,11 @@
       "lastUpdated": "2026-08-05T00:32:48.328Z"
     },
     {
-      "project": "docs-contentstack-ai-automation",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "cms-tokens",
       "suiteLabel": "CMS Tokens",
-      "path": "data/docs-contentstack-ai-automation/cms-tokens/latest.json",
+      "path": "data/contentstack-docs-automation-suite/cms-tokens/latest.json",
       "lastUpdated": "2026-08-04T12:50:53.089Z"
     }
   ]

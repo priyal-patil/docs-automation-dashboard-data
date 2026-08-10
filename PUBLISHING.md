@@ -29,7 +29,7 @@ on `docs-automation-dashboard-data`, added as a repo secret in each of the 3
 source repos. See the main dashboard rollout notes for how to create it.
 
 The retry loop exists because all 3 projects (and multiple suites within
-api-docs-automation / docs-contentstack-ai-automation) push independently and
+api-docs-automation / contentstack-docs-automation-suite) push independently and
 can race on `git push`.
 
 ## Per-item report links (optional)

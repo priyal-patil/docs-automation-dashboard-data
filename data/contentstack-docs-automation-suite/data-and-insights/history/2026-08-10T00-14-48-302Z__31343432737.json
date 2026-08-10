@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "project": "contentstack-docs-automation-suite",
+  "projectLabel": "Contentstack Docs Automation Suite",
+  "suite": "data-and-insights",
+  "suiteLabel": "Data-and-Insights",
+  "runId": "31343432737",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31343432737",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31343432737#artifacts",
+  "timestamp": "2026-08-10T00:14:48.302Z",
+  "durationSeconds": 599,
+  "totals": {
+    "total": 6,
+    "passed": 0,
+    "failed": 6,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "https://www.contentstack.com/docs/data-and-insights/access-manage-data-and-insights-accounts-through-contentstack",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"app-switcher-lytics\"]').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"app-switcher-lytics\"]').first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/data-and-insights/access-manage-data-and-insights-accounts-through-contentstack"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/developers/marketplace-apps/audience-insights",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.SidebarWindow').getByRole('button', { name: /^Audience Insights$/i }).first()\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('.SidebarWindow').getByRole('button', { name: /^Audience Insights$/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/developers/marketplace-apps/audience-insights"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/developers/marketplace-apps/audience-insights",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: /^Audience Insights$/i }).first()\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /^Audience Insights$/i }).first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/developers/marketplace-apps/audience-insights"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/data-and-insights/create-data-and-insights-lytics-integration",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[href*=\"data-activation-layer\"], button[aria-label=\"Data Activation Layer\"], [data-test-id=\"orgadmin-nav-data-activation-layer\"]').first()\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href*=\"data-activation-layer\"], button[aria-label=\"Data Activation Layer\"], [data-test-id=\"",
+      "docLink": "https://www.contentstack.com/docs/data-and-insights/create-data-and-insights-lytics-integration"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/data-and-insights/create-job-and-authorization-for-data-and-insights-lytics",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('lytics-ui nav .MuiListItemText-primary:has-text(\"Data Pipeline\"), lytics-ui nav p.MuiTypography-body2:has-text(\"Data Pipeline\"), nav .MuiListItemButton-root:has-text(\"Data Pipeline\"), [role=\"navigation\"] .MuiListItemText-primary:has-text(\"Data Pipeline\"), aside .MuiListItemText-primary:has-text(\"Data Pipeline\"), .MuiDrawer-root .MuiListItemText-primary:has-text(\"Data Pipeline\"), nav .MuiL",
+      "docLink": "https://www.contentstack.com/docs/data-and-insights/create-job-and-authorization-for-data-and-insights-lytics"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/developers/launch/event-tracking-in-contentstack-launch",
+      "detail": "Error: Label/field-name verification mismatch for \"Launch Projects page title (doc step)\": Label validation failed: expected \"Launch Projects\" (contains), got \"launch dashboard\".",
+      "docLink": "https://www.contentstack.com/docs/developers/launch/event-tracking-in-contentstack-launch"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/data-and-insights/access-manage-data-and-insights-accounts-through-contentstack",
+    "https://www.contentstack.com/docs/developers/marketplace-apps/audience-insights",
+    "https://www.contentstack.com/docs/data-and-insights/create-data-and-insights-lytics-integration",
+    "https://www.contentstack.com/docs/data-and-insights/create-job-and-authorization-for-data-and-insights-lytics",
+    "https://www.contentstack.com/docs/developers/launch/event-tracking-in-contentstack-launch"
+  ]
+}
