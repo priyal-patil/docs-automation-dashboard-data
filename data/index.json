@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:23:52.717Z",
+  "generatedAt": "2026-08-10T21:33:51.348Z",
   "entries": [
     {
       "project": "contentstack-docs-automation-suite",
@@ -432,6 +432,14 @@
       "suiteLabel": "CMS Tokens",
       "path": "data/contentstack-docs-automation-suite/cms-tokens/latest.json",
       "lastUpdated": "2026-08-04T12:50:53.089Z"
+    },
+    {
+      "project": "docs-contentstack-ai-automation",
+      "projectLabel": "Docs Contentstack AI Automation",
+      "suite": "launch",
+      "suiteLabel": "Launch",
+      "path": "data/docs-contentstack-ai-automation/launch/latest.json",
+      "lastUpdated": "2026-08-10T21:33:50.252Z"
     }
   ]
 }
