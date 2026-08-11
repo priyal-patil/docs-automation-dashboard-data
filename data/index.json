@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T00:30:26.381Z",
+  "generatedAt": "2026-08-11T01:43:14.930Z",
   "entries": [
     {
       "project": "contentstack-docs-automation-suite",
@@ -472,6 +472,14 @@
       "suiteLabel": "BrandKit",
       "path": "data/docs-contentstack-ai-automation/brandkit/latest.json",
       "lastUpdated": "2026-08-11T00:30:25.507Z"
+    },
+    {
+      "project": "docs-contentstack-ai-automation",
+      "projectLabel": "Docs Contentstack AI Automation",
+      "suite": "developer-hub",
+      "suiteLabel": "Developer-Hub",
+      "path": "data/docs-contentstack-ai-automation/developer-hub/latest.json",
+      "lastUpdated": "2026-08-11T01:43:13.752Z"
     }
   ]
 }
