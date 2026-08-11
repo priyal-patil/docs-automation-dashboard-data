@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "docs-contentstack-ai-automation",
-  "projectLabel": "Docs Contentstack AI Automation",
+  "projectLabel": "Contentstack Docs Automation Suite",
   "suite": "cms-batch1",
   "suiteLabel": "CMS Batch 1",
   "runId": "31441152373",

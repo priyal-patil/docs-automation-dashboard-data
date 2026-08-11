@@ -339,7 +339,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "administration",
       "suiteLabel": "Administration",
       "path": "data/contentstack-docs-automation-suite/administration/latest.json",
@@ -347,7 +347,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "brandkit",
       "suiteLabel": "BrandKit",
       "path": "data/contentstack-docs-automation-suite/brandkit/latest.json",
@@ -355,7 +355,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "cms-batch1",
       "suiteLabel": "CMS Batch 1",
       "path": "data/contentstack-docs-automation-suite/cms-batch1/latest.json",
@@ -363,7 +363,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "cms-batch2",
       "suiteLabel": "CMS Batch 2",
       "path": "data/contentstack-docs-automation-suite/cms-batch2/latest.json",
@@ -387,7 +387,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "data-and-insights",
       "suiteLabel": "Data-and-Insights",
       "path": "data/contentstack-docs-automation-suite/data-and-insights/latest.json",
@@ -395,7 +395,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "developer-hub",
       "suiteLabel": "Developer-Hub",
       "path": "data/contentstack-docs-automation-suite/developer-hub/latest.json",
@@ -403,7 +403,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "launch",
       "suiteLabel": "Launch",
       "path": "data/contentstack-docs-automation-suite/launch/latest.json",
@@ -411,7 +411,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "marketplace",
       "suiteLabel": "Marketplace",
       "path": "data/contentstack-docs-automation-suite/marketplace/latest.json",
@@ -419,7 +419,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "personalize",
       "suiteLabel": "Personalize",
       "path": "data/contentstack-docs-automation-suite/personalize/latest.json",
@@ -427,7 +427,7 @@
     },
     {
       "project": "contentstack-docs-automation-suite",
-      "projectLabel": "Docs Contentstack AI Automation",
+      "projectLabel": "Contentstack Docs Automation Suite",
       "suite": "studio",
       "suiteLabel": "Studio",
       "path": "data/contentstack-docs-automation-suite/studio/latest.json",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "docs-contentstack-ai-automation",
-  "projectLabel": "Docs Contentstack AI Automation",
+  "projectLabel": "Contentstack Docs Automation Suite",
   "suite": "developer-hub",
   "suiteLabel": "Developer-Hub",
   "runId": "31448562587",
@@ -21,7 +21,7 @@
   "failedItems": [
     {
       "name": "https://www.contentstack.com/docs/developers/developer-hub/app-hosting",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('[data-test-id=\"hosting-save-cta\"]').first()\nExpected: enabled\nReceived: disabled\nTimeout:  90000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"hosting-save-cta\"]').first()\u001b[22m\n\u001b[2m    93 × locator resolved to <button disabled type=\"button\" aria-label=\"aria-button\" data-test-id=\"hosting-save-cta\" class=\"Button Button-save ",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('[data-test-id=\"hosting-save-cta\"]').first()\nExpected: enabled\nReceived: disabled\nTimeout:  90000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"hosting-save-cta\"]').first()\u001b[22m\n\u001b[2m    93 \u00d7 locator resolved to <button disabled type=\"button\" aria-label=\"aria-button\" data-test-id=\"hosting-save-cta\" class=\"Button Button-save ",
       "docLink": "https://www.contentstack.com/docs/developers/developer-hub/app-hosting"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/developer-hub/installing-your-app-via-developer-hub",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('[data-test-id=\"install-app-cta\"]').first()\nExpected: enabled\nReceived: disabled\nTimeout:  90000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"install-app-cta\"]').first()\u001b[22m\n\u001b[2m    93 × locator resolved to <button disabled type=\"button\" aria-label=\"aria-button\" data-test-id=\"install-app-cta\" class=\"Button Button--primary",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('[data-test-id=\"install-app-cta\"]').first()\nExpected: enabled\nReceived: disabled\nTimeout:  90000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"install-app-cta\"]').first()\u001b[22m\n\u001b[2m    93 \u00d7 locator resolved to <button disabled type=\"button\" aria-label=\"aria-button\" data-test-id=\"install-app-cta\" class=\"Button Button--primary",
       "docLink": "https://www.contentstack.com/docs/developers/developer-hub/installing-your-app-via-developer-hub"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/developer-hub/marketplace-dam-app-boilerplate",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('[data-test-id=\"hosting-save-cta\"]').first()\nExpected: enabled\nReceived: disabled\nTimeout:  90000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"hosting-save-cta\"]').first()\u001b[22m\n\u001b[2m    93 × locator resolved to <button disabled type=\"button\" aria-label=\"aria-button\" data-test-id=\"hosting-save-cta\" class=\"Button Button-save ",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('[data-test-id=\"hosting-save-cta\"]').first()\nExpected: enabled\nReceived: disabled\nTimeout:  90000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"hosting-save-cta\"]').first()\u001b[22m\n\u001b[2m    93 \u00d7 locator resolved to <button disabled type=\"button\" aria-label=\"aria-button\" data-test-id=\"hosting-save-cta\" class=\"Button Button-save ",
       "docLink": "https://www.contentstack.com/docs/developers/developer-hub/marketplace-dam-app-boilerplate"
     },
     {
@@ -66,12 +66,12 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/developer-hub/field-modifier-location",
-      "detail": "Error: Field Modifier Allowed Field Types: no visible combobox / placeholder row — extend rowScope or ctrls (allowed-field-types DOM).",
+      "detail": "Error: Field Modifier Allowed Field Types: no visible combobox / placeholder row \u2014 extend rowScope or ctrls (allowed-field-types DOM).",
       "docLink": "https://www.contentstack.com/docs/developers/developer-hub/field-modifier-location"
     },
     {
       "name": "https://www.contentstack.com/docs/developers/developer-hub/global-full-page",
-      "detail": "Error: Developer Hub listing: could not open an app containing \"Mc55a2cb6\". Ensure that slug appears on an app card, or unset **value** /**DEV_HUB_LISTING_APP_NAME** to use doc “any app” heuristics.",
+      "detail": "Error: Developer Hub listing: could not open an app containing \"Mc55a2cb6\". Ensure that slug appears on an app card, or unset **value** /**DEV_HUB_LISTING_APP_NAME** to use doc \u201cany app\u201d heuristics.",
       "docLink": "https://www.contentstack.com/docs/developers/developer-hub/global-full-page"
     }
   ],
