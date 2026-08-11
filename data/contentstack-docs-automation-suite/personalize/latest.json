@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "project": "docs-contentstack-ai-automation",
+  "project": "contentstack-docs-automation-suite",
   "projectLabel": "Docs Contentstack AI Automation",
   "suite": "personalize",
   "suiteLabel": "Personalize",
@@ -41,7 +41,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/personalize/add-event-to-ab-test-experience",
-      "detail": "Error: A/B Test (doc): could not select a Metrics event — create at least one Event in this Personalize project (doc Prerequisites), or set PERSONALIZE_AB_TEST_METRIC_EVENT_CONTAINS.",
+      "detail": "Error: A/B Test (doc): could not select a Metrics event \u2014 create at least one Event in this Personalize project (doc Prerequisites), or set PERSONALIZE_AB_TEST_METRIC_EVENT_CONTAINS.",
       "docLink": "https://www.contentstack.com/docs/personalize/add-event-to-ab-test-experience"
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/personalize/delete-experience",
-      "detail": "Error: Personalize Audiences: row ⋮ Delete did not become visible within 30000ms (expected cs-vertical-action-tooltip-actions→cs-ct-action-delete, VerticalActionTooltip, #tableRowActionNode Delete, or menuitem Delete in main).",
+      "detail": "Error: Personalize Audiences: row \u22ee Delete did not become visible within 30000ms (expected cs-vertical-action-tooltip-actions\u2192cs-ct-action-delete, VerticalActionTooltip, #tableRowActionNode Delete, or menuitem Delete in main).",
       "docLink": "https://www.contentstack.com/docs/personalize/delete-experience"
     }
   ],

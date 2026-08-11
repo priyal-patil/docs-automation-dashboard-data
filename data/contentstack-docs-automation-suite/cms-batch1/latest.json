@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "project": "docs-contentstack-ai-automation",
+  "project": "contentstack-docs-automation-suite",
   "projectLabel": "Docs Contentstack AI Automation",
   "suite": "cms-batch1",
   "suiteLabel": "CMS Batch 1",
