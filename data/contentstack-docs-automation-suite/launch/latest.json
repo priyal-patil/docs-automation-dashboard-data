@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "project": "contentstack-docs-automation-suite",
-  "projectLabel": "Contentstack Docs Automation Suite",
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
   "suite": "launch",
   "suiteLabel": "Launch",
-  "runId": "31335847797",
-  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31335847797",
-  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31335847797#artifacts",
-  "timestamp": "2026-08-09T21:17:50.630Z",
-  "durationSeconds": 794,
+  "runId": "31433446773",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31433446773",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31433446773#artifacts",
+  "timestamp": "2026-08-10T21:33:50.252Z",
+  "durationSeconds": 698,
   "totals": {
     "total": 19,
     "passed": 0,
@@ -51,7 +51,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/launch/disable-automatic-redeployment",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[role=\"dialog\"] [data-test-id=\"cs-modal-title\"]:has-text(\"Create New Project\"), h3[data-test-id=\"cs-modal-title\"]:has-text(\"Create New Project\"), [data-test-id=\"cs-modal-title\"]:has-text(\"Create New Project\")').first()\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"dialog\"",
+      "detail": "Error: Label/field-name verification mismatch for \"Launch Projects page title (doc step)\": Label validation failed: expected \"Launch Projects\" (contains), got \"launch dashboard\".",
       "docLink": "https://www.contentstack.com/docs/developers/launch/disable-automatic-redeployment"
     },
     {

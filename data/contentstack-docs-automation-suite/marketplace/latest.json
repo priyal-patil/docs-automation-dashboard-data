@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "project": "contentstack-docs-automation-suite",
-  "projectLabel": "Contentstack Docs Automation Suite",
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
   "suite": "marketplace",
   "suiteLabel": "Marketplace",
-  "runId": "31350192769",
-  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31350192769",
-  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31350192769#artifacts",
-  "timestamp": "2026-08-10T03:40:58.373Z",
-  "durationSeconds": 3886,
+  "runId": "31452473347",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31452473347",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31452473347#artifacts",
+  "timestamp": "2026-08-11T03:33:41.207Z",
+  "durationSeconds": 3866,
   "totals": {
     "total": 15,
     "passed": 3,
@@ -41,7 +41,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/marketplace-platform-guides/installed-apps",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.Accordion__heading__toggle, [class*=\"Accordion__heading__toggle\"], svg[name=\"CaretDown\"], [data-test-id=\"cs-icon\"][name=\"CaretDown\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('.Accordion__heading__toggle, [class*=\"Accordion__heading__toggle\"], svg[name=\"CaretDown\"]",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('span:has-text(\"Required\"), [class*=\"required\"]:has-text(\"Required\"), [class*=\"Required\"]:has-text(\"Required\"), [class*=\"badge\"]:has-text(\"Required\")').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('span:has-text(\"Required\"), [class*=\"required\"]:has-text(\"Required\"), [clas",
       "docLink": "https://www.contentstack.com/docs/developers/marketplace-platform-guides/installed-apps"
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/marketplace-apps/content-type-visualizer",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('iframe').first().contentFrame().locator('article').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('iframe').first().contentFrame().locator('article').first()\u001b[22m",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('iframe').first().contentFrame().locator('button:has-text(\"Copy\"), [aria-label*=\"copy\" i]').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('iframe').first().contentFrame().locator('button:has-text(\"Copy\"), [aria-label*=\"copy\" i]').first()\u001b[22m",
       "docLink": "https://www.contentstack.com/docs/developers/marketplace-apps/content-type-visualizer"
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/marketplace-apps/healthcheck",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id*=\"healthcheck\"], [data-test-id*=\"health-check\"], a:has-text(\"Healthcheck\"), button:has-text(\"Healthcheck\"), [role=\"menuitem\"]:has-text(\"Healthcheck\"), li:has-text(\"Healthcheck\") a, a:has-text(\"Health Check\"), button:has-text(\"Health Check\"), [role=\"menuitem\"]:has-text(\"Health Check\"), li:has-text(\"Health Check\") a, [class*=\"dropdown\"] a:has-text(\"Healthcheck\"), [class*=\"drop",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button:has-text(\"Customize and Run\"), a:has-text(\"Customize and Run\"), [data-test-id*=\"customize-run\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('button:has-text(\"Customize and Run\"), a:has-text(\"Customize and Run\"), [data-test-id*=\"customize-run\"]').first()\u001b[22m",
       "docLink": "https://www.contentstack.com/docs/developers/marketplace-apps/healthcheck"
     },
     {

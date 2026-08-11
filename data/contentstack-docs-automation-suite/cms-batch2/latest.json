@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "project": "contentstack-docs-automation-suite",
-  "projectLabel": "Contentstack Docs Automation Suite",
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
   "suite": "cms-batch2",
   "suiteLabel": "CMS Batch 2",
-  "runId": "31340848631",
-  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31340848631",
-  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31340848631#artifacts",
-  "timestamp": "2026-08-10T03:31:06.065Z",
-  "durationSeconds": 15137,
+  "runId": "31441152373",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31441152373",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31441152373#artifacts",
+  "timestamp": "2026-08-11T03:47:10.516Z",
+  "durationSeconds": 15199,
   "totals": {
     "total": 215,
-    "passed": 119,
-    "failed": 96,
+    "passed": 120,
+    "failed": 95,
     "skipped": 0,
-    "warnings": 64,
+    "warnings": 68,
     "timedOut": 12,
     "interrupted": 0
   },
@@ -23,11 +23,6 @@
       "name": "https://www.contentstack.com/docs/developers/multilingual-content/non-localizable-field",
       "detail": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
       "docLink": "https://www.contentstack.com/docs/developers/multilingual-content/non-localizable-field"
-    },
-    {
-      "name": "https://www.contentstack.com/docs/developers/branches/edit-an-alias",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"cs-edit-branch-alias-title\"]:has-text(\"Edit Alias\"), .create-new-alias-title:has-text(\"Edit Alias\"), .ReactModal__alias').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-edit-branch-alias-title\"]:has-text(\"Edit Alias\"), .create-new-alias-ti",
-      "docLink": "https://www.contentstack.com/docs/developers/branches/edit-an-alias"
     },
     {
       "name": "https://www.contentstack.com/docs/developers/branches/use-branches-and-aliases-to-drive-continuous-integration-and-deployment",
@@ -91,12 +86,12 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/global-field/global-fields-within-group-fields",
-      "detail": "Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open '/__w/contentstack-docs-automation-suite/contentstack-docs-automation-suite/test-results/.playwright-artifacts-1/traces/86d6a544053f1eb9f224-a0bbe973657954d6e869-retry1.trace'",
+      "detail": "Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open '/__w/contentstack-docs-automation-suite/contentstack-docs-automation-suite/test-results/.playwright-artifacts-1/traces/86d6a544053f1eb9f224-a0bbe973657954d6e869-retry1.network'",
       "docLink": "https://www.contentstack.com/docs/developers/global-field/global-fields-within-group-fields"
     },
     {
       "name": "https://www.contentstack.com/docs/developers/global-field/group-fields-within-global-fields",
-      "detail": "Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open '/__w/contentstack-docs-automation-suite/contentstack-docs-automation-suite/test-results/.playwright-artifacts-1/traces/86d6a544053f1eb9f224-eed63efd6d2bce6e7865-retry1.trace'",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"cs-content-type-field-single-line-textbox-basic-display-name-input\"] input, [class*=\"FieldProperties\"] input[placeholder=\"Enter value\"], [role=\"tabpanel\"] input[placeholder=\"Enter value\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-co",
       "docLink": "https://www.contentstack.com/docs/developers/global-field/group-fields-within-global-fields"
     },
     {
@@ -140,11 +135,6 @@
       "docLink": "https://www.contentstack.com/docs/content-managers/author-content/restore-old-asset-version"
     },
     {
-      "name": "https://www.contentstack.com/docs/content-managers/author-content/publish-an-asset",
-      "detail": "Error: No \"Not Published\" asset row found for publish-an-asset — checked root and first 8 folders.",
-      "docLink": "https://www.contentstack.com/docs/content-managers/author-content/publish-an-asset"
-    },
-    {
       "name": "https://www.contentstack.com/docs/content-managers/author-content/unpublish-an-asset",
       "detail": "Error: No \"Published\" asset row found for unpublish-an-asset — checked root and first 8 folders.",
       "docLink": "https://www.contentstack.com/docs/content-managers/author-content/unpublish-an-asset"
@@ -165,8 +155,13 @@
       "docLink": "https://www.contentstack.com/docs/content-managers/author-content/adding-terms-to-entries-with-taxonomy"
     },
     {
+      "name": "https://www.contentstack.com/docs/developers/json-rich-text-editor/json-rte-comments",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"cs-edit-entry-field-json_rte\"] #scrte-editable, #scrte-editable').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-edit-entry-field-json_rte\"] #scrte-editable, #scrte-editable').first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/json-rte-comments"
+    },
+    {
       "name": "https://www.contentstack.com/docs/content-managers/author-content/view-entry-references",
-      "detail": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id^=\"cs-table-body-row-0\"], [role=\"row\"][data-test-id^=\"cs-table-body-row-\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id^=\"cs-table-body-row-0\"], [role=\"row\"][data-test-id^=\"cs-table-body-row-\"]').first()\u001b[22m",
       "docLink": "https://www.contentstack.com/docs/content-managers/author-content/view-entry-references"
     },
     {
@@ -210,16 +205,6 @@
       "docLink": "https://www.contentstack.com/docs/content-managers/author-content/reply-to-a-comment"
     },
     {
-      "name": "https://www.contentstack.com/docs/content-managers/author-content/resolve-a-discussion",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button:has-text(\"Resolve\"), [data-test-id*=\"resolve\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('button:has-text(\"Resolve\"), [data-test-id*=\"resolve\"]').first()\u001b[22m",
-      "docLink": "https://www.contentstack.com/docs/content-managers/author-content/resolve-a-discussion"
-    },
-    {
-      "name": "https://www.contentstack.com/docs/content-managers/author-content/reopen-a-discussion",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.discussion-board .comment, [data-test-id^=\"cs-timeline-comment-\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('.discussion-board .comment, [data-test-id^=\"cs-timeline-comment-\"]').first()\u001b[22m",
-      "docLink": "https://www.contentstack.com/docs/content-managers/author-content/reopen-a-discussion"
-    },
-    {
       "name": "https://www.contentstack.com/docs/content-managers/author-content/relink-a-discussion",
       "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.discussion-board .comment, [data-test-id^=\"cs-timeline-comment-\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('.discussion-board .comment, [data-test-id^=\"cs-timeline-comment-\"]').first()\u001b[22m",
       "docLink": "https://www.contentstack.com/docs/content-managers/author-content/relink-a-discussion"
@@ -250,23 +235,28 @@
       "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/basic-formatting"
     },
     {
+      "name": "https://www.contentstack.com/docs/developers/json-rich-text-editor/code-blocks",
+      "detail": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-edit-entry-field-json_rte\"] #scrte-editable, #scrte-editable').first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/code-blocks"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/developers/json-rich-text-editor/markdown-content",
+      "detail": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-edit-entry-field-json_rte\"] #scrte-editable, #scrte-editable').first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/markdown-content"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/developers/json-rich-text-editor/assets",
+      "detail": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-edit-entry-field-json_rte\"] #scrte-editable, #scrte-editable').first()\u001b[22m",
+      "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/assets"
+    },
+    {
       "name": "https://www.contentstack.com/docs/developers/json-rich-text-editor/videos-and-social-embeds",
       "detail": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-edit-entry-field-json_rte\"] #scrte-editable, #scrte-editable').first()\u001b[22m",
       "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/videos-and-social-embeds"
     },
     {
-      "name": "https://www.contentstack.com/docs/developers/json-rich-text-editor/embed-entries-or-assets",
-      "detail": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-edit-entry-field-json_rte\"] #scrte-editable, #scrte-editable').first()\u001b[22m",
-      "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/embed-entries-or-assets"
-    },
-    {
-      "name": "https://www.contentstack.com/docs/developers/json-rich-text-editor/embed-entries-or-assets",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"cms-nav-entries\"]').first()\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"cms-nav-entries\"]').first()\u001b[22m",
-      "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/embed-entries-or-assets"
-    },
-    {
       "name": "https://www.contentstack.com/docs/developers/json-rich-text-editor/block-and-inline-properties",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByLabel(/email/i).first()\nExpected: not visible\nReceived: visible\nTimeout:  90000ms\n\nCall log:\n\u001b[2m  - Expect \"not toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel(/email/i).first()\u001b[22m\n\u001b[2m    93 × locator resolved to <input id=\"email\" dir=\"auto\" name=\"email\" type=\"email\" aria-label=\"email\" autocomplete=\"off\" value=\"qa.test@contentstack.com\" class=\"TextInput__input T",
+      "detail": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test-id=\"cs-edit-entry-field-json_rte\"] #scrte-editable, #scrte-editable').first()\u001b[22m",
       "docLink": "https://www.contentstack.com/docs/developers/json-rich-text-editor/block-and-inline-properties"
     },
     {
@@ -295,13 +285,18 @@
       "docLink": "https://www.contentstack.com/docs/content-managers/author-content/track-and-edit-content-in-real-time"
     },
     {
+      "name": "https://www.contentstack.com/docs/content-managers/author-content/preview-content-on-different-environments",
+      "detail": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+      "docLink": "https://www.contentstack.com/docs/content-managers/author-content/preview-content-on-different-environments"
+    },
+    {
       "name": "https://www.contentstack.com/docs/developers/create-content-types/import-prebuilt-content-models",
       "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button[data-test-id=\"cs-button\"]:has-text(\"View Content Models\"), button:has-text(\"View Content Models\")').first()\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 120000ms\u001b[22m\n\u001b[2m  - waiting for locator('button[data-test-id=\"cs-button\"]:has-text(\"View Content Models\"), button:has-text(\"View Content Models\")').first()\u001b[",
       "docLink": "https://www.contentstack.com/docs/developers/create-content-types/import-prebuilt-content-models"
     },
     {
       "name": "https://www.contentstack.com/docs/developers/security/account-lockout-policy",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"orgadmin-nav-users\"], button[aria-label=\"Users\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"orgadmin-nav-users\"], button[aria-label=\"Users\"]').first()\u001b[22m",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.VerticalActionTooltip, [role=\\'menu\\']').first().locator('li:has-text(\"Unlock User\"), [role=\"menuitem\"]:has-text(\"Unlock User\")').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('.VerticalActionTooltip, [role=\\'menu\\']').first().locator('li:has-text(\"Unlock User\"), [role=\"",
       "docLink": "https://www.contentstack.com/docs/developers/security/account-lockout-policy"
     },
     {
@@ -376,7 +371,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/taxonomy/edit-a-term",
-      "detail": "Error: Label/field-name verification mismatch for \"Term Details section title (doc step)\": Label validation failed: expected \"Term Details\" (contains), got \"doc term sibling ad8ad\".",
+      "detail": "Error: Label/field-name verification mismatch for \"Term Details section title (doc step)\": Label validation failed: expected \"Term Details\" (contains), got \"doc term sibling ad2b7\".",
       "docLink": "https://www.contentstack.com/docs/developers/taxonomy/edit-a-term"
     },
     {

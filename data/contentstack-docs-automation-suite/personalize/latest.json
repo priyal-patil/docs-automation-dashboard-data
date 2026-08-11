@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "project": "contentstack-docs-automation-suite",
-  "projectLabel": "Contentstack Docs Automation Suite",
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
   "suite": "personalize",
   "suiteLabel": "Personalize",
-  "runId": "31350355329",
-  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31350355329",
-  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31350355329#artifacts",
-  "timestamp": "2026-08-10T03:05:48.825Z",
-  "durationSeconds": 1568,
+  "runId": "31452665158",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31452665158",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31452665158#artifacts",
+  "timestamp": "2026-08-11T03:00:40.525Z",
+  "durationSeconds": 1659,
   "totals": {
     "total": 23,
-    "passed": 10,
-    "failed": 13,
+    "passed": 12,
+    "failed": 11,
     "skipped": 0,
     "warnings": 2,
     "timedOut": 0,
@@ -53,16 +53,6 @@
       "name": "https://www.contentstack.com/docs/personalize/create-segmented-experience",
       "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('dialog').filter({ hasText: /Audience/i }).first().locator('[role=\"row\"]').filter({ hasText: /\\S/ }).nth(1)\nExpected: visible\nTimeout: 35000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 35000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('dialog').filter({ hasText: /Audience/i }).first().locator('[role=\"row\"]').filter({ hasText: /\\S/ }).nth(1)\u001b[22m",
       "docLink": "https://www.contentstack.com/docs/personalize/create-segmented-experience"
-    },
-    {
-      "name": "https://www.contentstack.com/docs/personalize/edit-audience",
-      "detail": "Error: Personalize listing row ⋮ Edit did not become visible within 30000ms (expected cs-vertical-action-tooltip-actions→cs-ct-action-edit, VerticalActionTooltip, #tableRowActionNode, plain Edit in #tableRowActionNode, or main#react-personalize menuitem Edit / Edit Text).",
-      "docLink": "https://www.contentstack.com/docs/personalize/edit-audience"
-    },
-    {
-      "name": "https://www.contentstack.com/docs/personalize/edit-event",
-      "detail": "Error: Personalize listing row ⋮ Edit did not become visible within 30000ms (expected cs-vertical-action-tooltip-actions→cs-ct-action-edit, VerticalActionTooltip, #tableRowActionNode, plain Edit in #tableRowActionNode, or main#react-personalize menuitem Edit / Edit Text).",
-      "docLink": "https://www.contentstack.com/docs/personalize/edit-event"
     },
     {
       "name": "https://www.contentstack.com/docs/content-managers/entry-variants/create-an-entry-variant",

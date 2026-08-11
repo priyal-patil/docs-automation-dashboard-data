@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "project": "contentstack-docs-automation-suite",
-  "projectLabel": "Contentstack Docs Automation Suite",
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
   "suite": "cms-batch1",
   "suiteLabel": "CMS Batch 1",
-  "runId": "31340848631",
-  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31340848631",
-  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31340848631#artifacts",
-  "timestamp": "2026-08-09T23:17:51.063Z",
-  "durationSeconds": 936,
+  "runId": "31441152373",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31441152373",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31441152373#artifacts",
+  "timestamp": "2026-08-10T23:32:53.462Z",
+  "durationSeconds": 1421,
   "totals": {
     "total": 31,
     "passed": 30,
     "failed": 1,
     "skipped": 0,
     "warnings": 19,
-    "timedOut": 0,
+    "timedOut": 1,
     "interrupted": 0
   },
   "failedItems": [
     {
       "name": "https://www.contentstack.com/docs/content-managers/create-and-manage-releases/create-a-new-release",
-      "detail": "Error: Label/field-name verification mismatch for \"Save button in release modal (doc step)\": Label validation failed: expected \"Save\" (contains), got \"create\".",
+      "detail": "\u001b[31mTest timeout of 300000ms exceeded.\u001b[39m",
       "docLink": "https://www.contentstack.com/docs/content-managers/create-and-manage-releases/create-a-new-release"
     }
   ],

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "project": "contentstack-docs-automation-suite",
-  "projectLabel": "Contentstack Docs Automation Suite",
+  "project": "docs-contentstack-ai-automation",
+  "projectLabel": "Docs Contentstack AI Automation",
   "suite": "developer-hub",
   "suiteLabel": "Developer-Hub",
-  "runId": "31346548158",
-  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31346548158",
-  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31346548158#artifacts",
-  "timestamp": "2026-08-10T01:45:27.349Z",
-  "durationSeconds": 1827,
+  "runId": "31448562587",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31448562587",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31448562587#artifacts",
+  "timestamp": "2026-08-11T01:43:13.752Z",
+  "durationSeconds": 1806,
   "totals": {
     "total": 22,
     "passed": 11,
@@ -41,7 +41,7 @@
     },
     {
       "name": "https://www.contentstack.com/docs/developers/developer-hub/installing-your-app-via-developer-hub",
-      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#InstallationCardContent, .OAuth_Consent_Card').filter({ visible: true }).first().locator('[data-test-id=\"cs-field-label\"] span').filter({ hasText: /^\\s*Select\\s+stack/ }).first()\nExpected: visible\nTimeout: 45000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 45000ms\u001b[22m\n\u001b[2m  - waiting for locator('#InstallationCardContent, .OAuth_Consent_Card').filte",
+      "detail": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('[data-test-id=\"install-app-cta\"]').first()\nExpected: enabled\nReceived: disabled\nTimeout:  90000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test-id=\"install-app-cta\"]').first()\u001b[22m\n\u001b[2m    93 × locator resolved to <button disabled type=\"button\" aria-label=\"aria-button\" data-test-id=\"install-app-cta\" class=\"Button Button--primary",
       "docLink": "https://www.contentstack.com/docs/developers/developer-hub/installing-your-app-via-developer-hub"
     },
     {
