@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "project": "contentstack-docs-automation-suite",
+  "projectLabel": "Contentstack Docs Automation Suite",
+  "suite": "analytics",
+  "suiteLabel": "Analytics",
+  "runId": "31508868681",
+  "runUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31508868681",
+  "artifactsUrl": "https://github.com/priyal-patil/contentstack-docs-automation-suite/actions/runs/31508868681#artifacts",
+  "timestamp": "2026-08-11T16:48:34.643Z",
+  "durationSeconds": 3656,
+  "totals": {
+    "total": 5,
+    "passed": 3,
+    "failed": 2,
+    "skipped": 0,
+    "warnings": 3,
+    "timedOut": 2,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-brand-kit",
+      "detail": "\u001b[31mTest timeout of 900000ms exceeded.\u001b[39m",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-brand-kit"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "detail": "\u001b[31mTest timeout of 900000ms exceeded.\u001b[39m",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-cms"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+    "https://www.contentstack.com/docs/analytics/analytics-for-brand-kit",
+    "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+    "https://www.contentstack.com/docs/analytics/analytics-for-launch",
+    "https://www.contentstack.com/docs/analytics/analytics-for-personalize"
+  ],
+  "items": [
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-automate-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-brand-kit",
+      "status": "fail",
+      "detail": "\u001b[31mTest timeout of 900000ms exceeded.\u001b[39m",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-brand-kit",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-brand-kit-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "status": "fail",
+      "detail": "\u001b[31mTest timeout of 900000ms exceeded.\u001b[39m",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-cms-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-launch",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-launch",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-launch-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-personalize",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-personalize",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-personalize-report.html"
+    }
+  ],
+  "warnings": [
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+      "detail": "Analytics doc step 1: DEFAULT_ORG is unset — assuming the signed-in session is already on the organization whose analytics you want to view. Set DEFAULT_ORG to automate the header organization dropdown.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-automate-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+      "detail": "Documentation: click the \"Analytics\" icon in the left panel to open the Analytics dashboard — this flow does not automate that path. Continuing via Organization dashboard (`#!/dashboard`) Analytics product tile `[data-test-id=\"cs-global-dashboard-product-tile-analytics\"]` (see data/dom/Analytics/dashboard-analytics-card.html).",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-automate-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+      "detail": "Automate analytics hub Automate dashboard label visible after tab switch (doc step): visible \"Automate\" not found as tab, heading, link, or exact text after switching dashboards — Analytics hub layout may differ from automation assumptions.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-automate",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-automate-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-brand-kit",
+      "detail": "Brand Kit analytics AI Assistant Request section heading (doc step): heading or exact label \"AI Assistant Request\" not visible (Brand Kit Analytics dashboard); lazy-loaded, relabeled, or different typography than assumptions.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-brand-kit",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-brand-kit-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-launch",
+      "detail": "Analytics doc step 1: DEFAULT_ORG is unset — assuming the signed-in session is already on the organization whose analytics you want to view. Set DEFAULT_ORG to automate the header organization dropdown.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-launch",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-launch-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-launch",
+      "detail": "Documentation: click the \"Analytics\" icon in the left panel to open the Analytics dashboard — this flow does not automate that path. Continuing via Organization dashboard (`#!/dashboard`) Analytics product tile `[data-test-id=\"cs-global-dashboard-product-tile-analytics\"]` (see data/dom/Analytics/dashboard-analytics-card.html).",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-launch",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-launch-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-personalize",
+      "detail": "Analytics doc step 1: DEFAULT_ORG is unset — assuming the signed-in session is already on the organization whose analytics you want to view. Set DEFAULT_ORG to automate the header organization dropdown.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-personalize",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-personalize-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-personalize",
+      "detail": "Documentation: click the \"Analytics\" icon in the left panel to open the Analytics dashboard — this flow does not automate that path. Continuing via Organization dashboard (`#!/dashboard`) Analytics product tile `[data-test-id=\"cs-global-dashboard-product-tile-analytics\"]` (see data/dom/Analytics/dashboard-analytics-card.html).",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-personalize",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-personalize-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "detail": "Analytics doc step 1: DEFAULT_ORG is unset — assuming the signed-in session is already on the organization whose analytics you want to view. Set DEFAULT_ORG to automate the header organization dropdown.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-cms-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "detail": "Documentation: click the \"Analytics\" icon in the left panel to open the Analytics dashboard — this flow does not automate that path. Continuing via Organization dashboard (`#!/dashboard`) Analytics product tile `[data-test-id=\"cs-global-dashboard-product-tile-analytics\"]` (see data/dom/Analytics/dashboard-analytics-card.html).",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-cms-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "detail": "Usage by Stacks table column Custom Roles (doc step): column/header \"Custom Roles\" not visible in Usage by Stacks table — UI may use different header markup, truncated labels, or a non-table grid.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-cms-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "detail": "Usage by Stacks table column Branches (doc step): could not locate Usage by Stacks table — column \"Branches\" (doc-listed metric) not verified.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-cms-report.html"
+    },
+    {
+      "name": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "detail": "Usage by Stacks table column Branch Aliases (doc step): could not locate Usage by Stacks table — column \"Branch Aliases\" (doc-listed metric) not verified.",
+      "docLink": "https://www.contentstack.com/docs/analytics/analytics-for-cms",
+      "reportUrl": "data/contentstack-docs-automation-suite/analytics/reports/analytics-for-cms-report.html"
+    }
+  ]
+}
