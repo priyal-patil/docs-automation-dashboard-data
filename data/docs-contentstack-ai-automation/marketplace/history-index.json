@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-11T03:33:41.207Z",
+    "runId": "31452473347",
+    "path": "data/docs-contentstack-ai-automation/marketplace/history/2026-08-11T03-33-41-207Z__31452473347.json",
+    "totals": {
+      "total": 15,
+      "passed": 3,
+      "failed": 12,
+      "skipped": 0,
+      "warnings": 3,
+      "timedOut": 1,
+      "interrupted": 0
+    }
+  }
+]
