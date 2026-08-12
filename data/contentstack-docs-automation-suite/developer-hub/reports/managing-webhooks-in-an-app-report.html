@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flow Report: managing-webhooks-in-an-app</title>
+  <style>
+    body{font-family:system-ui,-apple-system,sans-serif;background:#f6f7fb;margin:0;padding:24px;color:#1f2937}
+    .wrap{max-width:1200px;margin:0 auto}
+    h1{margin:0 0 8px 0}
+    .meta{color:#6b7280;font-size:13px;margin-bottom:20px}
+    .meta a{color:#6c5ce7}
+    .cards{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+    .card{background:white;border-radius:10px;padding:14px 20px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+    .card .value{font-size:22px;font-weight:700}
+    .card .label{font-size:12px;color:#6b7280}
+    .green{color:#15803d}.red{color:#b91c1c}.amber{color:#b45309}
+    section{background:white;border-radius:10px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-bottom:14px;overflow-x:auto}
+    h2{font-size:17px;margin:0 0 12px 0}
+    table{width:100%;border-collapse:collapse;font-size:13px}
+    th,td{padding:9px 10px;border-bottom:1px solid #eceff3;text-align:left;vertical-align:top}
+    th{background:#f8fafc;font-weight:600}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    .small{font-size:11px;max-width:220px;word-break:break-all}
+    .step-warning{background:#fffbeb}
+    .step-failed{background:#fef2f2}
+    .step-skipped{background:#f3f4f6}
+    .skipped-msg{color:#4b5563;font-size:12px}
+    .fail-msg{color:#b91c1c;font-size:12px}
+    .missing-on-page{background:#fff7ed;border:1px solid #fdba74;border-radius:6px;padding:8px;margin:6px 0;font-size:12px;color:#9a3412}
+    .err-detail{margin-top:6px;font-size:11px;color:#7f1d1d;word-break:break-word}
+    .fail-shot{margin-top:8px;font-size:12px}
+    .fail-thumb{max-width:100%;max-height:280px;margin-top:6px;border-radius:6px;border:1px solid #fecaca;cursor:zoom-in}
+    .warn-msg{color:#b45309;font-size:12px}
+    .pass-msg{color:#15803d;font-size:12px}
+    .warnings-box{background:#fffbeb;border:1px solid #fcd34d;border-radius:8px;padding:12px;margin-top:12px}
+    .warnings-box h3{font-size:14px;margin:0 0 8px 0;color:#b45309}
+    .warnings-box ul{margin:0;padding-left:18px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Flow Report: managing-webhooks-in-an-app</h1>
+    <div class="meta">
+      Document: <a href="https://www.contentstack.com/docs/developers/developer-hub/managing-webhooks-in-an-app" target="_blank" rel="noopener noreferrer">https://www.contentstack.com/docs/developers/developer-hub/managing-webhooks-in-an-app</a><br/>
+      Generated: 2026-08-12T01:51:16.219Z
+      
+    </div>
+    <div class="cards">
+      <div class="card"><div class="value">39</div><div class="label">Steps (in flow)</div></div>
+      <div class="card"><div class="value green">0</div><div class="label">Failed steps</div></div>
+      <div class="card"><div class="value amber">0</div><div class="label">Warnings</div></div>
+      <div class="card"><div class="value green">39</div><div class="label">Steps with no failure/warning in table below</div></div>
+    </div>
+
+    <section>
+      <h2>Steps & Results</h2>
+      <table>
+        <thead>
+          <tr><th>#</th><th>Action</th><th>Target</th><th>Expected</th><th>Value</th><th>Result / warning</th></tr>
+        </thead>
+        <tbody><tr class=""><td>1</td><td>verify</td><td class="mono">Developer Hub dashboard Developer Hub tile label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Developer Hub&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Organization dashboard Developer Hub product tile (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>click</td><td class="mono">Developer Hub doc open any app from listing (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>verify</td><td class="mono">Developer Hub General Webhooks sidebar item (doc step)</td><td class="mono small">{&quot;within&quot;:&quot;Left Navigation&quot;,&quot;labelEquals&quot;:&quot;Webhooks&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>click</td><td class="mono">Developer Hub app settings Webhooks nav (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>6</td><td>verify</td><td class="mono">Developer Hub Webhooks page heading (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Webhooks&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>7</td><td>verify</td><td class="mono">Developer Hub Webhooks Enable Webhook section heading (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Enable Webhook&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>8</td><td>verify</td><td class="mono">Developer Hub Webhooks Enable Webhook toggle label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Enable Webhook&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Developer Hub Webhooks Enable Webhook toggle click (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>verify</td><td class="mono">Developer Hub Webhooks Configure Webhook section heading (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Configure Webhook&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>11</td><td>verify</td><td class="mono">Developer Hub Webhooks URL to Notify field label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;URL to Notify&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>12</td><td>enter</td><td class="mono">Developer Hub Webhooks URL to Notify input (doc step)</td><td class="mono small">—</td><td class="mono small">https://example.com/webhook-{unique5}</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>13</td><td>verify</td><td class="mono">Developer Hub Webhooks HTTP Basic Auth Username field label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;HTTP Basic Auth Username&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>14</td><td>verify</td><td class="mono">Developer Hub Webhooks HTTP Basic Auth Password field label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;HTTP Basic Auth Password&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>15</td><td>verify</td><td class="mono">Developer Hub Webhooks Custom Headers accordion title (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Custom Headers&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>16</td><td>verify</td><td class="mono">Developer Hub Webhooks Custom Headers Header Name field label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Header Name&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>17</td><td>verify</td><td class="mono">Developer Hub Webhooks Custom Headers Value field label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Value&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>18</td><td>verify</td><td class="mono">Developer Hub Webhooks Custom Header add button (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Custom Header&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>19</td><td>verify</td><td class="mono">Developer Hub Webhooks App Events accordion title (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;App Events&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>20</td><td>verify</td><td class="mono">Developer Hub Webhooks App Events The App Is label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;The App Is&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>21</td><td>verify</td><td class="mono">Developer Hub Webhooks App event Installed option label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Installed&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>22</td><td>verify</td><td class="mono">Developer Hub Webhooks App event Updated option label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Updated&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>23</td><td>verify</td><td class="mono">Developer Hub Webhooks App event Upgraded option label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Upgraded&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>24</td><td>verify</td><td class="mono">Developer Hub Webhooks App event Uninstalled option label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Uninstalled&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>25</td><td>click</td><td class="mono">Developer Hub Webhooks App event Installed checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>26</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch-level Scope accordion title (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Branch-level Scope&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>27</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch scope Branch dropdown value Main Branch (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Main Branch&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>28</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch Event accordion title (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Branch Event(s)&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>29</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch Event subgroup label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Branch Event(s)&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>30</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch event Create Completed option label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Create - Completed&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>31</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch event Delete Completed option label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete - Completed&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>32</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch Alias accordion title (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Branch Alias(es) Event(s)&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>33</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch alias Assigned option label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Assigned&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>34</td><td>verify</td><td class="mono">Developer Hub Webhooks Branch alias Unassigned option label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Unassigned&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>35</td><td>verify</td><td class="mono">Developer Hub Webhooks Stack Events accordion title (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Stack Events&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>36</td><td>verify</td><td class="mono">Developer Hub Webhooks Stack Events subgroup Any Entry label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Any Entry&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>37</td><td>verify</td><td class="mono">Developer Hub Webhooks User(s) to Notify field label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;User(s) to Notify&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>38</td><td>verify</td><td class="mono">Developer Hub Webhooks manifest Save button control (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Save&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>39</td><td>click</td><td class="mono">Developer Hub Webhooks manifest Save click (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
+      </table>
+    </section>
+
+    
+    
+    
+  </div>
+</body>
+</html>
