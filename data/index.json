@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T03:19:24.733Z",
+  "generatedAt": "2026-08-13T03:24:28.842Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -415,7 +415,7 @@
       "suite": "marketplace",
       "suiteLabel": "Marketplace",
       "path": "data/contentstack-docs-automation-suite/marketplace/latest.json",
-      "lastUpdated": "2026-08-12T03:43:56.064Z"
+      "lastUpdated": "2026-08-13T03:24:27.957Z"
     },
     {
       "project": "contentstack-docs-automation-suite",
