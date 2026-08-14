@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T23:52:02.082Z",
+  "generatedAt": "2026-08-14T00:49:16.594Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -351,7 +351,7 @@
       "suite": "brandkit",
       "suiteLabel": "BrandKit",
       "path": "data/contentstack-docs-automation-suite/brandkit/latest.json",
-      "lastUpdated": "2026-08-13T00:37:05.473Z"
+      "lastUpdated": "2026-08-14T00:49:14.759Z"
     },
     {
       "project": "contentstack-docs-automation-suite",
