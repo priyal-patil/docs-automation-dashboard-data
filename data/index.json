@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:10:06.021Z",
+  "generatedAt": "2026-08-15T03:22:35.987Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -311,7 +311,7 @@
       "suite": "bulk-operations",
       "suiteLabel": "Bulk Operations in CLI",
       "path": "data/developer-resources-docs-automation/bulk-operations/latest.json",
-      "lastUpdated": "2026-08-05T03:58:35.766Z"
+      "lastUpdated": "2026-08-15T02:45:25.544Z"
     },
     {
       "project": "developer-resources-docs-automation",
