@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:42:56.771Z",
+  "generatedAt": "2026-08-15T02:44:58.468Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -255,7 +255,7 @@
       "suite": "configure-proxy-settings",
       "suiteLabel": "Configure Proxy Settings in CLI",
       "path": "data/developer-resources-docs-automation/configure-proxy-settings/latest.json",
-      "lastUpdated": "2026-08-05T03:57:19.745Z"
+      "lastUpdated": "2026-08-15T02:44:32.155Z"
     },
     {
       "project": "developer-resources-docs-automation",
