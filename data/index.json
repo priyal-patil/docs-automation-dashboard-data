@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T22:48:35.538Z",
+  "generatedAt": "2026-08-15T22:50:04.618Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -31,7 +31,7 @@
       "suite": "genai",
       "suiteLabel": "Generative AI API",
       "path": "data/api-docs-automation/genai/latest.json",
-      "lastUpdated": "2026-08-04T23:34:54.024Z"
+      "lastUpdated": "2026-08-15T22:50:03.242Z"
     },
     {
       "project": "api-docs-automation",
