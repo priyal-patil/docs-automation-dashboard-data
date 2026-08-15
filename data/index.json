@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:07:05.850Z",
+  "generatedAt": "2026-08-15T03:10:06.021Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -271,7 +271,7 @@
       "suite": "cli-for-cs-assets",
       "suiteLabel": "CLI for CS Assets",
       "path": "data/developer-resources-docs-automation/cli-for-cs-assets/latest.json",
-      "lastUpdated": "2026-08-05T03:58:36.402Z"
+      "lastUpdated": "2026-08-15T02:58:53.016Z"
     },
     {
       "project": "developer-resources-docs-automation",
