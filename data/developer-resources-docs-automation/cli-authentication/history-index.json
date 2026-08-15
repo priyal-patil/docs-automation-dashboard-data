@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-15T01:57:46.143Z",
+    "runId": "31857852456",
+    "path": "data/developer-resources-docs-automation/cli-authentication/history/2026-08-15T01-57-46-143Z__31857852456.json",
+    "totals": {
+      "total": 24,
+      "passed": 13,
+      "failed": 6,
+      "skipped": 5,
+      "warnings": 22,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-05T03:45:47.081Z",
     "runId": "30973067296",
     "path": "data/developer-resources-docs-automation/cli-authentication/history/2026-08-05T03-45-47-081Z__30973067296.json",
