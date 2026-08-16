@@ -43,14 +43,14 @@
     <h1>Flow Report: import-content-type</h1>
     <div class="meta">
       Document: <a href="https://www.contentstack.com/docs/developers/create-content-types/import-a-content-type" target="_blank" rel="noopener noreferrer">https://www.contentstack.com/docs/developers/create-content-types/import-a-content-type</a><br/>
-      Generated: 2026-08-15T00:20:15.723Z
-      
+      Generated: 2026-08-16T00:25:12.582Z
+      <br/><strong style="color:#b91c1c">This flow had 1 failed step(s).</strong> Rows marked Passed ran before the failure (or have warnings only). See Failed steps section below.
     </div>
     <div class="cards">
       <div class="card"><div class="value">5</div><div class="label">Steps (in flow)</div></div>
-      <div class="card"><div class="value green">0</div><div class="label">Failed steps</div></div>
+      <div class="card"><div class="value red">1</div><div class="label">Failed steps</div></div>
       <div class="card"><div class="value amber">1</div><div class="label">Warnings</div></div>
-      <div class="card"><div class="value green">4</div><div class="label">Steps with no failure/warning in table below</div></div>
+      <div class="card"><div class="value amber">3</div><div class="label">Steps with no failure/warning in table below (not total success)</div></div>
     </div>
 
     <section>
@@ -59,10 +59,22 @@
         <thead>
           <tr><th>#</th><th>Action</th><th>Target</th><th>Expected</th><th>Value</th><th>Result / warning</th></tr>
         </thead>
-        <tbody><tr class="step-warning"><td>1</td><td>click</td><td class="mono">Content Models</td><td class="mono small">{&quot;within&quot;:&quot;Left Navigation&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ Position verification mismatch for &quot;Content Models&quot;: Doc container mismatch: expected within &quot;Left Navigation&quot;, but target resolved to &quot;Content Models&quot;.</td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Import Content Type</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>verify</td><td class="mono">Choose a file</td><td class="mono small">{&quot;within&quot;:&quot;Modal&quot;,&quot;modalTitle&quot;:&quot;Import Content Type&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>upload</td><td class="mono">Choose a file</td><td class="mono small">—</td><td class="mono small">./dummyData/sample.json</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>click</td><td class="mono">Import</td><td class="mono small">{&quot;within&quot;:&quot;Modal&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
+        <tbody><tr class="step-warning"><td>1</td><td>click</td><td class="mono">Content Models</td><td class="mono small">{&quot;within&quot;:&quot;Left Navigation&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ Position verification mismatch for &quot;Content Models&quot;: Doc container mismatch: expected within &quot;Left Navigation&quot;, but target resolved to &quot;Content Models&quot;.</td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Import Content Type</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>verify</td><td class="mono">Choose a file</td><td class="mono small">{&quot;within&quot;:&quot;Modal&quot;,&quot;modalTitle&quot;:&quot;Import Content Type&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>upload</td><td class="mono">Choose a file</td><td class="mono small">—</td><td class="mono small">./dummyData/sample.json</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class="step-failed"><td>5</td><td>click</td><td class="mono">Import</td><td class="mono small">{&quot;within&quot;:&quot;Modal&quot;}</td><td class="mono small">—</td><td class="fail-msg"><strong>Failed</strong><div class="missing-on-page"><strong>Not found on page:</strong> Button/link/control not found or not usable: &quot;Import&quot; — locator('button[data-test-id=&quot;cs-import-file-import&quot;]').first()[22m</div><div class="err-detail">locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('button[data-test-id=&quot;cs-import-file-import&quot;]').first()[22m</div><div class="fail-shot"><a href="flow-screenshots/import-content-type-step-5.png" target="_blank" rel="noopener">Open screenshot</a> · <span class="mono small">import-content-type-step-5.png</span></div><a href="flow-screenshots/import-content-type-step-5.png" target="_blank" rel="noopener"><img class="fail-thumb" src="flow-screenshots/import-content-type-step-5.png" alt="Failure screenshot step 5" loading="lazy" /></a></td></tr></tbody>
       </table>
     </section>
 
+    
+    <section style="background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:12px;margin-top:12px">
+      <h3 style="margin:0 0 8px 0;color:#b91c1c;font-size:15px">Failed steps (1)</h3>
+      <p style="margin:0 0 8px 0;font-size:13px;color:#444">Execution stopped at the first hard failure; later steps in the flow were not run. Doc verification warnings (placement/labels) do not stop execution—only failures such as missing targets or timeouts do.</p>
+      <ul style="margin:0;padding-left:18px">
+        <li><strong>Step 5</strong> (Import): locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('button[data-test-id=&quot;cs-import-file-import&quot;]').first()[22m<br/><em>Not on page:</em> Button/link/control not found or not usable: &quot;Import&quot; — locator('button[data-test-id=&quot;cs-import-file-import&quot;]').first()[22m<br/><a href="flow-screenshots/import-content-type-step-5.png">Screenshot</a> <span class="mono">(flow-screenshots/import-content-type-step-5.png)</span></li>
+      </ul>
+    </section>
     
     
     <section class="warnings-box">
