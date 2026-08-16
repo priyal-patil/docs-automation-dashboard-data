@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T22:50:58.148Z",
+  "generatedAt": "2026-08-16T22:52:15.163Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -183,7 +183,7 @@
       "suite": "graphql",
       "suiteLabel": "GraphQL Content Delivery API",
       "path": "data/api-docs-automation/graphql/latest.json",
-      "lastUpdated": "2026-08-15T22:53:23.996Z"
+      "lastUpdated": "2026-08-16T22:52:14.050Z"
     },
     {
       "project": "developer-resources-docs-automation",
