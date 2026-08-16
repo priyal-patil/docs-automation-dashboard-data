@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-16T03:08:11.634Z",
+    "runId": "31921079539",
+    "path": "data/developer-resources-docs-automation/cli-for-cs-assets/history/2026-08-16T03-08-11-634Z__31921079539.json",
+    "totals": {
+      "total": 7,
+      "passed": 6,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 1,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-15T02:58:53.016Z",
     "runId": "31857852456",
     "path": "data/developer-resources-docs-automation/cli-for-cs-assets/history/2026-08-15T02-58-53-016Z__31857852456.json",
