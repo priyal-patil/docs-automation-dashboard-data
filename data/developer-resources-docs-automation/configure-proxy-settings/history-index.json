@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-17T02:53:06.017Z",
+    "runId": "31986840232",
+    "path": "data/developer-resources-docs-automation/configure-proxy-settings/history/2026-08-17T02-53-06-017Z__31986840232.json",
+    "totals": {
+      "total": 13,
+      "passed": 13,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-16T02:54:12.273Z",
     "runId": "31921079539",
     "path": "data/developer-resources-docs-automation/configure-proxy-settings/history/2026-08-16T02-54-12-273Z__31921079539.json",
