@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-17T08:58:58.678Z",
+    "runId": "32012868630",
+    "path": "data/api-docs-automation/knowledgevault/history/2026-08-17T08-58-58-678Z__32012868630.json",
+    "totals": {
+      "total": 3,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-16T22:45:19.356Z",
     "runId": "31977168766",
     "path": "data/api-docs-automation/knowledgevault/history/2026-08-16T22-45-19-356Z__31977168766.json",
