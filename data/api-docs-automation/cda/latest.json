@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "project": "api-docs-automation",
+  "projectLabel": "API Docs Automation",
+  "suite": "cda",
+  "suiteLabel": "Content Delivery API",
+  "runId": "32006822406",
+  "runUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/32006822406",
+  "artifactsUrl": "https://github.com/priyal-patil/api-docs-automation/actions/runs/32006822406#artifacts",
+  "timestamp": "2026-08-17T08:12:11.821Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 65,
+    "passed": 2,
+    "failed": 86,
+    "skipped": 0,
+    "warnings": 40,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Get all content types",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Get a single content type",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Get all global fields",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Get all entries",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Get all entries with defined taxonomies",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Get multiple variants of an entry",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Get all taxonomies",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Get all assets",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Initial Sync",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Search by Regex",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Equals Operator",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Equals Within Group Operator",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Not-equals Operator",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Array Equals Operator,",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Array Not-equals Operator",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "AND Operator",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "OR Operator",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Less Than",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Less Than Or Equal To",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Greater Than",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Greater Than Or Equal To",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Exists",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Count",
+      "detail": "Postman request returned 412 — We can't find that Stack. Please try again. — api_key: is not valid. when executed via Newman",
+      "docLink": null
+    },
+    {
+      "name": "Get All Content Types",
+      "detail": "expected 200, got 412",
+      "docLink": null
+    },
+    {
+      "name": "Get All Assets",
+      "detail": "expected 200, got 412",
+      "docLink": null
+    },
+    {
+      "name": "IN Operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "OR Operator [Taxonomy]",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "AND Operator [Taxonomy]",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Exists Operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Equal and Below Operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Below Operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Equal and Above Operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Above Operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Equals Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Equals Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Not-equals Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Not-equals Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Array Equals Operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Array Equals Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Array Equals Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Array Not-equals Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Array Not-equals Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Include Reference",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Include Reference Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Include Reference Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Include all references",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Reference Search Equals",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Reference Search Equals Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Reference Search Equals Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Reference Search Not-equals",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Reference Search Not-equals Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Reference Search Not-equals Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Search By Regex Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Search by Regex Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "AND operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "AND Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "AND Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "OR Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "OR Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Less Than Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Less Than Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Less Than or Equal To",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Less Than Or Equal To Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Less Than Or Equal To Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Greater Than Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Greater Than Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Greater Than or Equal To",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Greater Than Or Equal To Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Greater Than Or Equal To Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Limit",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Skip",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Order by asc",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Order by asc Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Order by asc Operator within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Order by desc",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Order By desc Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Order by desc Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Exists Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Exists Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Only operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Only Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Only Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Exclude operator",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Exclude Operator Within Group",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Exclude Operator Within Modular Blocks",
+      "detail": "GET returned 412",
+      "docLink": null
+    },
+    {
+      "name": "Pagination",
+      "detail": "GET returned 412",
+      "docLink": null
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/apis/content-delivery-api"
+  ]
+}

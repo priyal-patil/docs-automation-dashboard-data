@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T05:01:24.098Z",
+  "generatedAt": "2026-08-17T08:12:14.196Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -440,6 +440,14 @@
       "suiteLabel": "Analytics",
       "path": "data/contentstack-docs-automation-suite/analytics/latest.json",
       "lastUpdated": "2026-08-17T00:34:52.643Z"
+    },
+    {
+      "project": "api-docs-automation",
+      "projectLabel": "API Docs Automation",
+      "suite": "cda",
+      "suiteLabel": "Content Delivery API",
+      "path": "data/api-docs-automation/cda/latest.json",
+      "lastUpdated": "2026-08-17T08:12:11.821Z"
     }
   ]
 }
