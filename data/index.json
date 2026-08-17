@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T01:24:25.242Z",
+  "generatedAt": "2026-08-17T02:05:26.781Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -71,7 +71,7 @@
       "suite": "install-the-cli",
       "suiteLabel": "Install the CLI",
       "path": "data/developer-resources-docs-automation/install-the-cli/latest.json",
-      "lastUpdated": "2026-08-16T02:06:16.871Z"
+      "lastUpdated": "2026-08-17T02:04:59.159Z"
     },
     {
       "project": "api-docs-automation",
