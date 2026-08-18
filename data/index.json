@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T05:11:38.291Z",
+  "generatedAt": "2026-08-18T09:02:03.015Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -191,7 +191,7 @@
       "suite": "bulk-publish",
       "suiteLabel": "Bulk Publish and Unpublish Content",
       "path": "data/developer-resources-docs-automation/bulk-publish/latest.json",
-      "lastUpdated": "2026-08-05T03:53:11.922Z"
+      "lastUpdated": "2026-08-18T09:01:31.605Z"
     },
     {
       "project": "developer-resources-docs-automation",
