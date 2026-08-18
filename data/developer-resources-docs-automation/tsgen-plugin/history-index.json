@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-18T09:24:14.094Z",
+    "runId": "32119358605",
+    "path": "data/developer-resources-docs-automation/tsgen-plugin/history/2026-08-18T09-24-14-094Z__32119358605.json",
+    "totals": {
+      "total": 12,
+      "passed": 2,
+      "failed": 10,
+      "skipped": 0,
+      "warnings": 17,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-04T04:07:32.420Z",
     "runId": "30875789895",
     "path": "data/developer-resources-docs-automation/tsgen-plugin/history/2026-08-04T04-07-32-420Z__30875789895.json",
