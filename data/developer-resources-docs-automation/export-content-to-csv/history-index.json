@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-18T09:03:06.708Z",
+    "runId": "32119358605",
+    "path": "data/developer-resources-docs-automation/export-content-to-csv/history/2026-08-18T09-03-06-708Z__32119358605.json",
+    "totals": {
+      "total": 16,
+      "passed": 15,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 14,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-05T03:58:57.792Z",
     "runId": "30973067296",
     "path": "data/developer-resources-docs-automation/export-content-to-csv/history/2026-08-05T03-58-57-792Z__30973067296.json",
