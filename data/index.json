@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T10:35:40.642Z",
+  "generatedAt": "2026-08-18T10:39:18.136Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -103,7 +103,7 @@
       "suite": "cli-authentication",
       "suiteLabel": "CLI Authentication and Adding Tokens",
       "path": "data/developer-resources-docs-automation/cli-authentication/latest.json",
-      "lastUpdated": "2026-08-18T01:58:46.266Z"
+      "lastUpdated": "2026-08-18T09:38:41.253Z"
     },
     {
       "project": "api-docs-automation",
