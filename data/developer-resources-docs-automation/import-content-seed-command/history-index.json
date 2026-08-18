@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-18T09:14:01.034Z",
+    "runId": "32119358605",
+    "path": "data/developer-resources-docs-automation/import-content-seed-command/history/2026-08-18T09-14-01-034Z__32119358605.json",
+    "totals": {
+      "total": 8,
+      "passed": 4,
+      "failed": 1,
+      "skipped": 3,
+      "warnings": 8,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-05T04:00:11.113Z",
     "runId": "30973067296",
     "path": "data/developer-resources-docs-automation/import-content-seed-command/history/2026-08-05T04-00-11-113Z__30973067296.json",
