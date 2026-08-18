@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T02:34:07.229Z",
+  "generatedAt": "2026-08-18T02:35:00.599Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -223,7 +223,7 @@
       "suite": "configure-rate-limits",
       "suiteLabel": "Configure Rate Limits in the CLI",
       "path": "data/developer-resources-docs-automation/configure-rate-limits/latest.json",
-      "lastUpdated": "2026-08-17T02:50:26.058Z"
+      "lastUpdated": "2026-08-18T02:34:36.259Z"
     },
     {
       "project": "developer-resources-docs-automation",
