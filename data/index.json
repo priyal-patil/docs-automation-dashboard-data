@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T04:17:10.662Z",
+  "generatedAt": "2026-08-18T05:11:38.291Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -375,7 +375,7 @@
       "suite": "cms-batch3",
       "suiteLabel": "CMS Batch 3",
       "path": "data/contentstack-docs-automation-suite/cms-batch3/latest.json",
-      "lastUpdated": "2026-08-17T05:01:23.128Z"
+      "lastUpdated": "2026-08-18T05:11:36.916Z"
     },
     {
       "project": "contentstack-docs-automation-suite",
