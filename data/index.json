@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:17:00.306Z",
+  "generatedAt": "2026-08-19T22:47:55.883Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -47,7 +47,7 @@
       "suite": "brandkit",
       "suiteLabel": "Brand Kit Management API",
       "path": "data/api-docs-automation/brandkit/latest.json",
-      "lastUpdated": "2026-08-18T22:47:02.301Z"
+      "lastUpdated": "2026-08-19T22:47:53.901Z"
     },
     {
       "project": "api-docs-automation",
