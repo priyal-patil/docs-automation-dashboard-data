@@ -25,12 +25,12 @@
 <body>
   <div class="eyebrow">Kickstart Docs Automation</div>
   <h1>Validation Report</h1>
-  <div class="sub">2 kickstarts checked · 2 with issues · generated 2026-08-19T10:10:37.256Z</div>
+  <div class="sub">12 kickstarts checked · 12 with issues · generated 2026-08-19T10:46:10.024Z</div>
   <section class="card" id="nuxt">
     <div class="card-head">
       <h2>nuxt</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
     </div>
-    <div class="meta">5 broken · 1 ambiguous · 4 pass · 2 skipped &nbsp;·&nbsp; 2026-08-19T10:10:19.499Z</div>
+    <div class="meta">5 broken · 1 ambiguous · 4 pass · 2 skipped &nbsp;·&nbsp; 2026-08-19T10:28:24.577Z</div>
     <table>
       <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
       <tbody><tr>
@@ -106,7 +106,7 @@ cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-autom
     <div class="card-head">
       <h2>nuxt-ssr</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
     </div>
-    <div class="meta">3 broken · 1 ambiguous · 2 pass · 2 skipped &nbsp;·&nbsp; 2026-08-19T10:10:37.256Z</div>
+    <div class="meta">3 broken · 1 ambiguous · 2 pass · 2 skipped &nbsp;·&nbsp; 2026-08-19T10:28:41.702Z</div>
     <table>
       <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
       <tbody><tr>
@@ -150,6 +150,469 @@ cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-autom
     <td><span class="kind">verify</span></td>
     <td class="title">Run the app — page renders</td>
     <td class="detail"><pre>page shows an error: "Server Error" (see screenshot)</pre><a href="nuxt-ssr-app.png" target="_blank"><img class="shot" src="nuxt-ssr-app.png" alt="screenshot"></a></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="next">
+    <div class="card-head">
+      <h2>next</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">6 broken · 3 skipped &nbsp;·&nbsp; 2026-08-19T10:29:40.604Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Prerequisites</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">cli</span></td>
+    <td class="title">Kickstart Next.js (Client-Side Rendering – CSR)</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-next.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/next/kickstart-next
+✓ npm install
+✓ npm install -g @contentstack/cli
+✓ csdx config:set:region AWS-EU
+✓ csdx auth:login
+   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
+   ↳ UI labels verified on screen: Info
+   ↳ GAP: doc names UI item(s) not found in the app: Org Admin, Settings, Tokens, YOUR_API_KEY, NEXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN, YOUR_DELIVERY_TOKEN, NEXT_PUBLIC_CONTENTSTACK_PREVIEW_TOKEN, YOUR_PREVIEW_TOKEN, NEXT_PUBLIC_CONTENTSTACK_REGION, YOUR_REGION_NAME, NEXT_PUBLIC_CONTENTSTACK_ENVIRONMENT, ENVIRONMENT_NAME, NEXT_PUBLIC_CONTENTSTACK_PREVIEW, Live Preview — the doc's click-path may be outdated
+✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;YOUR_ORG_ID&gt;" -n "CS Kickstart Next"
+↩  npm run dev  (deferred to verify stage)</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Key Files and Code</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Home Page Component</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Project Structure — doc vs repo</td>
+    <td class="detail"><pre>GAP: 1/16 items in the doc's Project Structure are NOT in the repo:
+  utils.ts</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Code snippet — contentstack.ts</td>
+    <td class="detail"><pre>GAP: doc snippet for "contentstack.ts" differs from lib/contentstack.ts — only 83% of doc lines present. Examples missing:
+  // helper functions from private package to retrieve Contentstack endpoints in a convienient way
+  import { getContentstackEndpoints, getRegionForString } from "@timbenniks/contentstack-endpoints";
+  // Set the region by string value from environment variables
+  const region = getRegionForString(process.env.NEXT_PUBLIC_CONTENTSTACK_REGION || "AWS-EU");</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Code snippet — page.tsx</td>
+    <td class="detail"><pre>GAP: doc snippet for "page.tsx" differs from app/page.tsx — only 2% of doc lines present. Examples missing:
+  "use client";
+  import Image from "next/image";
+  import ContentstackLivePreview from "@contentstack/live-preview-utils";
+  import { getPage, initLivePreview } from "@/lib/contentstack";</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:3000 responded HTTP 500 — app is erroring, not serving content</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — page renders</td>
+    <td class="detail"><pre>page shows an error: "API key for Stack is required" (see screenshot)</pre><a href="next-app.png" target="_blank"><img class="shot" src="next-app.png" alt="screenshot"></a></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="next-ssr">
+    <div class="card-head">
+      <h2>next-ssr</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">1 broken &nbsp;·&nbsp; 2026-08-19T10:31:40.817Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:3000 did not respond within 120s. Server log tail:
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-08-19T10_29_40_702Z-debug-0.log
+</pre></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="next-middleware">
+    <div class="card-head">
+      <h2>next-middleware</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">1 broken &nbsp;·&nbsp; 2026-08-19T10:33:41.073Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:3000 did not respond within 120s. Server log tail:
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-08-19T10_31_40_972Z-debug-0.log
+</pre></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="next-graphql">
+    <div class="card-head">
+      <h2>next-graphql</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">1 broken &nbsp;·&nbsp; 2026-08-19T10:35:41.846Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:3000 did not respond within 120s. Server log tail:
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-08-19T10_33_41_735Z-debug-0.log
+</pre></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="next-ssg">
+    <div class="card-head">
+      <h2>next-ssg</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">1 broken &nbsp;·&nbsp; 2026-08-19T10:37:42.275Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:3000 did not respond within 120s. Server log tail:
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-08-19T10_35_42_168Z-debug-0.log
+</pre></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="react">
+    <div class="card-head">
+      <h2>react</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">2 broken · 1 ambiguous · 4 pass · 2 skipped &nbsp;·&nbsp; 2026-08-19T10:38:33.655Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Prerequisites</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">cli</span></td>
+    <td class="title">Choose How to Set Up Your Stack</td>
+    <td class="detail"><pre>✓ npm install -g @contentstack/cli
+✓ csdx config:set:region &lt;YOUR_REGION_CODE&gt;
+✓ csdx auth:login
+   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
+✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;ORG_ID&gt;" -n "Kickstart Stack"</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">shell</span></td>
+    <td class="title">Clone the Project and Install Dependencies</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-react.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/react/kickstart-react
+✓ npm install</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Get Delivery and Preview Tokens</td>
+    <td class="detail"><pre>[failed] no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">env</span></td>
+    <td class="title">Configure .env for Kickstart React</td>
+    <td class="detail"><pre>no stack/token available (dashboard stage incomplete)</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#F7D07B;color:#1A1919">AMBIGUOUS</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Enable Live Preview in the Stack</td>
+    <td class="detail"><pre>no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Project Structure — doc vs repo</td>
+    <td class="detail"><pre>all 18 listed items exist in the repo</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:5173 responded HTTP 200</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — page renders</td>
+    <td class="detail"><pre>page shows an error (see screenshot)</pre><a href="react-app.png" target="_blank"><img class="shot" src="react-app.png" alt="screenshot"></a></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="angular">
+    <div class="card-head">
+      <h2>angular</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">2 broken · 1 ambiguous · 4 pass · 3 skipped &nbsp;·&nbsp; 2026-08-19T10:39:35.729Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Prerequisites</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">shell</span></td>
+    <td class="title">Import the Starter and deploy with Launch</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-angular.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/angular/kickstart-angular
+✓ npm install</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">cli</span></td>
+    <td class="title">(Alternative) Create and seed your stack with CLI</td>
+    <td class="detail"><pre>✓ npm install -g @contentstack/cli
+✓ csdx config:set:region EU
+✓ csdx auth:login
+   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
+✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;ORG_ID&gt;" -n "Kickstart Stack"</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Get Delivery and Preview Tokens</td>
+    <td class="detail"><pre>[failed] no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">env</span></td>
+    <td class="title">Configure .env for Kickstart Angular</td>
+    <td class="detail"><pre>no stack/token available (dashboard stage incomplete)</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#F7D07B;color:#1A1919">AMBIGUOUS</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Enable Live Preview in the Stack</td>
+    <td class="detail"><pre>no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Verify Your Setup</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Project Structure — doc vs repo</td>
+    <td class="detail"><pre>all 21 listed items exist in the repo</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:4200 responded HTTP 200</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — page renders</td>
+    <td class="detail"><pre>page shows an error (see screenshot)</pre><a href="angular-app.png" target="_blank"><img class="shot" src="angular-app.png" alt="screenshot"></a></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="sveltekit">
+    <div class="card-head">
+      <h2>sveltekit</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">3 broken · 1 ambiguous · 3 pass · 2 skipped &nbsp;·&nbsp; 2026-08-19T10:40:19.608Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Prerequisites</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">cli</span></td>
+    <td class="title">Choose How to Set Up Your Stack</td>
+    <td class="detail"><pre>✓ npm install -g @contentstack/cli
+✓ csdx config:set:region &lt;YOUR_REGION_CODE&gt;
+✓ csdx auth:login
+   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
+✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;ORG_ID&gt;" -n "Kickstart Stack"</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">shell</span></td>
+    <td class="title">Clone the Project and Install Dependencies</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-sveltekit.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/sveltekit/kickstart-sveltekit
+✓ npm install</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Get Delivery and Preview Tokens</td>
+    <td class="detail"><pre>[failed] no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">env</span></td>
+    <td class="title">Configure .env for Kickstart SvelteKit</td>
+    <td class="detail"><pre>no stack/token available (dashboard stage incomplete)</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#F7D07B;color:#1A1919">AMBIGUOUS</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Enable Live Preview in the Stack</td>
+    <td class="detail"><pre>no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Project Structure — doc vs repo</td>
+    <td class="detail"><pre>all 20 listed items exist in the repo</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:5173 responded HTTP 500 — app is erroring, not serving content</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — page renders</td>
+    <td class="detail"><pre>page shows an error (see screenshot)</pre><a href="sveltekit-app.png" target="_blank"><img class="shot" src="sveltekit-app.png" alt="screenshot"></a></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="astro">
+    <div class="card-head">
+      <h2>astro</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">3 broken · 1 ambiguous · 3 pass · 2 skipped &nbsp;·&nbsp; 2026-08-19T10:41:07.501Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Prerequisites</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">cli</span></td>
+    <td class="title">Choose How to Set Up Your Stack</td>
+    <td class="detail"><pre>✓ npm install -g @contentstack/cli
+✓ csdx config:set:region EU
+✓ csdx auth:login
+   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
+✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;ORG_ID&gt;" -n "Kickstart Stack"</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">shell</span></td>
+    <td class="title">Clone the Project and Install Dependencies</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-astro.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/astro/kickstart-astro
+✓ npm install</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Get Delivery and Preview Tokens</td>
+    <td class="detail"><pre>[failed] no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">env</span></td>
+    <td class="title">Configure .env for Kickstart Astro</td>
+    <td class="detail"><pre>no stack/token available (dashboard stage incomplete)</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#F7D07B;color:#1A1919">AMBIGUOUS</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Enable Live Preview in the Stack</td>
+    <td class="detail"><pre>no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Project Structure — doc vs repo</td>
+    <td class="detail"><pre>all 23 listed items exist in the repo</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:4321 responded HTTP 500 — app is erroring, not serving content</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — page renders</td>
+    <td class="detail"><pre>page shows an error (see screenshot)</pre><a href="astro-app.png" target="_blank"><img class="shot" src="astro-app.png" alt="screenshot"></a></td>
+  </tr></tbody>
+    </table>
+  </section><section class="card" id="veda">
+    <div class="card-head">
+      <h2>veda</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">3 broken · 1 ambiguous · 3 pass · 3 skipped &nbsp;·&nbsp; 2026-08-19T10:46:10.023Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Prerequisites</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">cli</span></td>
+    <td class="title">Set Up Your Stack</td>
+    <td class="detail"><pre>✓ npm install -g @contentstack/cli
+✓ csdx config:set:region &lt;YOUR_REGION_CODE&gt;
+✓ csdx auth:login
+   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
+✓ csdx cm:stacks:seed --repo "contentstack/kickstart-veda-seed" --org "&lt;ORG_ID&gt;" -n "Veda: The Revival Collection"</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">shell</span></td>
+    <td class="title">Clone the Project and Install Dependencies</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-veda.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/veda/kickstart-veda
+✓ npm install</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Get Delivery and Preview Tokens</td>
+    <td class="detail"><pre>[failed] no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">env</span></td>
+    <td class="title">Configure .env.local for Kickstart Veda</td>
+    <td class="detail"><pre>no stack/token available (dashboard stage incomplete)</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#F7D07B;color:#1A1919">AMBIGUOUS</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Enable Live Preview in the Stack</td>
+    <td class="detail"><pre>no seeded stack api key</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">How Content Is Loaded</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Project Structure — doc vs repo</td>
+    <td class="detail"><pre>all 20 listed items exist in the repo</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:3000 responded HTTP 500 — app is erroring, not serving content</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — page renders</td>
+    <td class="detail"><pre>page shows an error: "API key for Stack is required" (see screenshot)</pre><a href="veda-app.png" target="_blank"><img class="shot" src="veda-app.png" alt="screenshot"></a></td>
   </tr></tbody>
     </table>
   </section>
