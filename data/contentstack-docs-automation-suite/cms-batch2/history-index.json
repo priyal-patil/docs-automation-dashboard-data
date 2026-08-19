@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-19T03:35:02.297Z",
+    "runId": "32194752129",
+    "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-19T03-35-02-297Z__32194752129.json",
+    "totals": {
+      "total": 215,
+      "passed": 120,
+      "failed": 95,
+      "skipped": 0,
+      "warnings": 65,
+      "timedOut": 12,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-18T03:24:44.521Z",
     "runId": "32077928918",
     "path": "data/contentstack-docs-automation-suite/cms-batch2/history/2026-08-18T03-24-44-521Z__32077928918.json",
