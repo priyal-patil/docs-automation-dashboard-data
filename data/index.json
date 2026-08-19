@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:50:32.421Z",
+  "generatedAt": "2026-08-19T22:51:05.235Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -55,7 +55,7 @@
       "suite": "automations",
       "suiteLabel": "Automations Management API",
       "path": "data/api-docs-automation/automations/latest.json",
-      "lastUpdated": "2026-08-18T22:51:03.095Z"
+      "lastUpdated": "2026-08-19T22:51:04.255Z"
     },
     {
       "project": "api-docs-automation",
