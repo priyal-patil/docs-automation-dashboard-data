@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-20T02:34:56.339Z",
+    "runId": "32322995660",
+    "path": "data/developer-resources-docs-automation/configure-early-access/history/2026-08-20T02-34-56-339Z__32322995660.json",
+    "totals": {
+      "total": 14,
+      "passed": 1,
+      "failed": 3,
+      "skipped": 10,
+      "warnings": 6,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-19T02:36:10.321Z",
     "runId": "32207006409",
     "path": "data/developer-resources-docs-automation/configure-early-access/history/2026-08-19T02-36-10-321Z__32207006409.json",
