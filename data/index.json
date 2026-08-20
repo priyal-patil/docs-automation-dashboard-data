@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T22:59:44.286Z",
+  "generatedAt": "2026-08-20T23:00:33.666Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -127,7 +127,7 @@
       "suite": "personalize",
       "suiteLabel": "Personalize Management API",
       "path": "data/api-docs-automation/personalize/latest.json",
-      "lastUpdated": "2026-08-19T22:56:43.537Z"
+      "lastUpdated": "2026-08-20T23:00:32.226Z"
     },
     {
       "project": "api-docs-automation",
