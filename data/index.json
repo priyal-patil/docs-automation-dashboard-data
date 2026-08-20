@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T14:28:23.104Z",
+  "generatedAt": "2026-08-20T14:29:06.308Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -287,7 +287,7 @@
       "suite": "migrate-html-rte-to-json-rte",
       "suiteLabel": "Migrate Content from HTML RTE to JSON RTE using CLI",
       "path": "data/developer-resources-docs-automation/migrate-html-rte-to-json-rte/latest.json",
-      "lastUpdated": "2026-08-20T03:56:47.254Z"
+      "lastUpdated": "2026-08-20T14:28:48.014Z"
     },
     {
       "project": "developer-resources-docs-automation",
