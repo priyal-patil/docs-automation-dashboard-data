@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T13:33:02.640Z",
+  "generatedAt": "2026-08-20T13:34:28.070Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -8,14 +8,6 @@
       "suiteLabel": "Building Websites Automation",
       "path": "data/developer-resources-docs-automation/building-websites-automation/latest.json",
       "lastUpdated": "2026-08-20T12:37:06.260Z"
-    },
-    {
-      "project": "developer-resources-docs-automation",
-      "projectLabel": "Developer Resources Docs Automation",
-      "suite": "kickstart-automation",
-      "suiteLabel": "Kickstart Automation",
-      "path": "data/developer-resources-docs-automation/kickstart-automation/latest.json",
-      "lastUpdated": "2026-08-20T12:55:19.874Z"
     },
     {
       "project": "api-docs-automation",
@@ -207,7 +199,7 @@
       "suite": "configure-early-access",
       "suiteLabel": "Configure Early Access in the CLI",
       "path": "data/developer-resources-docs-automation/configure-early-access/latest.json",
-      "lastUpdated": "2026-08-20T13:01:03.330Z"
+      "lastUpdated": "2026-08-20T02:34:56.339Z"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -223,7 +215,7 @@
       "suite": "configure-rate-limits",
       "suiteLabel": "Configure Rate Limits in the CLI",
       "path": "data/developer-resources-docs-automation/configure-rate-limits/latest.json",
-      "lastUpdated": "2026-08-20T13:31:52.201Z"
+      "lastUpdated": "2026-08-20T03:01:55.251Z"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -231,7 +223,7 @@
       "suite": "configure-cli-logging",
       "suiteLabel": "Configure CLI Logging Preferences",
       "path": "data/developer-resources-docs-automation/configure-cli-logging/latest.json",
-      "lastUpdated": "2026-08-20T13:32:45.828Z"
+      "lastUpdated": "2026-08-20T03:02:49.780Z"
     },
     {
       "project": "developer-resources-docs-automation",

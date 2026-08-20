@@ -69,6 +69,13 @@ optionally with a `#fragment` anchor into a shared multi-item report file.
 Both fields are optional per item — omit `reportUrl` entirely if no
 viewable report exists for that item.
 
+### `itemsLabel` (optional, additive — v1.1)
+
+Heading the dashboard puts above the `items` table. Defaults to "Checked
+URLs", which is wrong for suites whose unit of work isn't a URL —
+kickstart-automation suites check doc *steps* and send
+`"itemsLabel": "Checked steps"`.
+
 ## `reports/` folder (per-item HTML reports, latest run only)
 
 ```
