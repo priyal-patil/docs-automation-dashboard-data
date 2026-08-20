@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T14:31:10.277Z",
+  "generatedAt": "2026-08-20T14:33:23.158Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -319,7 +319,7 @@
       "suite": "bootstrap-starter-apps",
       "suiteLabel": "Bootstrap Starter Apps",
       "path": "data/developer-resources-docs-automation/bootstrap-starter-apps/latest.json",
-      "lastUpdated": "2026-08-20T04:00:27.493Z"
+      "lastUpdated": "2026-08-20T14:32:41.812Z"
     },
     {
       "project": "api-docs-automation",
