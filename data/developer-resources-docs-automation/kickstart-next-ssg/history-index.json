@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-20T13:46:37.924Z",
+    "runId": "32375124632",
+    "path": "data/developer-resources-docs-automation/kickstart-next-ssg/history/2026-08-20T13-46-37-924Z__32375124632.json",
+    "totals": {
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  }
+]

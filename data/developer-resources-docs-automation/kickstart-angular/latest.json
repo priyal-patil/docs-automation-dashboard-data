@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "kickstart-angular",
+  "suiteLabel": "Kickstart: Angular",
+  "runId": "32375124632",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632#artifacts",
+  "timestamp": "2026-08-20T13:48:23.561Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 10,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 2,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [],
+  "items": [
+    {
+      "name": "Prerequisites",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-angular/reports/angular.html"
+    },
+    {
+      "name": "Import the Starter and deploy with Launch",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular"
+    },
+    {
+      "name": "(Alternative) Create and seed your stack with CLI",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular"
+    },
+    {
+      "name": "Get Delivery and Preview Tokens",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular"
+    },
+    {
+      "name": "Configure .env for Kickstart Angular",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular"
+    },
+    {
+      "name": "Enable Live Preview in the Stack",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular"
+    },
+    {
+      "name": "Verify Your Setup",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-angular/reports/angular.html"
+    },
+    {
+      "name": "Project Structure — doc vs repo",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular"
+    },
+    {
+      "name": "Run the app — dev server",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular"
+    },
+    {
+      "name": "Run the app — page renders",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/angular"
+    }
+  ],
+  "itemsLabel": "Checked steps",
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/angular"
+  ]
+}

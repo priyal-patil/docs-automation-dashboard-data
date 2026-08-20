@@ -1,0 +1,105 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kickstart Docs — Validation Report</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#1A1919; color:#F5F5F4; font-family:Inter,system-ui,-apple-system,sans-serif; padding:40px; }
+  .eyebrow { color:#AC75FF; font-weight:500; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
+  h1 { margin:6px 0 4px; font-size:28px; }
+  .sub { color:#9A9998; font-size:14px; margin-bottom:28px; }
+  .card { background:#292928; border:1px solid #393838; border-radius:12px; padding:20px 22px; margin-bottom:22px; }
+  .card-head { display:flex; align-items:center; gap:12px; }
+  .card-head h2 { margin:0; font-size:20px; flex:0 0 auto; }
+  .meta { color:#797777; font-size:12px; margin:6px 0 14px; }
+  .pill { font-size:11px; font-weight:600; padding:3px 9px; border-radius:999px; letter-spacing:.03em; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th { text-align:left; color:#9A9998; font-weight:500; border-bottom:1px solid #393838; padding:8px 10px; }
+  td { border-bottom:1px solid #262525; padding:10px; vertical-align:top; }
+  .kind { color:#899CFA; font-family:ui-monospace,monospace; font-size:12px; }
+  .title { font-weight:500; }
+  .detail pre { margin:0; white-space:pre-wrap; color:#C9C7C6; font-family:ui-monospace,monospace; font-size:12px; line-height:1.5; }
+  .shot { margin-top:10px; max-width:360px; border:1px solid #393838; border-radius:8px; display:block; }
+  footer { color:#484747; font-size:11px; margin-top:20px; }
+</style></head>
+<body>
+  <div class="eyebrow">Kickstart Docs Automation</div>
+  <h1>Validation Report</h1>
+  <div class="sub">1 kickstart checked · 1 with issues · generated 2026-08-20T13:55:36.323Z</div>
+  <section class="card" id="next">
+    <div class="card-head">
+      <h2>next</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
+    </div>
+    <div class="meta">6 broken · 3 skipped &nbsp;·&nbsp; 2026-08-20T13:38:36.890Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Prerequisites</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">cli</span></td>
+    <td class="title">Kickstart Next.js (Client-Side Rendering – CSR)</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-next.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/next/kickstart-next
+✓ npm install
+✓ npm install -g @contentstack/cli
+✓ csdx config:set:region AWS-EU
+✓ csdx auth:login
+   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
+   ↳ UI labels verified on screen: Info
+   ↳ GAP: doc names UI item(s) not found in the app: Org Admin, Settings, Tokens, YOUR_API_KEY, NEXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN, YOUR_DELIVERY_TOKEN, NEXT_PUBLIC_CONTENTSTACK_PREVIEW_TOKEN, YOUR_PREVIEW_TOKEN, NEXT_PUBLIC_CONTENTSTACK_REGION, YOUR_REGION_NAME, NEXT_PUBLIC_CONTENTSTACK_ENVIRONMENT, ENVIRONMENT_NAME, NEXT_PUBLIC_CONTENTSTACK_PREVIEW, Live Preview — the doc's click-path may be outdated
+✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;YOUR_ORG_ID&gt;" -n "CS Kickstart Next"
+   ↳ seed output had no api key — resolved "CS Kickstart next mt1kf90q" via Management API: blt8353dd8814f6b7d5
+↩  npm run dev  (deferred to verify stage)</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Key Files and Code</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Home Page Component</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Project Structure — doc vs repo</td>
+    <td class="detail"><pre>GAP: 1/16 items in the doc's Project Structure are NOT in the repo:
+  utils.ts</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Code snippet — contentstack.ts</td>
+    <td class="detail"><pre>GAP: doc snippet for "contentstack.ts" differs from lib/contentstack.ts — only 83% of doc lines present. Examples missing:
+  // helper functions from private package to retrieve Contentstack endpoints in a convienient way
+  import { getContentstackEndpoints, getRegionForString } from "@timbenniks/contentstack-endpoints";
+  // Set the region by string value from environment variables
+  const region = getRegionForString(process.env.NEXT_PUBLIC_CONTENTSTACK_REGION || "AWS-EU");</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Code snippet — page.tsx</td>
+    <td class="detail"><pre>GAP: doc snippet for "page.tsx" differs from app/page.tsx — only 2% of doc lines present. Examples missing:
+  "use client";
+  import Image from "next/image";
+  import ContentstackLivePreview from "@contentstack/live-preview-utils";
+  import { getPage, initLivePreview } from "@/lib/contentstack";</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:3000 responded HTTP 500 — app is erroring, not serving content</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — page renders</td>
+    <td class="detail"><pre>page shows an error: "API key for Stack is required" (see screenshot)</pre><a href="next-app.png" target="_blank"><img class="shot" src="next-app.png" alt="screenshot"></a></td>
+  </tr></tbody>
+    </table>
+  </section>
+  <footer>Auto-generated by kickstart-automation · reads each doc, performs the steps, verifies the app, flags broken/missing/ambiguous steps.</footer>
+</body></html>

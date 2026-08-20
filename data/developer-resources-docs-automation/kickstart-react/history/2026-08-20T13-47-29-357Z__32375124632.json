@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "kickstart-react",
+  "suiteLabel": "Kickstart: React",
+  "runId": "32375124632",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632#artifacts",
+  "timestamp": "2026-08-20T13:47:29.357Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 9,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 1,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [],
+  "items": [
+    {
+      "name": "Prerequisites",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-react/reports/react.html"
+    },
+    {
+      "name": "Choose How to Set Up Your Stack",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react"
+    },
+    {
+      "name": "Clone the Project and Install Dependencies",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react"
+    },
+    {
+      "name": "Get Delivery and Preview Tokens",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react"
+    },
+    {
+      "name": "Configure .env for Kickstart React",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react"
+    },
+    {
+      "name": "Enable Live Preview in the Stack",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react"
+    },
+    {
+      "name": "Project Structure — doc vs repo",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react"
+    },
+    {
+      "name": "Run the app — dev server",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react"
+    },
+    {
+      "name": "Run the app — page renders",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/react"
+    }
+  ],
+  "itemsLabel": "Checked steps",
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/react"
+  ]
+}

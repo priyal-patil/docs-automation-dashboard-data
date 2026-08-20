@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "kickstart-next",
+  "suiteLabel": "Kickstart: Next.js",
+  "runId": "32375124632",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632#artifacts",
+  "timestamp": "2026-08-20T13:38:36.890Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 9,
+    "passed": 0,
+    "failed": 6,
+    "skipped": 3,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Kickstart Next.js (Client-Side Rendering – CSR)",
+      "detail": "✓ git clone https://github.com/contentstack/kickstart-next.git\ncd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/next/kickstart-next\n✓ npm install\n✓ npm install -g @contentstack/cli\n✓ csdx config:set:region AWS-EU\n✓ csdx auth:login\n   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20\n   ↳ UI labels verified on screen: Info\n   ↳ GAP: doc names UI item(s) not found in the app: Org Admin, Settings, Tokens, YOUR_API_KEY, NEXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN, YOUR_DELIVERY_TOKEN, NEXT_PUBLIC_CONTENTSTACK_PREVIEW_TOKEN, YOUR_PREVIEW_TOKEN, NEXT_PUBLIC_CONTENTSTACK_REGION, YOUR_REGION_NAME, NEXT_PUBLIC_CONTENTSTACK_ENVIRONMENT, ENVIRONMENT_NAME, NEXT_PUBLIC_CONTENTSTACK_PREVIEW, Live Preview — the doc's click-path may be outdated\n✓ csdx cm:stacks:seed --repo \"contentstack/kickstart-stack-seed\" --org \"<YOUR_ORG_ID>\" -n \"CS Kickstart Next\"\n   ↳ seed output had no api key — resolved \"CS Kickstart next mt1kf90q\" via Management API: blt8353dd8814f6b7d5\n↩  npm run dev  (deferred to verify stage)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Project Structure — doc vs repo",
+      "detail": "GAP: 1/16 items in the doc's Project Structure are NOT in the repo:\n  utils.ts",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Code snippet — contentstack.ts",
+      "detail": "GAP: doc snippet for \"contentstack.ts\" differs from lib/contentstack.ts — only 83% of doc lines present. Examples missing:\n  // helper functions from private package to retrieve Contentstack endpoints in a convienient way\n  import { getContentstackEndpoints, getRegionForString } from \"@timbenniks/contentstack-endpoints\";\n  // Set the region by string value from environment variables\n  const region = getRegionForString(process.env.NEXT_PUBLIC_CONTENTSTACK_REGION || \"AWS-EU\");",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Code snippet — page.tsx",
+      "detail": "GAP: doc snippet for \"page.tsx\" differs from app/page.tsx — only 2% of doc lines present. Examples missing:\n  \"use client\";\n  import Image from \"next/image\";\n  import ContentstackLivePreview from \"@contentstack/live-preview-utils\";\n  import { getPage, initLivePreview } from \"@/lib/contentstack\";",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Run the app — dev server",
+      "detail": "http://localhost:3000 responded HTTP 500 — app is erroring, not serving content",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Run the app — page renders",
+      "detail": "page shows an error: \"API key for Stack is required\" (see screenshot)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    }
+  ],
+  "items": [
+    {
+      "name": "Prerequisites",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Kickstart Next.js (Client-Side Rendering – CSR)",
+      "status": "fail",
+      "detail": "✓ git clone https://github.com/contentstack/kickstart-next.git\ncd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/next/kickstart-next\n✓ npm install\n✓ npm install -g @contentstack/cli\n✓ csdx config:set:region AWS-EU\n✓ csdx auth:login\n   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20\n   ↳ UI labels verified on screen: Info\n   ↳ GAP: doc names UI item(s) not found in the app: Org Admin, Settings, Tokens, YOUR_API_KEY, NEXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN, YOUR_DELIVERY_TOKEN, NEXT_PUBLIC_CONTENTSTACK_PREVIEW_TOKEN, YOUR_PREVIEW_TOKEN, NEXT_PUBLIC_CONTENTSTACK_REGION, YOUR_REGION_NAME, NEXT_PUBLIC_CONTENTSTACK_ENVIRONMENT, ENVIRONMENT_NAME, NEXT_PUBLIC_CONTENTSTACK_PREVIEW, Live Preview — the doc's click-path may be outdated\n✓ csdx cm:stacks:seed --repo \"contentstack/kickstart-stack-seed\" --org \"<YOUR_ORG_ID>\" -n \"CS Kickstart Next\"\n   ↳ seed output had no api key — resolved \"CS Kickstart next mt1kf90q\" via Management API: blt8353dd8814f6b7d5\n↩  npm run dev  (deferred to verify stage)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Key Files and Code",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Home Page Component",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Project Structure — doc vs repo",
+      "status": "fail",
+      "detail": "GAP: 1/16 items in the doc's Project Structure are NOT in the repo:\n  utils.ts",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Code snippet — contentstack.ts",
+      "status": "fail",
+      "detail": "GAP: doc snippet for \"contentstack.ts\" differs from lib/contentstack.ts — only 83% of doc lines present. Examples missing:\n  // helper functions from private package to retrieve Contentstack endpoints in a convienient way\n  import { getContentstackEndpoints, getRegionForString } from \"@timbenniks/contentstack-endpoints\";\n  // Set the region by string value from environment variables\n  const region = getRegionForString(process.env.NEXT_PUBLIC_CONTENTSTACK_REGION || \"AWS-EU\");",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Code snippet — page.tsx",
+      "status": "fail",
+      "detail": "GAP: doc snippet for \"page.tsx\" differs from app/page.tsx — only 2% of doc lines present. Examples missing:\n  \"use client\";\n  import Image from \"next/image\";\n  import ContentstackLivePreview from \"@contentstack/live-preview-utils\";\n  import { getPage, initLivePreview } from \"@/lib/contentstack\";",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Run the app — dev server",
+      "status": "fail",
+      "detail": "http://localhost:3000 responded HTTP 500 — app is erroring, not serving content",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    },
+    {
+      "name": "Run the app — page renders",
+      "status": "fail",
+      "detail": "page shows an error: \"API key for Stack is required\" (see screenshot)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next/reports/next.html"
+    }
+  ],
+  "itemsLabel": "Checked steps",
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/next"
+  ]
+}

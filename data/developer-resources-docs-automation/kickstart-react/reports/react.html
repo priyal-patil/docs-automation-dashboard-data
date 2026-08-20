@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kickstart Docs — Validation Report</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#1A1919; color:#F5F5F4; font-family:Inter,system-ui,-apple-system,sans-serif; padding:40px; }
+  .eyebrow { color:#AC75FF; font-weight:500; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
+  h1 { margin:6px 0 4px; font-size:28px; }
+  .sub { color:#9A9998; font-size:14px; margin-bottom:28px; }
+  .card { background:#292928; border:1px solid #393838; border-radius:12px; padding:20px 22px; margin-bottom:22px; }
+  .card-head { display:flex; align-items:center; gap:12px; }
+  .card-head h2 { margin:0; font-size:20px; flex:0 0 auto; }
+  .meta { color:#797777; font-size:12px; margin:6px 0 14px; }
+  .pill { font-size:11px; font-weight:600; padding:3px 9px; border-radius:999px; letter-spacing:.03em; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th { text-align:left; color:#9A9998; font-weight:500; border-bottom:1px solid #393838; padding:8px 10px; }
+  td { border-bottom:1px solid #262525; padding:10px; vertical-align:top; }
+  .kind { color:#899CFA; font-family:ui-monospace,monospace; font-size:12px; }
+  .title { font-weight:500; }
+  .detail pre { margin:0; white-space:pre-wrap; color:#C9C7C6; font-family:ui-monospace,monospace; font-size:12px; line-height:1.5; }
+  .shot { margin-top:10px; max-width:360px; border:1px solid #393838; border-radius:8px; display:block; }
+  footer { color:#484747; font-size:11px; margin-top:20px; }
+</style></head>
+<body>
+  <div class="eyebrow">Kickstart Docs Automation</div>
+  <h1>Validation Report</h1>
+  <div class="sub">1 kickstart checked · 0 with issues · generated 2026-08-20T13:55:36.323Z</div>
+  <section class="card" id="react">
+    <div class="card-head">
+      <h2>react</h2><span class="pill" style="background:#B0F7BA;color:#1A1919">ALL GOOD</span>
+    </div>
+    <div class="meta">8 pass · 1 skipped &nbsp;·&nbsp; 2026-08-20T13:47:29.357Z</div>
+    <table>
+      <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
+      <tbody><tr>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Prerequisites</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">cli</span></td>
+    <td class="title">Choose How to Set Up Your Stack</td>
+    <td class="detail"><pre>✓ npm install -g @contentstack/cli
+✓ csdx config:set:region &lt;YOUR_REGION_CODE&gt;
+✓ csdx auth:login
+   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
+✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;ORG_ID&gt;" -n "Kickstart Stack"
+   ↳ seed output had no api key — resolved "CS Kickstart react mt1kqmia" via Management API: blt4358fc919db92382</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">shell</span></td>
+    <td class="title">Clone the Project and Install Dependencies</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-react.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/react/kickstart-react
+✓ npm install</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Get Delivery and Preview Tokens</td>
+    <td class="detail"><pre>[ui] delivery token created via UI (preview token yes)
+UI labels verified on screen: Settings, Tokens</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">env</span></td>
+    <td class="title">Configure .env for Kickstart React</td>
+    <td class="detail"><pre>wrote 6 vars from the doc verbatim → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/react/kickstart-react/.env</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">dashboard</span></td>
+    <td class="title">Enable Live Preview in the Stack</td>
+    <td class="detail"><pre>Live Preview enabled, default preview environment set to "preview" via UI</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Project Structure — doc vs repo</td>
+    <td class="detail"><pre>all 18 listed items exist in the repo</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — dev server</td>
+    <td class="detail"><pre>http://localhost:5173 responded HTTP 200</pre></td>
+  </tr><tr>
+    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="kind">verify</span></td>
+    <td class="title">Run the app — page renders</td>
+    <td class="detail"><pre>page rendered 787 chars of content</pre><a href="react-app.png" target="_blank"><img class="shot" src="react-app.png" alt="screenshot"></a></td>
+  </tr></tbody>
+    </table>
+  </section>
+  <footer>Auto-generated by kickstart-automation · reads each doc, performs the steps, verifies the app, flags broken/missing/ambiguous steps.</footer>
+</body></html>

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "kickstart-veda",
+  "suiteLabel": "Kickstart: Veda",
+  "runId": "32375124632",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632#artifacts",
+  "timestamp": "2026-08-20T13:55:35.845Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 10,
+    "passed": 3,
+    "failed": 3,
+    "skipped": 3,
+    "warnings": 1,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Get Delivery and Preview Tokens",
+      "detail": "[failed] UI and API both failed: Token create failed: HTTP 422 {\"error_message\":\"Delivery Token creation failed. Please try again.\",\"error_code\":141,\"errors\":{\"scope.environments\":[\"preview environment(s) not found.\"]}}\nUI labels verified on screen: Settings, Tokens",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    },
+    {
+      "name": "Run the app — dev server",
+      "detail": "http://localhost:3000 responded HTTP 500 — app is erroring, not serving content",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    },
+    {
+      "name": "Run the app — page renders",
+      "detail": "page shows an error: \"API key for Stack is required\" (see screenshot)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    }
+  ],
+  "items": [
+    {
+      "name": "Prerequisites",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    },
+    {
+      "name": "Set Up Your Stack",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda"
+    },
+    {
+      "name": "Clone the Project and Install Dependencies",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda"
+    },
+    {
+      "name": "Get Delivery and Preview Tokens",
+      "status": "fail",
+      "detail": "[failed] UI and API both failed: Token create failed: HTTP 422 {\"error_message\":\"Delivery Token creation failed. Please try again.\",\"error_code\":141,\"errors\":{\"scope.environments\":[\"preview environment(s) not found.\"]}}\nUI labels verified on screen: Settings, Tokens",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    },
+    {
+      "name": "Configure .env.local for Kickstart Veda",
+      "status": "skipped",
+      "detail": "no stack/token available (dashboard stage incomplete)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    },
+    {
+      "name": "Enable Live Preview in the Stack",
+      "status": "warning",
+      "detail": "Live Preview UI step failed: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('[data-test-id=\"cs-stack-settings-visual-experience\"]') to be visible\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    },
+    {
+      "name": "How Content Is Loaded",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    },
+    {
+      "name": "Project Structure — doc vs repo",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda"
+    },
+    {
+      "name": "Run the app — dev server",
+      "status": "fail",
+      "detail": "http://localhost:3000 responded HTTP 500 — app is erroring, not serving content",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    },
+    {
+      "name": "Run the app — page renders",
+      "status": "fail",
+      "detail": "page shows an error: \"API key for Stack is required\" (see screenshot)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/veda",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-veda/reports/veda.html"
+    }
+  ],
+  "itemsLabel": "Checked steps",
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/veda"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "kickstart-nuxt-ssr",
+  "suiteLabel": "Kickstart: Nuxt (SSR)",
+  "runId": "32375124632",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632#artifacts",
+  "timestamp": "2026-08-20T13:37:47.483Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 8,
+    "passed": 4,
+    "failed": 3,
+    "skipped": 1,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Set Up Environment Variables",
+      "detail": "GAP: the doc's env var names do not match what the repo reads (.env.example). Wrote the doc's keys verbatim — the app will not pick up config.\n  doc has (repo doesn't): NEXT_PUBLIC_CONTENTSTACK_API_KEY, NUXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN, NUXT_PUBLIC_CONTENTSTACK_PREVIEW_TOKEN, NUXT_PUBLIC_CONTENTSTACK_REGION, NUXT_PUBLIC_CONTENTSTACK_ENVIRONMENT, NUXT_PUBLIC_CONTENTSTACK_PREVIEW\n  repo expects (doc omits): NUXT_CONTENTSTACK_API_KEY, NUXT_CONTENTSTACK_DELIVERY_TOKEN, NUXT_CONTENTSTACK_PREVIEW_TOKEN, NUXT_CONTENTSTACK_ENVIRONMENT, NUXT_CONTENTSTACK_REGION, NUXT_CONTENTSTACK_PREVIEW",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/reports/nuxt-ssr.html"
+    },
+    {
+      "name": "Run the app — dev server",
+      "detail": "http://localhost:3000 responded HTTP 500 — app is erroring, not serving content",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/reports/nuxt-ssr.html"
+    },
+    {
+      "name": "Run the app — page renders",
+      "detail": "page shows an error: \"Server Error\" (see screenshot)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/reports/nuxt-ssr.html"
+    }
+  ],
+  "items": [
+    {
+      "name": "Clone the Repository",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt"
+    },
+    {
+      "name": "Install Dependencies",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt"
+    },
+    {
+      "name": "Create or Reuse a Contentstack Stack",
+      "status": "skipped",
+      "detail": "manual/unknown step — reported only",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/reports/nuxt-ssr.html"
+    },
+    {
+      "name": "Create a Delivery Token",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt"
+    },
+    {
+      "name": "Set Up Environment Variables",
+      "status": "fail",
+      "detail": "GAP: the doc's env var names do not match what the repo reads (.env.example). Wrote the doc's keys verbatim — the app will not pick up config.\n  doc has (repo doesn't): NEXT_PUBLIC_CONTENTSTACK_API_KEY, NUXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN, NUXT_PUBLIC_CONTENTSTACK_PREVIEW_TOKEN, NUXT_PUBLIC_CONTENTSTACK_REGION, NUXT_PUBLIC_CONTENTSTACK_ENVIRONMENT, NUXT_PUBLIC_CONTENTSTACK_PREVIEW\n  repo expects (doc omits): NUXT_CONTENTSTACK_API_KEY, NUXT_CONTENTSTACK_DELIVERY_TOKEN, NUXT_CONTENTSTACK_PREVIEW_TOKEN, NUXT_CONTENTSTACK_ENVIRONMENT, NUXT_CONTENTSTACK_REGION, NUXT_CONTENTSTACK_PREVIEW",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/reports/nuxt-ssr.html"
+    },
+    {
+      "name": "Enable Live Preview in Stack Settings",
+      "status": "pass",
+      "detail": null,
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt"
+    },
+    {
+      "name": "Run the app — dev server",
+      "status": "fail",
+      "detail": "http://localhost:3000 responded HTTP 500 — app is erroring, not serving content",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/reports/nuxt-ssr.html"
+    },
+    {
+      "name": "Run the app — page renders",
+      "status": "fail",
+      "detail": "page shows an error: \"Server Error\" (see screenshot)",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/nuxt",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/reports/nuxt-ssr.html"
+    }
+  ],
+  "itemsLabel": "Checked steps",
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/nuxt"
+  ]
+}

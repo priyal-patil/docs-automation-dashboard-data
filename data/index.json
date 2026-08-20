@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T13:40:19.096Z",
+  "generatedAt": "2026-08-20T13:55:40.364Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -440,6 +440,102 @@
       "suiteLabel": "Content Delivery API",
       "path": "data/api-docs-automation/cda/latest.json",
       "lastUpdated": "2026-08-20T00:42:48.801Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-nuxt",
+      "suiteLabel": "Kickstart: Nuxt",
+      "path": "data/developer-resources-docs-automation/kickstart-nuxt/latest.json",
+      "lastUpdated": "2026-08-20T13:37:28.914Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-nuxt-ssr",
+      "suiteLabel": "Kickstart: Nuxt (SSR)",
+      "path": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/latest.json",
+      "lastUpdated": "2026-08-20T13:37:47.483Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-next",
+      "suiteLabel": "Kickstart: Next.js",
+      "path": "data/developer-resources-docs-automation/kickstart-next/latest.json",
+      "lastUpdated": "2026-08-20T13:38:36.890Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-next-ssr",
+      "suiteLabel": "Kickstart: Next.js (SSR)",
+      "path": "data/developer-resources-docs-automation/kickstart-next-ssr/latest.json",
+      "lastUpdated": "2026-08-20T13:40:37.098Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-next-middleware",
+      "suiteLabel": "Kickstart: Next.js (Middleware)",
+      "path": "data/developer-resources-docs-automation/kickstart-next-middleware/latest.json",
+      "lastUpdated": "2026-08-20T13:42:37.314Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-next-graphql",
+      "suiteLabel": "Kickstart: Next.js (GraphQL)",
+      "path": "data/developer-resources-docs-automation/kickstart-next-graphql/latest.json",
+      "lastUpdated": "2026-08-20T13:44:37.628Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-next-ssg",
+      "suiteLabel": "Kickstart: Next.js (SSG)",
+      "path": "data/developer-resources-docs-automation/kickstart-next-ssg/latest.json",
+      "lastUpdated": "2026-08-20T13:46:37.924Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-react",
+      "suiteLabel": "Kickstart: React",
+      "path": "data/developer-resources-docs-automation/kickstart-react/latest.json",
+      "lastUpdated": "2026-08-20T13:47:29.357Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-angular",
+      "suiteLabel": "Kickstart: Angular",
+      "path": "data/developer-resources-docs-automation/kickstart-angular/latest.json",
+      "lastUpdated": "2026-08-20T13:48:23.561Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-sveltekit",
+      "suiteLabel": "Kickstart: SvelteKit",
+      "path": "data/developer-resources-docs-automation/kickstart-sveltekit/latest.json",
+      "lastUpdated": "2026-08-20T13:49:08.585Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-astro",
+      "suiteLabel": "Kickstart: Astro",
+      "path": "data/developer-resources-docs-automation/kickstart-astro/latest.json",
+      "lastUpdated": "2026-08-20T13:49:51.797Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "kickstart-veda",
+      "suiteLabel": "Kickstart: Veda",
+      "path": "data/developer-resources-docs-automation/kickstart-veda/latest.json",
+      "lastUpdated": "2026-08-20T13:55:35.845Z"
     }
   ]
 }

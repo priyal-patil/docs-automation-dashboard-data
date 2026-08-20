@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "kickstart-next-middleware",
+  "suiteLabel": "Kickstart: Next.js (Middleware)",
+  "runId": "32375124632",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/32375124632#artifacts",
+  "timestamp": "2026-08-20T13:42:37.314Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "Run the app — dev server",
+      "detail": "http://localhost:3000 did not respond within 120s. Server log tail:\nnpm error Missing script: \"dev\"\nnpm error\nnpm error To see a list of scripts, run:\nnpm error   npm run\nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-08-20T13_40_37_202Z-debug-0.log\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next-middleware/reports/next-middleware.html"
+    }
+  ],
+  "items": [
+    {
+      "name": "Run the app — dev server",
+      "status": "fail",
+      "detail": "http://localhost:3000 did not respond within 120s. Server log tail:\nnpm error Missing script: \"dev\"\nnpm error\nnpm error To see a list of scripts, run:\nnpm error   npm run\nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-08-20T13_40_37_202Z-debug-0.log\n",
+      "docLink": "https://www.contentstack.com/docs/headless-cms/next",
+      "reportUrl": "data/developer-resources-docs-automation/kickstart-next-middleware/reports/next-middleware.html"
+    }
+  ],
+  "itemsLabel": "Checked steps",
+  "docLinks": [
+    "https://www.contentstack.com/docs/headless-cms/next"
+  ]
+}
