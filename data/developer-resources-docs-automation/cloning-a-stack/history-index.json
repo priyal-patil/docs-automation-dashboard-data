@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-20T02:04:02.340Z",
+    "runId": "32322995660",
+    "path": "data/developer-resources-docs-automation/cloning-a-stack/history/2026-08-20T02-04-02-340Z__32322995660.json",
+    "totals": {
+      "total": 5,
+      "passed": 1,
+      "failed": 3,
+      "skipped": 1,
+      "warnings": 15,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-19T02:05:14.873Z",
     "runId": "32207006409",
     "path": "data/developer-resources-docs-automation/cloning-a-stack/history/2026-08-19T02-05-14-873Z__32207006409.json",
