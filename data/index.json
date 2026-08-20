@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T03:05:12.964Z",
+  "generatedAt": "2026-08-20T03:06:54.853Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -239,7 +239,7 @@
       "suite": "query-based-export",
       "suiteLabel": "Query-based Export",
       "path": "data/developer-resources-docs-automation/query-based-export/latest.json",
-      "lastUpdated": "2026-08-19T03:06:54.439Z"
+      "lastUpdated": "2026-08-20T03:05:41.237Z"
     },
     {
       "project": "developer-resources-docs-automation",
