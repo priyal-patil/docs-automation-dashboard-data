@@ -39,4 +39,19 @@ jobs:
             exit 0
           fi
           git commit -m "Sync data from docs-automation-dashboard-data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
-          git push origin main
+
+          # A commit landing in the dashboard repo between checkout and push
+          # (a UI change, or a concurrent sync) used to fail the whole sync and
+          # leave the dashboard serving stale data until the next run. Rebase
+          # onto whatever arrived and try again — data/ is wholly owned by this
+          # workflow, so a rebase can't conflict with anyone else's edits.
+          for i in 1 2 3 4 5; do
+            if git push origin main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+            sleep $(( i * 3 ))
+          done
+
+          echo "::error::Could not push synced data after 5 attempts"
+          exit 1
