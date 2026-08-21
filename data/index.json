@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T05:46:34.306Z",
+  "generatedAt": "2026-08-21T06:13:04.446Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -269,7 +269,7 @@
       "suite": "audit-plugin",
       "suiteLabel": "Audit Plugin",
       "path": "data/developer-resources-docs-automation/audit-plugin/latest.json",
-      "lastUpdated": "2026-08-21T03:12:00.091Z",
+      "lastUpdated": "2026-08-21T05:42:44.682Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
