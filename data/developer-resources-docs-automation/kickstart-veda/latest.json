@@ -117,5 +117,7 @@
   "itemsLabel": "Checked steps",
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/veda"
-  ]
+  ],
+  "group": "kickstart-guides",
+  "groupLabel": "Kickstart Guides"
 }

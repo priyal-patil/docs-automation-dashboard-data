@@ -42,5 +42,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/cli-cloning-a-stack"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

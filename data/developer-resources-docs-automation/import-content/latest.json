@@ -27,5 +27,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/import-content-using-the-cli"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

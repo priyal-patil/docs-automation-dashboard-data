@@ -42,5 +42,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/configure-early-access-program-in-the-cli"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

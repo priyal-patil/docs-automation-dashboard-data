@@ -69,6 +69,16 @@ optionally with a `#fragment` anchor into a shared multi-item report file.
 Both fields are optional per item — omit `reportUrl` entirely if no
 viewable report exists for that item.
 
+### `group` / `groupLabel` (optional, additive — v1.1)
+
+Folder the suite is filed under within its project, e.g.
+`"group": "kickstart-guides", "groupLabel": "Kickstart Guides"`. The dashboard
+shows one card per folder on the project page and lists that folder's suites
+one level down. A suite that sets no group is listed directly under the
+project, so projects that never set one are unaffected. `publish.js` copies
+both fields onto the suite's `index.json` entry; `scripts/set-group.js`
+backfills them for suites that haven't re-run since a folder was introduced.
+
 ### `itemsLabel` (optional, additive — v1.1)
 
 Heading the dashboard puts above the `items` table. Defaults to "Checked

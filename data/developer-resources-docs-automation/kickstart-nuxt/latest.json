@@ -140,5 +140,7 @@
   "itemsLabel": "Checked steps",
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/nuxt"
-  ]
+  ],
+  "group": "kickstart-guides",
+  "groupLabel": "Kickstart Guides"
 }

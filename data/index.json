@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T04:15:40.462Z",
+  "generatedAt": "2026-08-21T04:38:04.552Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -7,7 +7,9 @@
       "suite": "building-websites-automation",
       "suiteLabel": "Building Websites Automation",
       "path": "data/developer-resources-docs-automation/building-websites-automation/latest.json",
-      "lastUpdated": "2026-08-20T23:49:23.838Z"
+      "lastUpdated": "2026-08-20T23:49:23.838Z",
+      "group": "building-websites",
+      "groupLabel": "Building Websites"
     },
     {
       "project": "api-docs-automation",
@@ -63,7 +65,9 @@
       "suite": "install-the-cli",
       "suiteLabel": "Install the CLI",
       "path": "data/developer-resources-docs-automation/install-the-cli/latest.json",
-      "lastUpdated": "2026-08-21T02:08:16.422Z"
+      "lastUpdated": "2026-08-21T02:08:16.422Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "api-docs-automation",
@@ -79,7 +83,9 @@
       "suite": "configure-regions",
       "suiteLabel": "Configure Regions in the CLI",
       "path": "data/developer-resources-docs-automation/configure-regions/latest.json",
-      "lastUpdated": "2026-08-21T02:08:15.175Z"
+      "lastUpdated": "2026-08-21T02:08:15.175Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "api-docs-automation",
@@ -95,7 +101,9 @@
       "suite": "cli-authentication",
       "suiteLabel": "CLI Authentication and Adding Tokens",
       "path": "data/developer-resources-docs-automation/cli-authentication/latest.json",
-      "lastUpdated": "2026-08-21T02:09:06.088Z"
+      "lastUpdated": "2026-08-21T02:09:06.088Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "api-docs-automation",
@@ -111,7 +119,9 @@
       "suite": "export-content",
       "suiteLabel": "Export Content Using the CLI",
       "path": "data/developer-resources-docs-automation/export-content/latest.json",
-      "lastUpdated": "2026-08-21T02:08:11.685Z"
+      "lastUpdated": "2026-08-21T02:08:11.685Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "api-docs-automation",
@@ -143,7 +153,9 @@
       "suite": "overwrite-existing-content",
       "suiteLabel": "Overwrite Existing Content using CLI Import",
       "path": "data/developer-resources-docs-automation/overwrite-existing-content/latest.json",
-      "lastUpdated": "2026-08-21T02:10:25.184Z"
+      "lastUpdated": "2026-08-21T02:10:25.184Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -151,7 +163,9 @@
       "suite": "cli-supported-features",
       "suiteLabel": "CLI-Supported Features for Export, Import, and Clone Operations",
       "path": "data/developer-resources-docs-automation/cli-supported-features/latest.json",
-      "lastUpdated": "2026-08-21T02:09:21.450Z"
+      "lastUpdated": "2026-08-21T02:09:21.450Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -159,7 +173,9 @@
       "suite": "cloning-a-stack",
       "suiteLabel": "Cloning a Stack",
       "path": "data/developer-resources-docs-automation/cloning-a-stack/latest.json",
-      "lastUpdated": "2026-08-21T02:12:00.467Z"
+      "lastUpdated": "2026-08-21T02:12:00.467Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -167,7 +183,9 @@
       "suite": "import-content",
       "suiteLabel": "Import Content Using the CLI",
       "path": "data/developer-resources-docs-automation/import-content/latest.json",
-      "lastUpdated": "2026-08-21T02:09:15.400Z"
+      "lastUpdated": "2026-08-21T02:09:15.400Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "api-docs-automation",
@@ -183,7 +201,9 @@
       "suite": "bulk-publish",
       "suiteLabel": "Bulk Publish and Unpublish Content",
       "path": "data/developer-resources-docs-automation/bulk-publish/latest.json",
-      "lastUpdated": "2026-08-21T02:23:36.604Z"
+      "lastUpdated": "2026-08-21T02:23:36.604Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -191,7 +211,9 @@
       "suite": "cli-for-launch",
       "suiteLabel": "CLI for Launch",
       "path": "data/developer-resources-docs-automation/cli-for-launch/latest.json",
-      "lastUpdated": "2026-08-21T02:24:33.593Z"
+      "lastUpdated": "2026-08-21T02:24:33.593Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -199,7 +221,9 @@
       "suite": "configure-early-access",
       "suiteLabel": "Configure Early Access in the CLI",
       "path": "data/developer-resources-docs-automation/configure-early-access/latest.json",
-      "lastUpdated": "2026-08-21T02:42:55.516Z"
+      "lastUpdated": "2026-08-21T02:42:55.516Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -207,7 +231,9 @@
       "suite": "compare-and-merge-branches",
       "suiteLabel": "Compare and Merge Branches Using the CLI",
       "path": "data/developer-resources-docs-automation/compare-and-merge-branches/latest.json",
-      "lastUpdated": "2026-08-20T12:53:46.404Z"
+      "lastUpdated": "2026-08-20T12:53:46.404Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -215,7 +241,9 @@
       "suite": "configure-rate-limits",
       "suiteLabel": "Configure Rate Limits in the CLI",
       "path": "data/developer-resources-docs-automation/configure-rate-limits/latest.json",
-      "lastUpdated": "2026-08-21T03:10:11.036Z"
+      "lastUpdated": "2026-08-21T03:10:11.036Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -223,7 +251,9 @@
       "suite": "configure-cli-logging",
       "suiteLabel": "Configure CLI Logging Preferences",
       "path": "data/developer-resources-docs-automation/configure-cli-logging/latest.json",
-      "lastUpdated": "2026-08-21T03:11:12.029Z"
+      "lastUpdated": "2026-08-21T03:11:12.029Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -231,7 +261,9 @@
       "suite": "query-based-export",
       "suiteLabel": "Query-based Export",
       "path": "data/developer-resources-docs-automation/query-based-export/latest.json",
-      "lastUpdated": "2026-08-21T03:13:38.828Z"
+      "lastUpdated": "2026-08-21T03:13:38.828Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -239,7 +271,9 @@
       "suite": "audit-plugin",
       "suiteLabel": "Audit Plugin",
       "path": "data/developer-resources-docs-automation/audit-plugin/latest.json",
-      "lastUpdated": "2026-08-21T03:12:00.091Z"
+      "lastUpdated": "2026-08-21T03:12:00.091Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -247,7 +281,9 @@
       "suite": "configure-proxy-settings",
       "suiteLabel": "Configure Proxy Settings in CLI",
       "path": "data/developer-resources-docs-automation/configure-proxy-settings/latest.json",
-      "lastUpdated": "2026-08-21T03:15:18.679Z"
+      "lastUpdated": "2026-08-21T03:15:18.679Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -255,7 +291,9 @@
       "suite": "export-content-to-csv",
       "suiteLabel": "Export Content to CSV File Using the CLI",
       "path": "data/developer-resources-docs-automation/export-content-to-csv/latest.json",
-      "lastUpdated": "2026-08-21T03:53:50.467Z"
+      "lastUpdated": "2026-08-21T03:53:50.467Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -263,7 +301,9 @@
       "suite": "cli-for-cs-assets",
       "suiteLabel": "CLI for CS Assets",
       "path": "data/developer-resources-docs-automation/cli-for-cs-assets/latest.json",
-      "lastUpdated": "2026-08-21T03:42:52.102Z"
+      "lastUpdated": "2026-08-21T03:42:52.102Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -271,7 +311,9 @@
       "suite": "import-content-seed-command",
       "suiteLabel": "Import Content Using the Seed Command",
       "path": "data/developer-resources-docs-automation/import-content-seed-command/latest.json",
-      "lastUpdated": "2026-08-21T03:53:55.268Z"
+      "lastUpdated": "2026-08-21T03:53:55.268Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -279,7 +321,9 @@
       "suite": "migration-command",
       "suiteLabel": "Migrate your Content using the CLI Migration Command",
       "path": "data/developer-resources-docs-automation/migration-command/latest.json",
-      "lastUpdated": "2026-08-21T04:04:42.803Z"
+      "lastUpdated": "2026-08-21T04:04:42.803Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -287,7 +331,9 @@
       "suite": "migrate-html-rte-to-json-rte",
       "suiteLabel": "Migrate Content from HTML RTE to JSON RTE using CLI",
       "path": "data/developer-resources-docs-automation/migrate-html-rte-to-json-rte/latest.json",
-      "lastUpdated": "2026-08-21T04:04:45.812Z"
+      "lastUpdated": "2026-08-21T04:04:45.812Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -295,7 +341,9 @@
       "suite": "change-master-locale",
       "suiteLabel": "Change Master Locale",
       "path": "data/developer-resources-docs-automation/change-master-locale/latest.json",
-      "lastUpdated": "2026-08-21T04:05:27.014Z"
+      "lastUpdated": "2026-08-21T04:05:27.014Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -303,7 +351,9 @@
       "suite": "bulk-operations",
       "suiteLabel": "Bulk Operations in CLI",
       "path": "data/developer-resources-docs-automation/bulk-operations/latest.json",
-      "lastUpdated": "2026-08-21T03:16:16.325Z"
+      "lastUpdated": "2026-08-21T03:16:16.325Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -311,7 +361,9 @@
       "suite": "tsgen-plugin",
       "suiteLabel": "Generate Typescript Typings with TSGen Plugin",
       "path": "data/developer-resources-docs-automation/tsgen-plugin/latest.json",
-      "lastUpdated": "2026-08-21T04:06:34.385Z"
+      "lastUpdated": "2026-08-21T04:06:34.385Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -319,7 +371,9 @@
       "suite": "bootstrap-starter-apps",
       "suiteLabel": "Bootstrap Starter Apps",
       "path": "data/developer-resources-docs-automation/bootstrap-starter-apps/latest.json",
-      "lastUpdated": "2026-08-21T04:08:07.981Z"
+      "lastUpdated": "2026-08-21T04:08:07.981Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "api-docs-automation",
@@ -447,7 +501,9 @@
       "suite": "kickstart-nuxt",
       "suiteLabel": "Kickstart: Nuxt",
       "path": "data/developer-resources-docs-automation/kickstart-nuxt/latest.json",
-      "lastUpdated": "2026-08-20T23:50:05.205Z"
+      "lastUpdated": "2026-08-20T23:50:05.205Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -455,7 +511,9 @@
       "suite": "kickstart-nuxt-ssr",
       "suiteLabel": "Kickstart: Nuxt (SSR)",
       "path": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/latest.json",
-      "lastUpdated": "2026-08-20T23:50:27.649Z"
+      "lastUpdated": "2026-08-20T23:50:27.649Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -463,7 +521,9 @@
       "suite": "kickstart-next",
       "suiteLabel": "Kickstart: Next.js",
       "path": "data/developer-resources-docs-automation/kickstart-next/latest.json",
-      "lastUpdated": "2026-08-20T23:51:25.859Z"
+      "lastUpdated": "2026-08-20T23:51:25.859Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -471,7 +531,9 @@
       "suite": "kickstart-next-ssr",
       "suiteLabel": "Kickstart: Next.js (SSR)",
       "path": "data/developer-resources-docs-automation/kickstart-next-ssr/latest.json",
-      "lastUpdated": "2026-08-20T23:53:26.140Z"
+      "lastUpdated": "2026-08-20T23:53:26.140Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -479,7 +541,9 @@
       "suite": "kickstart-next-middleware",
       "suiteLabel": "Kickstart: Next.js (Middleware)",
       "path": "data/developer-resources-docs-automation/kickstart-next-middleware/latest.json",
-      "lastUpdated": "2026-08-20T23:55:26.434Z"
+      "lastUpdated": "2026-08-20T23:55:26.434Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -487,7 +551,9 @@
       "suite": "kickstart-next-graphql",
       "suiteLabel": "Kickstart: Next.js (GraphQL)",
       "path": "data/developer-resources-docs-automation/kickstart-next-graphql/latest.json",
-      "lastUpdated": "2026-08-20T23:57:26.820Z"
+      "lastUpdated": "2026-08-20T23:57:26.820Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -495,7 +561,9 @@
       "suite": "kickstart-next-ssg",
       "suiteLabel": "Kickstart: Next.js (SSG)",
       "path": "data/developer-resources-docs-automation/kickstart-next-ssg/latest.json",
-      "lastUpdated": "2026-08-20T23:59:27.118Z"
+      "lastUpdated": "2026-08-20T23:59:27.118Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -503,7 +571,9 @@
       "suite": "kickstart-react",
       "suiteLabel": "Kickstart: React",
       "path": "data/developer-resources-docs-automation/kickstart-react/latest.json",
-      "lastUpdated": "2026-08-21T00:00:29.671Z"
+      "lastUpdated": "2026-08-21T00:00:29.671Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -511,7 +581,9 @@
       "suite": "kickstart-angular",
       "suiteLabel": "Kickstart: Angular",
       "path": "data/developer-resources-docs-automation/kickstart-angular/latest.json",
-      "lastUpdated": "2026-08-21T00:01:33.026Z"
+      "lastUpdated": "2026-08-21T00:01:33.026Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -519,7 +591,9 @@
       "suite": "kickstart-sveltekit",
       "suiteLabel": "Kickstart: SvelteKit",
       "path": "data/developer-resources-docs-automation/kickstart-sveltekit/latest.json",
-      "lastUpdated": "2026-08-21T00:02:21.794Z"
+      "lastUpdated": "2026-08-21T00:02:21.794Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -527,7 +601,9 @@
       "suite": "kickstart-astro",
       "suiteLabel": "Kickstart: Astro",
       "path": "data/developer-resources-docs-automation/kickstart-astro/latest.json",
-      "lastUpdated": "2026-08-21T00:03:17.429Z"
+      "lastUpdated": "2026-08-21T00:03:17.429Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     },
     {
       "project": "developer-resources-docs-automation",
@@ -535,7 +611,9 @@
       "suite": "kickstart-veda",
       "suiteLabel": "Kickstart: Veda",
       "path": "data/developer-resources-docs-automation/kickstart-veda/latest.json",
-      "lastUpdated": "2026-08-21T00:27:59.415Z"
+      "lastUpdated": "2026-08-21T00:27:59.415Z",
+      "group": "kickstart-guides",
+      "groupLabel": "Kickstart Guides"
     }
   ]
 }

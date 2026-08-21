@@ -157,5 +157,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/compare-and-merge-branches-using-the-cli"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

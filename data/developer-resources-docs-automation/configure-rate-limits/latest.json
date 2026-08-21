@@ -32,5 +32,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/configure-rate-limits-in-the-cli"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

@@ -124,5 +124,7 @@
   "itemsLabel": "Checked steps",
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/next"
-  ]
+  ],
+  "group": "kickstart-guides",
+  "groupLabel": "Kickstart Guides"
 }

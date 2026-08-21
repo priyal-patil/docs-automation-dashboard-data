@@ -106,6 +106,10 @@ function main() {
       suiteLabel: report.suiteLabel || report.suite,
       path: relPath,
       lastUpdated: report.timestamp,
+      // Optional folder within the project (e.g. "kickstart-guides"). Omitted
+      // entirely when a report doesn't set one, so the dashboard lists that
+      // suite directly under its project as before.
+      ...(report.group ? { group: report.group, groupLabel: report.groupLabel || report.group } : {}),
     };
     if (existingIdx >= 0) index.entries[existingIdx] = entry;
     else index.entries.push(entry);

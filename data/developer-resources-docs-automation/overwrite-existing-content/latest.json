@@ -27,5 +27,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/overwrite-existing-content-using-cli-import"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

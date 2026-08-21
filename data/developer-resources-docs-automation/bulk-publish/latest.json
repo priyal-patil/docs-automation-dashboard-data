@@ -102,5 +102,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/cli-bulk-publish-and-unpublish-content/v1"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

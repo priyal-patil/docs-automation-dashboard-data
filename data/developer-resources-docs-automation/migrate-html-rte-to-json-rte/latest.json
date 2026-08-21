@@ -52,5 +52,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/cli-migrate-content-from-html-rte-to-json-rte/v1"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

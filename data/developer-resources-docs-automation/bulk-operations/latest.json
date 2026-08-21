@@ -72,5 +72,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/bulk-operations-in-cli"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

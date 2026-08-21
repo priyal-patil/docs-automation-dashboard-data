@@ -37,5 +37,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/export-content-using-the-cli"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

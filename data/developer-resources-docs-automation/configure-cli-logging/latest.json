@@ -27,5 +27,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/configure-cli-logging-preferences"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

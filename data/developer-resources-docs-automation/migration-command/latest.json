@@ -47,5 +47,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/migrate-your-content-using-the-cli-migration-command"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

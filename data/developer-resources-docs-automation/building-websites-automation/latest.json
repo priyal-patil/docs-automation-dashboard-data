@@ -26,5 +26,7 @@
       "reportUrl": "data/developer-resources-docs-automation/building-websites-automation/reports/index.html#get-started-building-a-website"
     }
   ],
-  "docLinks": []
+  "docLinks": [],
+  "group": "building-websites",
+  "groupLabel": "Building Websites"
 }

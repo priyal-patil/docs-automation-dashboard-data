@@ -42,5 +42,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/cli-audit-plugin"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }

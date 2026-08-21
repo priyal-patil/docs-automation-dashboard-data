@@ -82,5 +82,7 @@
   ],
   "docLinks": [
     "https://www.contentstack.com/docs/headless-cms/cli-for-launch"
-  ]
+  ],
+  "group": "cli-docs",
+  "groupLabel": "CLI Docs"
 }
