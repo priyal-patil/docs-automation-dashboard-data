@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-20T23:50:05.205Z",
+    "runId": "32430135133",
+    "path": "data/developer-resources-docs-automation/kickstart-nuxt/history/2026-08-20T23-50-05-205Z__32430135133.json",
+    "totals": {
+      "total": 12,
+      "passed": 5,
+      "failed": 6,
+      "skipped": 1,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-20T13:37:28.914Z",
     "runId": "32375124632",
     "path": "data/developer-resources-docs-automation/kickstart-nuxt/history/2026-08-20T13-37-28-914Z__32375124632.json",
