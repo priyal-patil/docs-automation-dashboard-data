@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T07:10:14.864Z",
+  "generatedAt": "2026-08-21T21:04:58.020Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -453,7 +453,7 @@
       "suite": "launch",
       "suiteLabel": "Launch",
       "path": "data/contentstack-docs-automation-suite/launch/latest.json",
-      "lastUpdated": "2026-08-20T21:10:49.968Z"
+      "lastUpdated": "2026-08-21T21:04:55.997Z"
     },
     {
       "project": "contentstack-docs-automation-suite",
