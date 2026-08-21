@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-21T04:39:02.795Z",
+    "runId": "32447657625",
+    "path": "data/developer-resources-docs-automation/install-the-cli/history/2026-08-21T04-39-02-795Z__32447657625.json",
+    "totals": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-21T02:08:16.422Z",
     "runId": "32438742688",
     "path": "data/developer-resources-docs-automation/install-the-cli/history/2026-08-21T02-08-16-422Z__32438742688.json",
