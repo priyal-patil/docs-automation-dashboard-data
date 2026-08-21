@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-21T06:35:46.630Z",
+    "runId": "32447657625",
+    "path": "data/developer-resources-docs-automation/migration-command/history/2026-08-21T06-35-46-630Z__32447657625.json",
+    "totals": {
+      "total": 11,
+      "passed": 4,
+      "failed": 4,
+      "skipped": 3,
+      "warnings": 15,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-21T04:04:42.803Z",
     "runId": "32438742688",
     "path": "data/developer-resources-docs-automation/migration-command/history/2026-08-21T04-04-42-803Z__32438742688.json",
