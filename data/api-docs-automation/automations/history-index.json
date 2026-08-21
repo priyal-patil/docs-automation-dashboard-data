@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-21T22:50:55.113Z",
+    "runId": "32534564874",
+    "path": "data/api-docs-automation/automations/history/2026-08-21T22-50-55-113Z__32534564874.json",
+    "totals": {
+      "total": 19,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-20T22:55:09.166Z",
     "runId": "32426328398",
     "path": "data/api-docs-automation/automations/history/2026-08-20T22-55-09-166Z__32426328398.json",
