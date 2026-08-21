@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T04:39:28.160Z",
+  "generatedAt": "2026-08-21T04:39:32.417Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -83,7 +83,7 @@
       "suite": "configure-regions",
       "suiteLabel": "Configure Regions in the CLI",
       "path": "data/developer-resources-docs-automation/configure-regions/latest.json",
-      "lastUpdated": "2026-08-21T02:08:15.175Z",
+      "lastUpdated": "2026-08-21T04:39:06.970Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
