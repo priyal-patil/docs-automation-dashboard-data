@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T06:48:29.324Z",
+  "generatedAt": "2026-08-21T07:10:14.864Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -231,7 +231,9 @@
       "suite": "compare-and-merge-branches",
       "suiteLabel": "Compare and Merge Branches Using the CLI",
       "path": "data/developer-resources-docs-automation/compare-and-merge-branches/latest.json",
-      "lastUpdated": "2026-08-21T02:26:21.230Z"
+      "lastUpdated": "2026-08-21T04:56:50.076Z",
+      "group": "cli-docs",
+      "groupLabel": "CLI Docs"
     },
     {
       "project": "developer-resources-docs-automation",
