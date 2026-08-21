@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T22:53:19.422Z",
+  "generatedAt": "2026-08-21T22:55:30.941Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -145,7 +145,7 @@
       "suite": "imagedelivery",
       "suiteLabel": "Image Delivery API",
       "path": "data/api-docs-automation/imagedelivery/latest.json",
-      "lastUpdated": "2026-08-20T22:59:42.817Z"
+      "lastUpdated": "2026-08-21T22:55:30.212Z"
     },
     {
       "project": "developer-resources-docs-automation",
