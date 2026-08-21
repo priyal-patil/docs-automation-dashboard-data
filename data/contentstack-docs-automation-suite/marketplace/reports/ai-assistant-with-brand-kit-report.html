@@ -43,13 +43,13 @@
     <h1>Flow Report: ai-assistant-with-brand-kit</h1>
     <div class="meta">
       Document: <a href="https://www.contentstack.com/docs/developers/marketplace-apps/ai-assistant-with-brand-kit" target="_blank" rel="noopener noreferrer">https://www.contentstack.com/docs/developers/marketplace-apps/ai-assistant-with-brand-kit</a><br/>
-      Generated: 2026-08-20T03:01:14.550Z
+      Generated: 2026-08-21T03:22:07.908Z
       
     </div>
     <div class="cards">
       <div class="card"><div class="value">139</div><div class="label">Steps (in flow)</div></div>
       <div class="card"><div class="value green">0</div><div class="label">Failed steps</div></div>
-      <div class="card"><div class="value amber">117</div><div class="label">Warnings</div></div>
+      <div class="card"><div class="value amber">136</div><div class="label">Warnings</div></div>
       <div class="card"><div class="value green">22</div><div class="label">Steps with no failure/warning in table below</div></div>
     </div>
 
@@ -862,10 +862,10 @@ Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Change length&quot;), li:has-text(&quot;Change length&quot;), *:text-is(&quot;Change length&quot;)').first()[22m</td></tr><tr class="step-warning"><td>114</td><td>verify</td><td class="mono">Longer option in Change length (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Longer&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator:  locator('[role=&quot;option&quot;]:has-text(&quot;Longer&quot;), li:has-text(&quot;Longer&quot;), button:has-text(&quot;Longer&quot;), *:text-is(&quot;Longer&quot;)').first()
+Locator: locator('[role=&quot;option&quot;]:has-text(&quot;Longer&quot;), li:has-text(&quot;Longer&quot;), button:has-text(&quot;Longer&quot;), *:text-is(&quot;Longer&quot;)').first()
 Expected: visible
-Received: undefined
-Timeout:  1000ms
+Timeout: 1000ms
+Error: element(s) not found
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
@@ -923,6 +923,15 @@ Error: element(s) not found
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Cancel&quot;), *:text-is(&quot;Cancel&quot;), [data-test-id*=&quot;cancel&quot;]').first()[22m<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Cancel&quot;), *:text-is(&quot;Cancel&quot;), [data-test-id*=&quot;cancel&quot;]').first()
+Expected: visible
+Received: undefined
+Timeout:  1000ms
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Cancel&quot;), *:text-is(&quot;Cancel&quot;), [data-test-id*=&quot;cancel&quot;]').first()[22m</td></tr><tr class="step-warning"><td>121</td><td>click</td><td class="mono">Accept button in AI Assistant popup (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
 Locator: locator('button:has-text(&quot;Accept&quot;), [data-test-id*=&quot;accept&quot;], *:text-is(&quot;Accept&quot;)').first()
@@ -934,10 +943,18 @@ Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Accept&quot;), [data-test-id*=&quot;accept&quot;], *:text-is(&quot;Accept&quot;)').first()[22m</td></tr><tr class="step-warning"><td>122</td><td>verify</td><td class="mono">Brainstorm With AI Assistant option (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Brainstorm With AI Assistant&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
+Locator: locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()
+Expected: visible
+Timeout: 1000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()[22m<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
 Locator:  locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()
 Expected: visible
 Received: undefined
-Timeout:  1000ms
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
@@ -950,106 +967,113 @@ Error: element(s) not found
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()[22m<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()[22m</td></tr><tr class="step-warning"><td>124</td><td>verify</td><td class="mono">Regenerate button in AI Assistant popup (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Regenerate&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()
+Locator:  locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
+Timeout:  1000ms
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()[22m<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()
+Expected: visible
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()[22m</td></tr><tr class="step-warning"><td>125</td><td>verify</td><td class="mono">Edit button in AI Assistant popup (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Edit&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()
+Locator:  locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
+Timeout:  1000ms
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()[22m</td></tr><tr class="step-warning"><td>126</td><td>verify</td><td class="mono">Outline option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Outline&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()[22m<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()
+Locator:  locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()[22m</td></tr><tr class="step-warning"><td>127</td><td>click</td><td class="mono">Outline option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()[22m</td></tr><tr class="step-warning"><td>126</td><td>verify</td><td class="mono">Outline option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Outline&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()
+Locator:  locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()[22m</td></tr><tr class="step-warning"><td>128</td><td>verify</td><td class="mono">Summary option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Summary&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()[22m</td></tr><tr class="step-warning"><td>127</td><td>click</td><td class="mono">Outline option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()[22m</td></tr><tr class="step-warning"><td>128</td><td>verify</td><td class="mono">Summary option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Summary&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
 Locator:  locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()
 Expected: visible
 Received: undefined
-Timeout:  1000ms
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()[22m</td></tr><tr class="step-warning"><td>129</td><td>click</td><td class="mono">Summary option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()[22m</td></tr><tr class="step-warning"><td>129</td><td>click</td><td class="mono">Summary option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()
-Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()[22m</td></tr><tr class="step-warning"><td>130</td><td>verify</td><td class="mono">SEO Tags option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;SEO Tags&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()
-Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()[22m</td></tr><tr class="step-warning"><td>131</td><td>click</td><td class="mono">SEO Tags option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()
-Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()[22m</td></tr><tr class="step-warning"><td>132</td><td>verify</td><td class="mono">Blog Posts option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Blog Posts&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()
-Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()[22m</td></tr><tr class="step-warning"><td>133</td><td>click</td><td class="mono">Blog Posts option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()
-Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()[22m</td></tr><tr class="step-warning"><td>134</td><td>verify</td><td class="mono">Headline option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Headline&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator:  locator('button:has-text(&quot;Headline&quot;), li:has-text(&quot;Headline&quot;), [role=&quot;option&quot;]:has-text(&quot;Headline&quot;), *:text-is(&quot;Headline&quot;)').first()
+Locator:  locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()
 Expected: visible
 Received: undefined
-Timeout:  1000ms
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Headline&quot;), li:has-text(&quot;Headline&quot;), [role=&quot;option&quot;]:has-text(&quot;Headline&quot;), *:text-is(&quot;Headline&quot;)').first()[22m</td></tr><tr class="step-warning"><td>135</td><td>click</td><td class="mono">Headline option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()[22m</td></tr><tr class="step-warning"><td>130</td><td>verify</td><td class="mono">SEO Tags option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;SEO Tags&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()[22m</td></tr><tr class="step-warning"><td>131</td><td>click</td><td class="mono">SEO Tags option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()[22m</td></tr><tr class="step-warning"><td>132</td><td>verify</td><td class="mono">Blog Posts option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Blog Posts&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()[22m</td></tr><tr class="step-warning"><td>133</td><td>click</td><td class="mono">Blog Posts option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()[22m</td></tr><tr class="step-warning"><td>134</td><td>verify</td><td class="mono">Headline option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Headline&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
 Locator:  locator('button:has-text(&quot;Headline&quot;), li:has-text(&quot;Headline&quot;), [role=&quot;option&quot;]:has-text(&quot;Headline&quot;), *:text-is(&quot;Headline&quot;)').first()
 Expected: visible
@@ -1057,7 +1081,15 @@ Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Headline&quot;), li:has-text(&quot;Headline&quot;), [role=&quot;option&quot;]:has-text(&quot;Headline&quot;), *:text-is(&quot;Headline&quot;)').first()[22m</td></tr><tr class="step-warning"><td>136</td><td>verify</td><td class="mono">User Persona Tags option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;User Persona Tags&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;Headline&quot;), li:has-text(&quot;Headline&quot;), [role=&quot;option&quot;]:has-text(&quot;Headline&quot;), *:text-is(&quot;Headline&quot;)').first()[22m</td></tr><tr class="step-warning"><td>135</td><td>click</td><td class="mono">Headline option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Headline&quot;), li:has-text(&quot;Headline&quot;), [role=&quot;option&quot;]:has-text(&quot;Headline&quot;), *:text-is(&quot;Headline&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Headline&quot;), li:has-text(&quot;Headline&quot;), [role=&quot;option&quot;]:has-text(&quot;Headline&quot;), *:text-is(&quot;Headline&quot;)').first()[22m</td></tr><tr class="step-warning"><td>136</td><td>verify</td><td class="mono">User Persona Tags option in AI Assistant (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;User Persona Tags&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
 Locator:  locator('button:has-text(&quot;User Persona Tags&quot;), li:has-text(&quot;User Persona Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;User Persona Tags&quot;), *:text-is(&quot;User Persona Tags&quot;)').first()
 Expected: visible
@@ -1065,7 +1097,7 @@ Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;User Persona Tags&quot;), li:has-text(&quot;User Persona Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;User Persona Tags&quot;), *:text-is(&quot;User Persona Tags&quot;)').first()[22m</td></tr><tr class="step-warning"><td>137</td><td>click</td><td class="mono">User Persona Tags option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;User Persona Tags&quot;), li:has-text(&quot;User Persona Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;User Persona Tags&quot;), *:text-is(&quot;User Persona Tags&quot;)').first()[22m</td></tr><tr class="step-warning"><td>137</td><td>click</td><td class="mono">User Persona Tags option in AI Assistant (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
 Locator:  locator('button:has-text(&quot;User Persona Tags&quot;), li:has-text(&quot;User Persona Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;User Persona Tags&quot;), *:text-is(&quot;User Persona Tags&quot;)').first()
 Expected: visible
@@ -1073,7 +1105,7 @@ Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;User Persona Tags&quot;), li:has-text(&quot;User Persona Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;User Persona Tags&quot;), *:text-is(&quot;User Persona Tags&quot;)').first()[22m</td></tr><tr class="step-warning"><td>138</td><td>verify</td><td class="mono">Save button in entry (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Save&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;User Persona Tags&quot;), li:has-text(&quot;User Persona Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;User Persona Tags&quot;), *:text-is(&quot;User Persona Tags&quot;)').first()[22m</td></tr><tr class="step-warning"><td>138</td><td>verify</td><td class="mono">Save button in entry (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Save&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
 Locator:  locator('button:has-text(&quot;Save&quot;):not(:has-text(&quot;Close&quot;)):not(:has-text(&quot;Publish&quot;)), [data-test-id*=&quot;entry-save&quot;], button[aria-label=&quot;Save&quot;], [class*=&quot;save-btn&quot;]:has-text(&quot;Save&quot;):not(:has-text(&quot;Close&quot;))').first()
 Expected: visible
@@ -1081,7 +1113,7 @@ Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
-[2m  - waiting for locator('button:has-text(&quot;Save&quot;):not(:has-text(&quot;Close&quot;)):not(:has-text(&quot;Publish&quot;)), [data-test-id*=&quot;entry-save&quot;], button[aria-label=&quot;Save&quot;], [class*=&quot;save-btn&quot;]:has-text(&quot;Save&quot;):not(:has-text(&quot;Close&quot;))').first()[22m</td></tr><tr class="step-warning"><td>139</td><td>click</td><td class="mono">Save button in entry (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+[2m  - waiting for locator('button:has-text(&quot;Save&quot;):not(:has-text(&quot;Close&quot;)):not(:has-text(&quot;Publish&quot;)), [data-test-id*=&quot;entry-save&quot;], button[aria-label=&quot;Save&quot;], [class*=&quot;save-btn&quot;]:has-text(&quot;Save&quot;):not(:has-text(&quot;Close&quot;))').first()[22m</td></tr><tr class="step-warning"><td>139</td><td>click</td><td class="mono">Save button in entry (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed<br/>warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
 Locator:  locator('button:has-text(&quot;Save&quot;):not(:has-text(&quot;Close&quot;)):not(:has-text(&quot;Publish&quot;)), [data-test-id*=&quot;entry-save&quot;], button[aria-label=&quot;Save&quot;], [class*=&quot;save-btn&quot;]:has-text(&quot;Save&quot;):not(:has-text(&quot;Close&quot;))').first()
 Expected: visible
@@ -1096,7 +1128,7 @@ Call log:
     
     
     <section class="warnings-box">
-      <h3>⚠️ Doc verification warnings (117)</h3>
+      <h3>⚠️ Doc verification warnings (136)</h3>
       <p>These indicate a mismatch between the document and the app. The flow continues; use these to improve docs/UI alignment.</p>
       <ul>
         <li><strong>Step 10</strong> (Install App button on AI Assistant (doc step)): warnOnly: element not found or not visible — Label/field-name verification mismatch for &quot;Install App button on AI Assistant (doc step)&quot;: Label validation failed: expected &quot;Install App&quot; (contains), got &quot;install&quot;.</li><li><strong>Step 18</strong> (Platform Configuration section (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
@@ -1991,10 +2023,10 @@ Call log:
 [2m  - waiting for locator('button:has-text(&quot;Change length&quot;), li:has-text(&quot;Change length&quot;), *:text-is(&quot;Change length&quot;)').first()[22m
 </li><li><strong>Step 114</strong> (Longer option in Change length (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator:  locator('[role=&quot;option&quot;]:has-text(&quot;Longer&quot;), li:has-text(&quot;Longer&quot;), button:has-text(&quot;Longer&quot;), *:text-is(&quot;Longer&quot;)').first()
+Locator: locator('[role=&quot;option&quot;]:has-text(&quot;Longer&quot;), li:has-text(&quot;Longer&quot;), button:has-text(&quot;Longer&quot;), *:text-is(&quot;Longer&quot;)').first()
 Expected: visible
-Received: undefined
-Timeout:  1000ms
+Timeout: 1000ms
+Error: element(s) not found
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
@@ -2071,10 +2103,10 @@ Call log:
 [2m  - waiting for locator('button:has-text(&quot;Accept&quot;), [data-test-id*=&quot;accept&quot;], *:text-is(&quot;Accept&quot;)').first()[22m
 </li><li><strong>Step 122</strong> (Brainstorm With AI Assistant option (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator:  locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()
+Locator: locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()
 Expected: visible
-Received: undefined
-Timeout:  1000ms
+Timeout: 1000ms
+Error: element(s) not found
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
@@ -2091,40 +2123,84 @@ Call log:
 [2m  - waiting for locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()[22m
 </li><li><strong>Step 124</strong> (Regenerate button in AI Assistant popup (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()
+Locator:  locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
+Timeout:  1000ms
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()[22m
 </li><li><strong>Step 125</strong> (Edit button in AI Assistant popup (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()
+Locator:  locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
+Timeout:  1000ms
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()[22m
+</li><li><strong>Step 126</strong> (Outline option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 127</strong> (Outline option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 128</strong> (Summary option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 129</strong> (Summary option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 130</strong> (SEO Tags option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 131</strong> (SEO Tags option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 132</strong> (Blog Posts option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 133</strong> (Blog Posts option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 134</strong> (Headline option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 135</strong> (Headline option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 136</strong> (User Persona Tags option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 137</strong> (User Persona Tags option in AI Assistant (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 138</strong> (Save button in entry (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 139</strong> (Save button in entry (doc step)): warnOnly: element not found or not visible — locator._expect: Target page, context or browser has been closed</li><li><strong>Step 120</strong> (Cancel button in AI Assistant popup (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Cancel&quot;), *:text-is(&quot;Cancel&quot;), [data-test-id*=&quot;cancel&quot;]').first()
+Expected: visible
+Received: undefined
+Timeout:  1000ms
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Cancel&quot;), *:text-is(&quot;Cancel&quot;), [data-test-id*=&quot;cancel&quot;]').first()[22m
+</li><li><strong>Step 122</strong> (Brainstorm With AI Assistant option (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()[22m
+</li><li><strong>Step 123</strong> (Brainstorm With AI Assistant option (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Brainstorm With AI Assistant&quot;), button:has-text(&quot;Brainstorm&quot;), li:has-text(&quot;Brainstorm With AI Assistant&quot;), *:text-is(&quot;Brainstorm With AI Assistant&quot;)').first()[22m
+</li><li><strong>Step 124</strong> (Regenerate button in AI Assistant popup (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()
+Expected: visible
+Received: undefined
+
+Call log:
+[2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
+[2m  - waiting for locator('button:has-text(&quot;Regenerate&quot;), *:text-is(&quot;Regenerate&quot;), [data-test-id*=&quot;regenerate&quot;]').first()[22m
+</li><li><strong>Step 125</strong> (Edit button in AI Assistant popup (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator:  locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()
+Expected: visible
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Edit&quot;), *:text-is(&quot;Edit&quot;), [data-test-id*=&quot;edit-brainstorm&quot;]').first()[22m
 </li><li><strong>Step 126</strong> (Outline option in AI Assistant (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()
+Locator:  locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()[22m
 </li><li><strong>Step 127</strong> (Outline option in AI Assistant (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()
+Locator:  locator('button:has-text(&quot;Outline&quot;), li:has-text(&quot;Outline&quot;), [role=&quot;option&quot;]:has-text(&quot;Outline&quot;), *:text-is(&quot;Outline&quot;)').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
@@ -2134,57 +2210,51 @@ Call log:
 Locator:  locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()
 Expected: visible
 Received: undefined
-Timeout:  1000ms
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()[22m
 </li><li><strong>Step 129</strong> (Summary option in AI Assistant (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()
+Locator:  locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Summary&quot;), li:has-text(&quot;Summary&quot;), [role=&quot;option&quot;]:has-text(&quot;Summary&quot;), *:text-is(&quot;Summary&quot;)').first()[22m
 </li><li><strong>Step 130</strong> (SEO Tags option in AI Assistant (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()
+Locator:  locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()[22m
 </li><li><strong>Step 131</strong> (SEO Tags option in AI Assistant (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()
+Locator:  locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;SEO Tags&quot;), li:has-text(&quot;SEO Tags&quot;), [role=&quot;option&quot;]:has-text(&quot;SEO Tags&quot;), *:text-is(&quot;SEO Tags&quot;)').first()[22m
 </li><li><strong>Step 132</strong> (Blog Posts option in AI Assistant (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()
+Locator:  locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
 [2m  - waiting for locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()[22m
 </li><li><strong>Step 133</strong> (Blog Posts option in AI Assistant (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
 
-Locator: locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()
+Locator:  locator('button:has-text(&quot;Blog Posts&quot;), li:has-text(&quot;Blog Posts&quot;), [role=&quot;option&quot;]:has-text(&quot;Blog Posts&quot;), *:text-is(&quot;Blog Posts&quot;)').first()
 Expected: visible
-Timeout: 1000ms
-Error: element(s) not found
+Received: undefined
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
@@ -2194,7 +2264,6 @@ Call log:
 Locator:  locator('button:has-text(&quot;Headline&quot;), li:has-text(&quot;Headline&quot;), [role=&quot;option&quot;]:has-text(&quot;Headline&quot;), *:text-is(&quot;Headline&quot;)').first()
 Expected: visible
 Received: undefined
-Timeout:  1000ms
 
 Call log:
 [2m  - Expect &quot;toBeVisible&quot; with timeout 1000ms[22m
