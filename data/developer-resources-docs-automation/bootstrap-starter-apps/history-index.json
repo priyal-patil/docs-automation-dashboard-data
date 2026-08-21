@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-21T04:08:07.981Z",
+    "runId": "32438742688",
+    "path": "data/developer-resources-docs-automation/bootstrap-starter-apps/history/2026-08-21T04-08-07-981Z__32438742688.json",
+    "totals": {
+      "total": 17,
+      "passed": 5,
+      "failed": 3,
+      "skipped": 9,
+      "warnings": 10,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-20T14:32:41.812Z",
     "runId": "32369668965",
     "path": "data/developer-resources-docs-automation/bootstrap-starter-apps/history/2026-08-20T14-32-41-812Z__32369668965.json",
