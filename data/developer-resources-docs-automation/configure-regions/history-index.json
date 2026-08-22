@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-22T01:58:02.726Z",
+    "runId": "32544907324",
+    "path": "data/developer-resources-docs-automation/configure-regions/history/2026-08-22T01-58-02-726Z__32544907324.json",
+    "totals": {
+      "total": 11,
+      "passed": 10,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 11,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-21T04:39:06.970Z",
     "runId": "32447657625",
     "path": "data/developer-resources-docs-automation/configure-regions/history/2026-08-21T04-39-06-970Z__32447657625.json",
