@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T02:11:28.475Z",
+  "generatedAt": "2026-08-22T02:32:43.901Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -173,7 +173,7 @@
       "suite": "cloning-a-stack",
       "suiteLabel": "Cloning a Stack",
       "path": "data/developer-resources-docs-automation/cloning-a-stack/latest.json",
-      "lastUpdated": "2026-08-21T04:42:50.869Z",
+      "lastUpdated": "2026-08-22T02:01:50.653Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
