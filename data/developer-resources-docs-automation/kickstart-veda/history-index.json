@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-22T00:21:12.070Z",
+    "runId": "32538050248",
+    "path": "data/developer-resources-docs-automation/kickstart-veda/history/2026-08-22T00-21-12-070Z__32538050248.json",
+    "totals": {
+      "total": 10,
+      "passed": 2,
+      "failed": 4,
+      "skipped": 3,
+      "warnings": 1,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-21T04:59:16.844Z",
     "runId": "32447657692",
     "path": "data/developer-resources-docs-automation/kickstart-veda/history/2026-08-21T04-59-16-844Z__32447657692.json",

@@ -25,12 +25,12 @@
 <body>
   <div class="eyebrow">Kickstart Docs Automation</div>
   <h1>Validation Report</h1>
-  <div class="sub">1 kickstart checked · 1 with issues · generated 2026-08-21T04:59:17.565Z</div>
+  <div class="sub">1 kickstart checked · 1 with issues · generated 2026-08-22T00:21:13.362Z</div>
   <section class="card" id="veda">
     <div class="card-head">
       <h2>veda</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
     </div>
-    <div class="meta">3 broken · 1 ambiguous · 3 pass · 3 skipped &nbsp;·&nbsp; 2026-08-21T04:59:16.844Z</div>
+    <div class="meta">4 broken · 1 ambiguous · 2 pass · 3 skipped &nbsp;·&nbsp; 2026-08-22T00:21:12.070Z</div>
     <table>
       <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
       <tbody><tr>
@@ -39,15 +39,14 @@
     <td class="title">Prerequisites</td>
     <td class="detail"><pre>manual/unknown step — reported only</pre></td>
   </tr><tr>
-    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
+    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
     <td><span class="kind">cli</span></td>
     <td class="title">Set Up Your Stack</td>
     <td class="detail"><pre>✓ npm install -g @contentstack/cli
 ✓ csdx config:set:region &lt;YOUR_REGION_CODE&gt;
 ✓ csdx auth:login
    ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
-✓ csdx cm:stacks:seed --repo "contentstack/kickstart-veda-seed" --org "&lt;ORG_ID&gt;" -n "Veda: The Revival Collection"
-   ↳ seed output had no api key — resolved "CS Kickstart veda mt2h4vk4" via Management API: bltd3324b9b3acc3525</pre></td>
+✗ csdx cm:stacks:seed --repo "contentstack/kickstart-veda-seed" --org "&lt;ORG_ID&gt;" -n "Veda: The Revival Collection"  (timed out)</pre></td>
   </tr><tr>
     <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
     <td><span class="kind">shell</span></td>
@@ -59,8 +58,7 @@ cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-autom
     <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
     <td><span class="kind">dashboard</span></td>
     <td class="title">Get Delivery and Preview Tokens</td>
-    <td class="detail"><pre>[failed] UI and API both failed: Token create failed: HTTP 422 {"error_message":"Delivery Token creation failed. Please try again.","error_code":141,"errors":{"scope.environments":["preview environment(s) not found."]}}
-UI labels verified on screen: Settings, Tokens</pre></td>
+    <td class="detail"><pre>[failed] no seeded stack api key</pre></td>
   </tr><tr>
     <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
     <td><span class="kind">env</span></td>
@@ -70,10 +68,7 @@ UI labels verified on screen: Settings, Tokens</pre></td>
     <td><span class="pill" style="background:#F7D07B;color:#1A1919">AMBIGUOUS</span></td>
     <td><span class="kind">dashboard</span></td>
     <td class="title">Enable Live Preview in the Stack</td>
-    <td class="detail"><pre>Live Preview UI step failed: page.waitForSelector: Timeout 20000ms exceeded.
-Call log:
-  - waiting for locator('[data-test-id="cs-stack-settings-visual-experience"]') to be visible
-</pre></td>
+    <td class="detail"><pre>no seeded stack api key</pre></td>
   </tr><tr>
     <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
     <td><span class="kind">unknown</span></td>
