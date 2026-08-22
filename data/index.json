@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T23:50:51.173Z",
+  "generatedAt": "2026-08-22T00:09:43.208Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -437,7 +437,7 @@
       "suite": "data-and-insights",
       "suiteLabel": "Data-and-Insights",
       "path": "data/contentstack-docs-automation-suite/data-and-insights/latest.json",
-      "lastUpdated": "2026-08-21T00:10:12.122Z"
+      "lastUpdated": "2026-08-22T00:09:42.048Z"
     },
     {
       "project": "contentstack-docs-automation-suite",
