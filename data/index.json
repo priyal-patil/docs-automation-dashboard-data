@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T02:03:44.332Z",
+  "generatedAt": "2026-08-22T02:04:44.121Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -201,7 +201,7 @@
       "suite": "bulk-publish",
       "suiteLabel": "Bulk Publish and Unpublish Content",
       "path": "data/developer-resources-docs-automation/bulk-publish/latest.json",
-      "lastUpdated": "2026-08-21T04:53:56.534Z",
+      "lastUpdated": "2026-08-22T02:04:11.718Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
