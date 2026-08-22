@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T03:03:27.321Z",
+  "generatedAt": "2026-08-22T03:05:10.553Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -261,7 +261,7 @@
       "suite": "query-based-export",
       "suiteLabel": "Query-based Export",
       "path": "data/developer-resources-docs-automation/query-based-export/latest.json",
-      "lastUpdated": "2026-08-21T05:44:21.795Z",
+      "lastUpdated": "2026-08-22T03:03:56.330Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
