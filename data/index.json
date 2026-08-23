@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T04:17:57.981Z",
+  "generatedAt": "2026-08-23T04:19:12.456Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -371,7 +371,7 @@
       "suite": "bootstrap-starter-apps",
       "suiteLabel": "Bootstrap Starter Apps",
       "path": "data/developer-resources-docs-automation/bootstrap-starter-apps/latest.json",
-      "lastUpdated": "2026-08-22T03:58:36.442Z",
+      "lastUpdated": "2026-08-23T04:18:26.637Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
