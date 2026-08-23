@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T04:16:50.358Z",
+  "generatedAt": "2026-08-23T04:16:56.443Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -321,7 +321,7 @@
       "suite": "migration-command",
       "suiteLabel": "Migrate your Content using the CLI Migration Command",
       "path": "data/developer-resources-docs-automation/migration-command/latest.json",
-      "lastUpdated": "2026-08-22T03:54:34.254Z",
+      "lastUpdated": "2026-08-23T04:06:36.996Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
