@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T03:12:18.736Z",
+  "generatedAt": "2026-08-23T03:13:04.154Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -251,7 +251,7 @@
       "suite": "configure-cli-logging",
       "suiteLabel": "Configure CLI Logging Preferences",
       "path": "data/developer-resources-docs-automation/configure-cli-logging/latest.json",
-      "lastUpdated": "2026-08-22T03:00:55.394Z",
+      "lastUpdated": "2026-08-23T03:12:47.255Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
