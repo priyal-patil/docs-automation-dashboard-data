@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-23T22:54:15.007Z",
+    "runId": "32671681434",
+    "path": "data/api-docs-automation/graphql/history/2026-08-23T22-54-15-007Z__32671681434.json",
+    "totals": {
+      "total": 90,
+      "passed": 68,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 22,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-22T22:54:34.080Z",
     "runId": "32603461173",
     "path": "data/api-docs-automation/graphql/history/2026-08-22T22-54-34-080Z__32603461173.json",
