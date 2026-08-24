@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:23:21.553Z",
+  "generatedAt": "2026-08-24T02:24:28.956Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -211,7 +211,7 @@
       "suite": "cli-for-launch",
       "suiteLabel": "CLI for Launch",
       "path": "data/developer-resources-docs-automation/cli-for-launch/latest.json",
-      "lastUpdated": "2026-08-23T02:17:11.007Z",
+      "lastUpdated": "2026-08-24T02:23:45.138Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
