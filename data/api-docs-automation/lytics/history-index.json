@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-24T22:54:42.370Z",
+    "runId": "32786793942",
+    "path": "data/api-docs-automation/lytics/history/2026-08-24T22-54-42-370Z__32786793942.json",
+    "totals": {
+      "total": 10,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 10,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-23T22:49:12.802Z",
     "runId": "32671675163",
     "path": "data/api-docs-automation/lytics/history/2026-08-23T22-49-12-802Z__32671675163.json",
