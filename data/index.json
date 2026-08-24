@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T04:04:23.080Z",
+  "generatedAt": "2026-08-24T04:13:01.533Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -311,7 +311,7 @@
       "suite": "import-content-seed-command",
       "suiteLabel": "Import Content Using the Seed Command",
       "path": "data/developer-resources-docs-automation/import-content-seed-command/latest.json",
-      "lastUpdated": "2026-08-23T04:05:46.180Z",
+      "lastUpdated": "2026-08-24T04:02:44.152Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
