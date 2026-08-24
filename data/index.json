@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T04:15:18.688Z",
+  "generatedAt": "2026-08-24T04:15:57.693Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -341,7 +341,7 @@
       "suite": "change-master-locale",
       "suiteLabel": "Change Master Locale",
       "path": "data/developer-resources-docs-automation/change-master-locale/latest.json",
-      "lastUpdated": "2026-08-23T04:17:20.083Z",
+      "lastUpdated": "2026-08-24T04:14:32.651Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
