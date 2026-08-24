@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T04:02:19.083Z",
+  "generatedAt": "2026-08-24T04:04:23.080Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -291,7 +291,7 @@
       "suite": "export-content-to-csv",
       "suiteLabel": "Export Content to CSV File Using the CLI",
       "path": "data/developer-resources-docs-automation/export-content-to-csv/latest.json",
-      "lastUpdated": "2026-08-23T03:55:37.064Z",
+      "lastUpdated": "2026-08-24T03:53:56.596Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
