@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T04:15:57.693Z",
+  "generatedAt": "2026-08-24T04:16:22.973Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -361,7 +361,7 @@
       "suite": "tsgen-plugin",
       "suiteLabel": "Generate Typescript Typings with TSGen Plugin",
       "path": "data/developer-resources-docs-automation/tsgen-plugin/latest.json",
-      "lastUpdated": "2026-08-23T04:17:25.217Z",
+      "lastUpdated": "2026-08-24T04:15:49.765Z",
       "group": "cli-docs",
       "groupLabel": "CLI Docs"
     },
