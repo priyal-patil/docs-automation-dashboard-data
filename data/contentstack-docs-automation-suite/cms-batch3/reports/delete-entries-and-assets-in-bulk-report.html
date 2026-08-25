@@ -43,14 +43,14 @@
     <h1>Flow Report: delete-entries-and-assets-in-bulk</h1>
     <div class="meta">
       Document: <a href="https://www.contentstack.com/docs/content-managers/search-content/delete-entries-and-assets-in-bulk" target="_blank" rel="noopener noreferrer">https://www.contentstack.com/docs/content-managers/search-content/delete-entries-and-assets-in-bulk</a><br/>
-      Generated: 2026-08-24T04:59:22.485Z
+      Generated: 2026-08-25T10:55:28.000Z
       
     </div>
     <div class="cards">
       <div class="card"><div class="value">11</div><div class="label">Steps (in flow)</div></div>
       <div class="card"><div class="value green">0</div><div class="label">Failed steps</div></div>
-      <div class="card"><div class="value amber">1</div><div class="label">Warnings</div></div>
-      <div class="card"><div class="value green">10</div><div class="label">Steps with no failure/warning in table below</div></div>
+      <div class="card"><div class="value amber">0</div><div class="label">Warnings</div></div>
+      <div class="card"><div class="value green">11</div><div class="label">Steps with no failure/warning in table below</div></div>
     </div>
 
     <section>
@@ -59,38 +59,11 @@
         <thead>
           <tr><th>#</th><th>Action</th><th>Target</th><th>Expected</th><th>Value</th><th>Result / warning</th></tr>
         </thead>
-        <tbody><tr class=""><td>1</td><td>verify</td><td class="mono">Entries (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Entries&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Entries (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>enter</td><td class="mono">Search bar input (doc step)</td><td class="mono small">—</td><td class="mono small">Auto</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>click</td><td class="mono">Search submit button (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>verify</td><td class="mono">Search results displayed (doc step)</td><td class="mono small">{}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>6</td><td>click</td><td class="mono">First entry checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class="step-warning"><td>7</td><td>click</td><td class="mono">Floating panel See More (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('[data-test-id=&quot;table-see-more-icon&quot;], [data-test-id=&quot;cs-dropdown&quot;] [data-test-id=&quot;table-see-more-icon&quot;]').first()
-Expected: visible
-Timeout: 30000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 30000ms[22m
-[2m  - waiting for locator('[data-test-id=&quot;table-see-more-icon&quot;], [data-test-id=&quot;cs-dropdown&quot;] [data-test-id=&quot;table-see-more-icon&quot;]').first()[22m</td></tr><tr class=""><td>8</td><td>verify</td><td class="mono">Delete in floating panel (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Delete in floating panel (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>verify</td><td class="mono">Delete Entries modal (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Delete Entr&quot;,&quot;modalTitle&quot;:&quot;Delete Entr&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>11</td><td>click</td><td class="mono">Delete confirm (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
+        <tbody><tr class=""><td>1</td><td>verify</td><td class="mono">Entries (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Entries&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Entries (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>enter</td><td class="mono">Search bar input (doc step)</td><td class="mono small">—</td><td class="mono small">Auto</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>click</td><td class="mono">Search submit button (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>verify</td><td class="mono">Search results displayed (doc step)</td><td class="mono small">{}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>6</td><td>click</td><td class="mono">First entry checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>7</td><td>click</td><td class="mono">Floating panel See More (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>8</td><td>verify</td><td class="mono">Delete in floating panel (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Delete in floating panel (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>verify</td><td class="mono">Delete Entries modal (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Delete Entr&quot;,&quot;modalTitle&quot;:&quot;Delete Entr&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>11</td><td>click</td><td class="mono">Delete confirm (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
       </table>
     </section>
 
     
-    
-    <section class="warnings-box">
-      <h3>⚠️ Doc verification warnings (1)</h3>
-      <p>These indicate a mismatch between the document and the app. The flow continues; use these to improve docs/UI alignment.</p>
-      <ul>
-        <li><strong>Step 7</strong> (Floating panel See More (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('[data-test-id=&quot;table-see-more-icon&quot;], [data-test-id=&quot;cs-dropdown&quot;] [data-test-id=&quot;table-see-more-icon&quot;]').first()
-Expected: visible
-Timeout: 30000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 30000ms[22m
-[2m  - waiting for locator('[data-test-id=&quot;table-see-more-icon&quot;], [data-test-id=&quot;cs-dropdown&quot;] [data-test-id=&quot;table-see-more-icon&quot;]').first()[22m
-</li>
-      </ul>
-    </section>
     
     
   </div>

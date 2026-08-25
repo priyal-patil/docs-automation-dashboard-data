@@ -43,14 +43,14 @@
     <h1>Flow Report: bulk-delete-assets</h1>
     <div class="meta">
       Document: <a href="https://www.contentstack.com/docs/content-managers/author-content/bulk-delete-assets" target="_blank" rel="noopener noreferrer">https://www.contentstack.com/docs/content-managers/author-content/bulk-delete-assets</a><br/>
-      Generated: 2026-08-24T04:59:22.491Z
+      Generated: 2026-08-25T10:55:28.005Z
       
     </div>
     <div class="cards">
       <div class="card"><div class="value">13</div><div class="label">Steps (in flow)</div></div>
       <div class="card"><div class="value green">0</div><div class="label">Failed steps</div></div>
-      <div class="card"><div class="value amber">2</div><div class="label">Warnings</div></div>
-      <div class="card"><div class="value green">11</div><div class="label">Steps with no failure/warning in table below</div></div>
+      <div class="card"><div class="value amber">0</div><div class="label">Warnings</div></div>
+      <div class="card"><div class="value green">13</div><div class="label">Steps with no failure/warning in table below</div></div>
     </div>
 
     <section>
@@ -59,38 +59,11 @@
         <thead>
           <tr><th>#</th><th>Action</th><th>Target</th><th>Expected</th><th>Value</th><th>Result / warning</th></tr>
         </thead>
-        <tbody><tr class=""><td>1</td><td>click</td><td class="mono">Headless CMS</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Any Stack Card (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class="step-warning"><td>3</td><td>verify</td><td class="mono">Assets (doc step)</td><td class="mono small">{&quot;within&quot;:&quot;Left Navigation&quot;,&quot;withinStrict&quot;:true,&quot;labelEquals&quot;:&quot;Assets&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="warn-msg">⚠️ Position verification mismatch for &quot;Assets (doc step)&quot;: Doc container mismatch: expected within &quot;Left Navigation&quot;, but target resolved to &quot;Assets&quot;.</td></tr><tr class=""><td>4</td><td>click</td><td class="mono">Assets (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class="step-warning"><td>5</td><td>click</td><td class="mono">First folder row (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('[data-test-id=&quot;this-step-is-intentionally-skipped&quot;]').first()
-Expected: visible
-Timeout: 30000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 30000ms[22m
-[2m  - waiting for locator('[data-test-id=&quot;this-step-is-intentionally-skipped&quot;]').first()[22m</td></tr><tr class=""><td>6</td><td>click</td><td class="mono">First asset checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>7</td><td>click</td><td class="mono">Second asset checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>8</td><td>verify</td><td class="mono">Delete floating button label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Delete in floating panel (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>verify</td><td class="mono">Delete Asset modal title (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete&quot;,&quot;labelMatch&quot;:&quot;contains&quot;,&quot;modalTitle&quot;:&quot;Delete&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>11</td><td>verify</td><td class="mono">Delete Asset modal info (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;This will move the selected asset(s) to the Trash&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>12</td><td>verify</td><td class="mono">Delete modal button label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>13</td><td>click</td><td class="mono">Delete confirm (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
+        <tbody><tr class=""><td>1</td><td>click</td><td class="mono">Headless CMS</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Any Stack Card (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>verify</td><td class="mono">Assets (doc step)</td><td class="mono small">{&quot;within&quot;:&quot;Left Navigation&quot;,&quot;withinStrict&quot;:true,&quot;labelEquals&quot;:&quot;Assets&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>click</td><td class="mono">Assets (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>click</td><td class="mono">First folder row (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>6</td><td>click</td><td class="mono">First asset checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>7</td><td>click</td><td class="mono">Second asset checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>8</td><td>verify</td><td class="mono">Delete floating button label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Delete in floating panel (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>verify</td><td class="mono">Delete Asset modal title (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete&quot;,&quot;labelMatch&quot;:&quot;contains&quot;,&quot;modalTitle&quot;:&quot;Delete&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>11</td><td>verify</td><td class="mono">Delete Asset modal info (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;This will move the selected asset(s) to the Trash&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>12</td><td>verify</td><td class="mono">Delete modal button label (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Delete&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>13</td><td>click</td><td class="mono">Delete confirm (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
       </table>
     </section>
 
     
-    
-    <section class="warnings-box">
-      <h3>⚠️ Doc verification warnings (2)</h3>
-      <p>These indicate a mismatch between the document and the app. The flow continues; use these to improve docs/UI alignment.</p>
-      <ul>
-        <li><strong>Step 3</strong> (Assets (doc step)): Position verification mismatch for &quot;Assets (doc step)&quot;: Doc container mismatch: expected within &quot;Left Navigation&quot;, but target resolved to &quot;Assets&quot;.</li><li><strong>Step 5</strong> (First folder row (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('[data-test-id=&quot;this-step-is-intentionally-skipped&quot;]').first()
-Expected: visible
-Timeout: 30000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 30000ms[22m
-[2m  - waiting for locator('[data-test-id=&quot;this-step-is-intentionally-skipped&quot;]').first()[22m
-</li>
-      </ul>
-    </section>
     
     
   </div>
