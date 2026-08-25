@@ -43,14 +43,14 @@
     <h1>Flow Report: select-extension-app-for-custom-field-only</h1>
     <div class="meta">
       Document: <a href="https://www.contentstack.com/docs/developers/create-content-types/select-extension-app-for-custom-field-only" target="_blank" rel="noopener noreferrer">https://www.contentstack.com/docs/developers/create-content-types/select-extension-app-for-custom-field-only</a><br/>
-      Generated: 2026-08-24T01:50:11.984Z
-      <br/><strong style="color:#b91c1c">This flow had 1 failed step(s).</strong> Rows marked Passed ran before the failure (or have warnings only). See Failed steps section below.
+      Generated: 2026-08-25T06:02:38.323Z
+      
     </div>
     <div class="cards">
       <div class="card"><div class="value">12</div><div class="label">Steps (in flow)</div></div>
-      <div class="card"><div class="value red">1</div><div class="label">Failed steps</div></div>
+      <div class="card"><div class="value green">0</div><div class="label">Failed steps</div></div>
       <div class="card"><div class="value amber">0</div><div class="label">Warnings</div></div>
-      <div class="card"><div class="value amber">10</div><div class="label">Steps with no failure/warning in table below (not total success)</div></div>
+      <div class="card"><div class="value green">12</div><div class="label">Steps with no failure/warning in table below</div></div>
     </div>
 
     <section>
@@ -59,36 +59,10 @@
         <thead>
           <tr><th>#</th><th>Action</th><th>Target</th><th>Expected</th><th>Value</th><th>Result / warning</th></tr>
         </thead>
-        <tbody><tr class=""><td>1</td><td>click</td><td class="mono">Content Models</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Create New Content Type</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>click</td><td class="mono">Create New</td><td class="mono small">{&quot;modalTitle&quot;:&quot;Create New Content Type&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>enter</td><td class="mono">Name</td><td class="mono small">—</td><td class="mono small">AUTO-{unique5}</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>enter</td><td class="mono">Description</td><td class="mono small">—</td><td class="mono small">AUTO-{unique5}</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>6</td><td>select</td><td class="mono">Type</td><td class="mono small">—</td><td class="mono small">Single</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>7</td><td>click</td><td class="mono">Save and proceed</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>8</td><td>click</td><td class="mono">Insert a field</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Custom (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>click</td><td class="mono">Select Extension/Apps (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class="step-failed"><td>11</td><td>click</td><td class="mono">Select extension (e.g. Color Picker) (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="fail-msg"><strong>Failed</strong><div class="missing-on-page"><strong>Not found on page:</strong> Dropdown/menu not found or not usable: &quot;Select extension (e.g. Color Picker) (doc step)&quot; — locator('[data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], [role=&quot;cell&quot;] [data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], div:has-text(&quot;Color Picker&quot;)').first()</div><div class="err-detail">[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('[data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], [role=&quot;cell&quot;] [data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], div:has-text(&quot;Color Picker&quot;)').first()
-Expected: visible
-Timeout: 30000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 30000ms[22m
-[2m  - waiting for locator('[data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], [role=&quot;cell&quot;] [data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], div:has-text(&quot;Color Picker&quot;)').first()[22m</div><div class="fail-shot"><a href="flow-screenshots/select-extension-app-for-custom-field-only-step-11.png" target="_blank" rel="noopener">Open screenshot</a> · <span class="mono small">select-extension-app-for-custom-field-only-step-11.png</span></div><a href="flow-screenshots/select-extension-app-for-custom-field-only-step-11.png" target="_blank" rel="noopener"><img class="fail-thumb" src="flow-screenshots/select-extension-app-for-custom-field-only-step-11.png" alt="Failure screenshot step 11" loading="lazy" /></a></td></tr><tr class="step-skipped"><td>12</td><td>click</td><td class="mono">Proceed (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="skipped-msg">Skipped — not executed after step 11 failed. Warnings do not stop the flow; hard failures do.</td></tr></tbody>
+        <tbody><tr class=""><td>1</td><td>click</td><td class="mono">Content Models</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Create New Content Type</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>click</td><td class="mono">Create New</td><td class="mono small">{&quot;modalTitle&quot;:&quot;Create New Content Type&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>enter</td><td class="mono">Name</td><td class="mono small">—</td><td class="mono small">AUTO-{unique5}</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>enter</td><td class="mono">Description</td><td class="mono small">—</td><td class="mono small">AUTO-{unique5}</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>6</td><td>select</td><td class="mono">Type</td><td class="mono small">—</td><td class="mono small">Single</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>7</td><td>click</td><td class="mono">Save and proceed</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>8</td><td>click</td><td class="mono">Insert a field</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Custom (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>click</td><td class="mono">Select Extension/Apps (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>11</td><td>click</td><td class="mono">Select extension (e.g. Color Picker) (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>12</td><td>click</td><td class="mono">Proceed (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
       </table>
     </section>
 
-    
-    <section style="background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:12px;margin-top:12px">
-      <h3 style="margin:0 0 8px 0;color:#b91c1c;font-size:15px">Failed steps (1)</h3>
-      <p style="margin:0 0 8px 0;font-size:13px;color:#444">Execution stopped at the first hard failure; later steps in the flow were not run. Doc verification warnings (placement/labels) do not stop execution—only failures such as missing targets or timeouts do.</p>
-      <ul style="margin:0;padding-left:18px">
-        <li><strong>Step 11</strong> (Select extension (e.g. Color Picker) (doc step)): [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('[data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], [role=&quot;cell&quot;] [data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], div:has-text(&quot;Color Picker&quot;)').first()
-Expected: visible
-Timeout: 30000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 30000ms[22m
-[2m  - waiting for locator('[data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], [role=&quot;cell&quot;] [data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], div:has-text(&quot;Color Picker&quot;)').first()[22m<br/><em>Not on page:</em> Dropdown/menu not found or not usable: &quot;Select extension (e.g. Color Picker) (doc step)&quot; — locator('[data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], [role=&quot;cell&quot;] [data-test-id=&quot;cs-choose-extension-modal-title-color-picker&quot;], div:has-text(&quot;Color Picker&quot;)').first()<br/><a href="flow-screenshots/select-extension-app-for-custom-field-only-step-11.png">Screenshot</a> <span class="mono">(flow-screenshots/select-extension-app-for-custom-field-only-step-11.png)</span></li>
-      </ul>
-    </section>
     
     
     

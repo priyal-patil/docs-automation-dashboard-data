@@ -43,14 +43,14 @@
     <h1>Flow Report: publish-entries-and-assets-in-bulk</h1>
     <div class="meta">
       Document: <a href="https://www.contentstack.com/docs/content-managers/search-content/publish-entries-and-assets-in-bulk" target="_blank" rel="noopener noreferrer">https://www.contentstack.com/docs/content-managers/search-content/publish-entries-and-assets-in-bulk</a><br/>
-      Generated: 2026-08-23T23:31:49.045Z
+      Generated: 2026-08-25T03:01:18.466Z
       
     </div>
     <div class="cards">
       <div class="card"><div class="value">17</div><div class="label">Steps (in flow)</div></div>
       <div class="card"><div class="value green">0</div><div class="label">Failed steps</div></div>
-      <div class="card"><div class="value amber">1</div><div class="label">Warnings</div></div>
-      <div class="card"><div class="value green">16</div><div class="label">Steps with no failure/warning in table below</div></div>
+      <div class="card"><div class="value amber">0</div><div class="label">Warnings</div></div>
+      <div class="card"><div class="value green">17</div><div class="label">Steps with no failure/warning in table below</div></div>
     </div>
 
     <section>
@@ -59,38 +59,11 @@
         <thead>
           <tr><th>#</th><th>Action</th><th>Target</th><th>Expected</th><th>Value</th><th>Result / warning</th></tr>
         </thead>
-        <tbody><tr class=""><td>1</td><td>verify</td><td class="mono">Entries (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Entries&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Entries (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>enter</td><td class="mono">Search bar input (doc step)</td><td class="mono small">—</td><td class="mono small">Auto</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>click</td><td class="mono">Search submit button (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>verify</td><td class="mono">Search results displayed (doc step)</td><td class="mono small">{}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>6</td><td>click</td><td class="mono">First entry checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>7</td><td>verify</td><td class="mono">Publish button on floating bar (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Publish&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class="step-warning"><td>8</td><td>click</td><td class="mono">Floating panel See More (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="warn-msg">⚠️ warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('[data-test-id=&quot;table-see-more-icon&quot;], [data-test-id=&quot;cs-dropdown&quot;] [data-test-id=&quot;table-see-more-icon&quot;]').first()
-Expected: visible
-Timeout: 30000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 30000ms[22m
-[2m  - waiting for locator('[data-test-id=&quot;table-see-more-icon&quot;], [data-test-id=&quot;cs-dropdown&quot;] [data-test-id=&quot;table-see-more-icon&quot;]').first()[22m</td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Publish in floating panel (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>verify</td><td class="mono">Publish Entries modal (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Publish Entr&quot;,&quot;modalTitle&quot;:&quot;Publish Entr&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>11</td><td>verify</td><td class="mono">Select Environment(s) (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Select Environment(s)&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>12</td><td>verify</td><td class="mono">Select Language(s) (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Select Language(s)&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>13</td><td>verify</td><td class="mono">Publish Now or Later (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Now&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>14</td><td>verify</td><td class="mono">Send With References (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Send With References&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>15</td><td>verify</td><td class="mono">Send Without References (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Send Without References&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>16</td><td>click</td><td class="mono">First Environment checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>17</td><td>click</td><td class="mono">Send With References (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
+        <tbody><tr class=""><td>1</td><td>verify</td><td class="mono">Entries (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Entries&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Entries (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>enter</td><td class="mono">Search bar input (doc step)</td><td class="mono small">—</td><td class="mono small">Auto</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>click</td><td class="mono">Search submit button (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>verify</td><td class="mono">Search results displayed (doc step)</td><td class="mono small">{}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>6</td><td>click</td><td class="mono">First entry checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>7</td><td>verify</td><td class="mono">Publish button on floating bar (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Publish&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>8</td><td>click</td><td class="mono">Floating panel See More (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>9</td><td>click</td><td class="mono">Publish in floating panel (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>10</td><td>verify</td><td class="mono">Publish Entries modal (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Publish Entr&quot;,&quot;modalTitle&quot;:&quot;Publish Entr&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>11</td><td>verify</td><td class="mono">Select Environment(s) (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Select Environment(s)&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>12</td><td>verify</td><td class="mono">Select Language(s) (doc step)</td><td class="mono small">{&quot;labelEquals&quot;:&quot;Select Language(s)&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>13</td><td>verify</td><td class="mono">Publish Now or Later (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Now&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>14</td><td>verify</td><td class="mono">Send With References (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Send With References&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>15</td><td>verify</td><td class="mono">Send Without References (doc step)</td><td class="mono small">{&quot;labelMatch&quot;:&quot;Send Without References&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>16</td><td>click</td><td class="mono">First Environment checkbox (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>17</td><td>click</td><td class="mono">Send With References (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
       </table>
     </section>
 
     
-    
-    <section class="warnings-box">
-      <h3>⚠️ Doc verification warnings (1)</h3>
-      <p>These indicate a mismatch between the document and the app. The flow continues; use these to improve docs/UI alignment.</p>
-      <ul>
-        <li><strong>Step 8</strong> (Floating panel See More (doc step)): warnOnly: element not found or not visible — [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('[data-test-id=&quot;table-see-more-icon&quot;], [data-test-id=&quot;cs-dropdown&quot;] [data-test-id=&quot;table-see-more-icon&quot;]').first()
-Expected: visible
-Timeout: 30000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 30000ms[22m
-[2m  - waiting for locator('[data-test-id=&quot;table-see-more-icon&quot;], [data-test-id=&quot;cs-dropdown&quot;] [data-test-id=&quot;table-see-more-icon&quot;]').first()[22m
-</li>
-      </ul>
-    </section>
     
     
   </div>

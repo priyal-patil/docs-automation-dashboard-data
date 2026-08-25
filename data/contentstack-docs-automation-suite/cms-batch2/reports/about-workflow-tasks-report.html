@@ -43,14 +43,14 @@
     <h1>Flow Report: about-workflow-tasks</h1>
     <div class="meta">
       Document: <a href="https://www.contentstack.com/docs/developers/set-up-workflows-and-publish-rules/about-workflow-tasks" target="_blank" rel="noopener noreferrer">https://www.contentstack.com/docs/developers/set-up-workflows-and-publish-rules/about-workflow-tasks</a><br/>
-      Generated: 2026-08-23T23:38:55.771Z
-      <br/><strong style="color:#b91c1c">This flow had 1 failed step(s).</strong> Rows marked Passed ran before the failure (or have warnings only). See Failed steps section below.
+      Generated: 2026-08-25T03:13:14.855Z
+      
     </div>
     <div class="cards">
       <div class="card"><div class="value">5</div><div class="label">Steps (in flow)</div></div>
-      <div class="card"><div class="value red">1</div><div class="label">Failed steps</div></div>
+      <div class="card"><div class="value green">0</div><div class="label">Failed steps</div></div>
       <div class="card"><div class="value amber">0</div><div class="label">Warnings</div></div>
-      <div class="card"><div class="value amber">3</div><div class="label">Steps with no failure/warning in table below (not total success)</div></div>
+      <div class="card"><div class="value green">5</div><div class="label">Steps with no failure/warning in table below</div></div>
     </div>
 
     <section>
@@ -59,36 +59,10 @@
         <thead>
           <tr><th>#</th><th>Action</th><th>Target</th><th>Expected</th><th>Value</th><th>Result / warning</th></tr>
         </thead>
-        <tbody><tr class=""><td>1</td><td>click</td><td class="mono">Headless CMS</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Any Stack Card (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>verify</td><td class="mono">Tasks icon beside Help in top bar (doc step)</td><td class="mono small">{&quot;within&quot;:&quot;Top right corner&quot;,&quot;withinStrict&quot;:true,&quot;labelEquals&quot;:&quot;Tasks&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class="step-failed"><td>4</td><td>verify</td><td class="mono">Help icon question mark beside Tasks in top bar (doc step)</td><td class="mono small">{&quot;within&quot;:&quot;Top right corner&quot;,&quot;withinStrict&quot;:true,&quot;labelEquals&quot;:&quot;Help&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="fail-msg"><strong>Failed</strong><div class="missing-on-page"><strong>Not found on page:</strong> Element/label/modal to verify not found or not usable: &quot;Help icon question mark beside Tasks in top bar (doc step)&quot; — locator('div.command-bar__help--large[aria-label=&quot;Help&quot;]').first()</div><div class="err-detail">[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('div.command-bar__help--large[aria-label=&quot;Help&quot;]').first()
-Expected: visible
-Timeout: 60000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 60000ms[22m
-[2m  - waiting for locator('div.command-bar__help--large[aria-label=&quot;Help&quot;]').first()[22m</div><div class="fail-shot"><a href="flow-screenshots/about-workflow-tasks-step-4.png" target="_blank" rel="noopener">Open screenshot</a> · <span class="mono small">about-workflow-tasks-step-4.png</span></div><a href="flow-screenshots/about-workflow-tasks-step-4.png" target="_blank" rel="noopener"><img class="fail-thumb" src="flow-screenshots/about-workflow-tasks-step-4.png" alt="Failure screenshot step 4" loading="lazy" /></a></td></tr><tr class="step-skipped"><td>5</td><td>click</td><td class="mono">Tasks icon beside Help in top bar (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="skipped-msg">Skipped — not executed after step 4 failed. Warnings do not stop the flow; hard failures do.</td></tr></tbody>
+        <tbody><tr class=""><td>1</td><td>click</td><td class="mono">Headless CMS</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>2</td><td>click</td><td class="mono">Any Stack Card (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>3</td><td>verify</td><td class="mono">Tasks icon beside Help in top bar (doc step)</td><td class="mono small">{&quot;within&quot;:&quot;Top right corner&quot;,&quot;withinStrict&quot;:true,&quot;labelEquals&quot;:&quot;Tasks&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>4</td><td>verify</td><td class="mono">Help icon question mark beside Tasks in top bar (doc step)</td><td class="mono small">{&quot;within&quot;:&quot;Top right corner&quot;,&quot;withinStrict&quot;:true,&quot;labelEquals&quot;:&quot;Help&quot;,&quot;labelMatch&quot;:&quot;contains&quot;}</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr><tr class=""><td>5</td><td>click</td><td class="mono">Tasks icon beside Help in top bar (doc step)</td><td class="mono small">—</td><td class="mono small">—</td><td class="pass-msg"><strong>Passed</strong></td></tr></tbody>
       </table>
     </section>
 
-    
-    <section style="background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:12px;margin-top:12px">
-      <h3 style="margin:0 0 8px 0;color:#b91c1c;font-size:15px">Failed steps (1)</h3>
-      <p style="margin:0 0 8px 0;font-size:13px;color:#444">Execution stopped at the first hard failure; later steps in the flow were not run. Doc verification warnings (placement/labels) do not stop execution—only failures such as missing targets or timeouts do.</p>
-      <ul style="margin:0;padding-left:18px">
-        <li><strong>Step 4</strong> (Help icon question mark beside Tasks in top bar (doc step)): [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('div.command-bar__help--large[aria-label=&quot;Help&quot;]').first()
-Expected: visible
-Timeout: 60000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect &quot;toBeVisible&quot; with timeout 60000ms[22m
-[2m  - waiting for locator('div.command-bar__help--large[aria-label=&quot;Help&quot;]').first()[22m<br/><em>Not on page:</em> Element/label/modal to verify not found or not usable: &quot;Help icon question mark beside Tasks in top bar (doc step)&quot; — locator('div.command-bar__help--large[aria-label=&quot;Help&quot;]').first()<br/><a href="flow-screenshots/about-workflow-tasks-step-4.png">Screenshot</a> <span class="mono">(flow-screenshots/about-workflow-tasks-step-4.png)</span></li>
-      </ul>
-    </section>
     
     
     
