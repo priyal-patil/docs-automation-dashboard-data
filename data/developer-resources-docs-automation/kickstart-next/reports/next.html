@@ -25,12 +25,12 @@
 <body>
   <div class="eyebrow">Kickstart Docs Automation</div>
   <h1>Validation Report</h1>
-  <div class="sub">1 kickstart checked · 1 with issues · generated 2026-08-24T00:23:11.425Z</div>
+  <div class="sub">1 kickstart checked · 1 with issues · generated 2026-08-25T00:02:30.604Z</div>
   <section class="card" id="next">
     <div class="card-head">
       <h2>next</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
     </div>
-    <div class="meta">6 broken · 3 skipped &nbsp;·&nbsp; 2026-08-23T23:46:16.185Z</div>
+    <div class="meta">6 broken · 3 skipped &nbsp;·&nbsp; 2026-08-24T23:49:13.071Z</div>
     <table>
       <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
       <tbody><tr>
@@ -48,11 +48,12 @@ cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-autom
 ✓ npm install -g @contentstack/cli
 ✓ csdx config:set:region AWS-EU
 ✓ csdx auth:login
-   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
-   ↳ UI labels verified on screen: Info
-   ↳ GAP: doc names UI item(s) not found in the app: Org Admin, Settings, Tokens, YOUR_API_KEY, NEXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN, YOUR_DELIVERY_TOKEN, NEXT_PUBLIC_CONTENTSTACK_PREVIEW_TOKEN, YOUR_PREVIEW_TOKEN, NEXT_PUBLIC_CONTENTSTACK_REGION, YOUR_REGION_NAME, NEXT_PUBLIC_CONTENTSTACK_ENVIRONMENT, ENVIRONMENT_NAME, NEXT_PUBLIC_CONTENTSTACK_PREVIEW, Live Preview — the doc's click-path may be outdated
-✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;YOUR_ORG_ID&gt;" -n "CS Kickstart Next"
-   ↳ seed output had no api key — resolved "CS Kickstart next mt6gg3z2" via Management API: blt22311cff712d6d2f
+   ↳ org-id browser step failed: page.waitForURL: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+✗ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;YOUR_ORG_ID&gt;" -n "CS Kickstart Next"  (exit 1)
+... !
 ↩  npm run dev  (deferred to verify stage)</pre></td>
   </tr><tr>
     <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>

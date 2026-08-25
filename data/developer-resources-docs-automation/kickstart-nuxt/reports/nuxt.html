@@ -25,12 +25,12 @@
 <body>
   <div class="eyebrow">Kickstart Docs Automation</div>
   <h1>Validation Report</h1>
-  <div class="sub">1 kickstart checked · 1 with issues · generated 2026-08-24T00:23:11.425Z</div>
+  <div class="sub">1 kickstart checked · 1 with issues · generated 2026-08-25T00:02:30.604Z</div>
   <section class="card" id="nuxt">
     <div class="card-head">
       <h2>nuxt</h2><span class="pill" style="background:#FF6B6B;color:#1A1919">ISSUES FOUND</span>
     </div>
-    <div class="meta">6 broken · 5 pass · 1 skipped &nbsp;·&nbsp; 2026-08-23T23:44:58.579Z</div>
+    <div class="meta">4 broken · 2 pass · 3 skipped &nbsp;·&nbsp; 2026-08-24T23:46:03.402Z</div>
     <table>
       <thead><tr><th>Status</th><th>Type</th><th>Step</th><th>Detail</th></tr></thead>
       <tbody><tr>
@@ -39,48 +39,32 @@
     <td class="title">Prerequisites</td>
     <td class="detail"><pre>manual/unknown step — reported only</pre></td>
   </tr><tr>
-    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
-    <td><span class="kind">shell</span></td>
-    <td class="title">Clone the Repository</td>
-    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-nuxt.git
-cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/nuxt/kickstart-nuxt</pre></td>
-  </tr><tr>
-    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
-    <td><span class="kind">shell</span></td>
-    <td class="title">Install Dependencies</td>
-    <td class="detail"><pre>✓ npm install</pre></td>
-  </tr><tr>
     <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
     <td><span class="kind">cli</span></td>
-    <td class="title">Create a Stack</td>
-    <td class="detail"><pre>✓ npm install -g @contentstack/cli
+    <td class="title">Project Setup</td>
+    <td class="detail"><pre>✓ git clone https://github.com/contentstack/kickstart-nuxt.git
+cd → /home/runner/work/Developer-Resources/Developer-Resources/kickstart-automation/workdir/nuxt/kickstart-nuxt
+✓ npm install
+✓ npm install -g @contentstack/cli
 ✓ csdx config:set:region AWS-EU
 ✓ csdx auth:login
-   ↳ read Org ID from Org Admin → Info: blt8a2114027fb46d20
-   ↳ UI labels verified on screen: Info
-   ↳ GAP: doc names UI item(s) not found in the app: Org Admin — the doc's click-path may be outdated
-✓ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "" -n "CS Kickstart Nuxt"
-   ↳ seed output had no api key — resolved "CS Kickstart nuxt mt6geciy" via Management API: blt67e12df80a5e4145</pre></td>
+   ↳ org-id browser step failed: page.waitForURL: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+✗ csdx cm:stacks:seed --repo "contentstack/kickstart-stack-seed" --org "&lt;YOUR_ORG_ID&gt;" -n "CS Kickstart Nuxt"  (exit 1)
+... !
+↩  npm run dev  (deferred to verify stage)</pre></td>
   </tr><tr>
-    <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
-    <td><span class="kind">dashboard</span></td>
-    <td class="title">Create a Delivery Token</td>
-    <td class="detail"><pre>[ui] delivery token created via UI (preview token yes)
-UI labels verified on screen: Settings, Tokens</pre></td>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Key Files and Code Breakdown</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
   </tr><tr>
-    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
-    <td><span class="kind">env</span></td>
-    <td class="title">Setup environment variables</td>
-    <td class="detail"><pre>GAP: the doc's env var names do not match what the repo reads (.env.example). Wrote the doc's keys verbatim — the app will not pick up config.
-  doc has (repo doesn't): NUXT_PUBLIC_CONTENTSTACK_API_KEY, NUXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN, NUXT_PUBLIC_CONTENTSTACK_PREVIEW_TOKEN, NUXT_PUBLIC_CONTENTSTACK_REGION, NUXT_PUBLIC_CONTENTSTACK_ENVIRONMENT, NUXT_PUBLIC_CONTENTSTACK_PREVIEW
-  repo expects (doc omits): NUXT_CONTENTSTACK_API_KEY, NUXT_CONTENTSTACK_DELIVERY_TOKEN, NUXT_CONTENTSTACK_PREVIEW_TOKEN, NUXT_CONTENTSTACK_ENVIRONMENT, NUXT_CONTENTSTACK_REGION, NUXT_CONTENTSTACK_PREVIEW</pre></td>
-  </tr><tr>
-    <td><span class="pill" style="background:#FF6B6B;color:#1A1919">BROKEN</span></td>
-    <td><span class="kind">dashboard</span></td>
-    <td class="title">Turn on Live Preview</td>
-    <td class="detail"><pre>Live Preview enabled, default preview environment set to "preview" via UI
-UI labels verified on screen: Settings
-GAP: doc names UI item(s) not found in the app: Live Preview — the doc's click-path may be outdated</pre></td>
+    <td><span class="pill" style="background:#525B89;color:#F5F5F4">SKIPPED</span></td>
+    <td><span class="kind">unknown</span></td>
+    <td class="title">Contentstack Data Query</td>
+    <td class="detail"><pre>manual/unknown step — reported only</pre></td>
   </tr><tr>
     <td><span class="pill" style="background:#B0F7BA;color:#1A1919">PASS</span></td>
     <td><span class="kind">unknown</span></td>

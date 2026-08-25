@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T05:44:19.642Z",
+  "generatedAt": "2026-08-25T05:44:23.676Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -501,7 +501,7 @@
       "suite": "kickstart-nuxt",
       "suiteLabel": "Kickstart: Nuxt",
       "path": "data/developer-resources-docs-automation/kickstart-nuxt/latest.json",
-      "lastUpdated": "2026-08-23T23:44:58.579Z",
+      "lastUpdated": "2026-08-24T23:46:03.402Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -511,7 +511,7 @@
       "suite": "kickstart-nuxt-ssr",
       "suiteLabel": "Kickstart: Nuxt (SSR)",
       "path": "data/developer-resources-docs-automation/kickstart-nuxt-ssr/latest.json",
-      "lastUpdated": "2026-08-23T23:45:20.127Z",
+      "lastUpdated": "2026-08-24T23:48:03.641Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -521,7 +521,7 @@
       "suite": "kickstart-next",
       "suiteLabel": "Kickstart: Next.js",
       "path": "data/developer-resources-docs-automation/kickstart-next/latest.json",
-      "lastUpdated": "2026-08-23T23:46:16.185Z",
+      "lastUpdated": "2026-08-24T23:49:13.071Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -531,7 +531,7 @@
       "suite": "kickstart-next-ssr",
       "suiteLabel": "Kickstart: Next.js (SSR)",
       "path": "data/developer-resources-docs-automation/kickstart-next-ssr/latest.json",
-      "lastUpdated": "2026-08-23T23:48:16.402Z",
+      "lastUpdated": "2026-08-24T23:51:13.352Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -541,7 +541,7 @@
       "suite": "kickstart-next-middleware",
       "suiteLabel": "Kickstart: Next.js (Middleware)",
       "path": "data/developer-resources-docs-automation/kickstart-next-middleware/latest.json",
-      "lastUpdated": "2026-08-23T23:50:16.769Z",
+      "lastUpdated": "2026-08-24T23:53:13.620Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -551,7 +551,7 @@
       "suite": "kickstart-next-graphql",
       "suiteLabel": "Kickstart: Next.js (GraphQL)",
       "path": "data/developer-resources-docs-automation/kickstart-next-graphql/latest.json",
-      "lastUpdated": "2026-08-23T23:52:17.064Z",
+      "lastUpdated": "2026-08-24T23:55:13.839Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -561,7 +561,7 @@
       "suite": "kickstart-next-ssg",
       "suiteLabel": "Kickstart: Next.js (SSG)",
       "path": "data/developer-resources-docs-automation/kickstart-next-ssg/latest.json",
-      "lastUpdated": "2026-08-23T23:54:17.294Z",
+      "lastUpdated": "2026-08-24T23:57:14.059Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -571,7 +571,7 @@
       "suite": "kickstart-react",
       "suiteLabel": "Kickstart: React",
       "path": "data/developer-resources-docs-automation/kickstart-react/latest.json",
-      "lastUpdated": "2026-08-23T23:55:11.470Z",
+      "lastUpdated": "2026-08-24T23:58:19.149Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -581,7 +581,7 @@
       "suite": "kickstart-angular",
       "suiteLabel": "Kickstart: Angular",
       "path": "data/developer-resources-docs-automation/kickstart-angular/latest.json",
-      "lastUpdated": "2026-08-23T23:56:13.631Z",
+      "lastUpdated": "2026-08-24T23:59:28.110Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -591,7 +591,7 @@
       "suite": "kickstart-sveltekit",
       "suiteLabel": "Kickstart: SvelteKit",
       "path": "data/developer-resources-docs-automation/kickstart-sveltekit/latest.json",
-      "lastUpdated": "2026-08-23T23:57:00.528Z",
+      "lastUpdated": "2026-08-25T00:00:22.906Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -601,7 +601,7 @@
       "suite": "kickstart-astro",
       "suiteLabel": "Kickstart: Astro",
       "path": "data/developer-resources-docs-automation/kickstart-astro/latest.json",
-      "lastUpdated": "2026-08-23T23:57:51.963Z",
+      "lastUpdated": "2026-08-25T00:01:21.568Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
@@ -611,7 +611,7 @@
       "suite": "kickstart-veda",
       "suiteLabel": "Kickstart: Veda",
       "path": "data/developer-resources-docs-automation/kickstart-veda/latest.json",
-      "lastUpdated": "2026-08-24T00:23:10.629Z",
+      "lastUpdated": "2026-08-25T00:02:30.601Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
     },
