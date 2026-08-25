@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T00:08:32.851Z",
+  "generatedAt": "2026-08-25T00:29:32.395Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -614,6 +614,14 @@
       "lastUpdated": "2026-08-24T00:23:10.629Z",
       "group": "kickstart-guides",
       "groupLabel": "Kickstart Guides"
+    },
+    {
+      "project": "contentstack-docs-automation-suite",
+      "projectLabel": "Contentstack Docs Automation Suite",
+      "suite": "agentos",
+      "suiteLabel": "AgentOS",
+      "path": "data/contentstack-docs-automation-suite/agentos/latest.json",
+      "lastUpdated": "2026-08-25T00:29:31.108Z"
     }
   ]
 }
