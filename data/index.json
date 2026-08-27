@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T07:06:59.492Z",
+  "generatedAt": "2026-08-27T07:07:06.814Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -7,7 +7,7 @@
       "suite": "building-websites-automation",
       "suiteLabel": "Building Websites Automation",
       "path": "data/developer-resources-docs-automation/building-websites-automation/latest.json",
-      "lastUpdated": "2026-08-25T23:48:23.063Z",
+      "lastUpdated": "2026-08-27T04:37:56.507Z",
       "group": "building-websites",
       "groupLabel": "Building Websites"
     },
