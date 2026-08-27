@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-08-27T04:53:11.488Z",
+    "runId": "33039899503",
+    "path": "data/developer-resources-docs-automation/kickstart-astro/history/2026-08-27T04-53-11-488Z__33039899503.json",
+    "totals": {
+      "total": 9,
+      "passed": 2,
+      "failed": 4,
+      "skipped": 2,
+      "warnings": 1,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-26T00:04:02.854Z",
     "runId": "32912274238",
     "path": "data/developer-resources-docs-automation/kickstart-astro/history/2026-08-26T00-04-02-854Z__32912274238.json",
