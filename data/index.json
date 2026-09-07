@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T08:14:03.671Z",
+  "generatedAt": "2026-09-07T10:25:01.356Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -622,6 +622,16 @@
       "suiteLabel": "AgentOS",
       "path": "data/contentstack-docs-automation-suite/agentos/latest.json",
       "lastUpdated": "2026-08-27T05:23:42.494Z"
+    },
+    {
+      "project": "developer-resources-docs-automation",
+      "projectLabel": "Developer Resources Docs Automation",
+      "suite": "content-app-sdk-typescript-reference",
+      "suiteLabel": "content-app-sdk-typescript-reference",
+      "path": "data/developer-resources-docs-automation/content-app-sdk-typescript-reference/latest.json",
+      "lastUpdated": "2026-09-07T10:24:12.913Z",
+      "group": "sdk-docs",
+      "groupLabel": "SDK Docs"
     }
   ]
 }

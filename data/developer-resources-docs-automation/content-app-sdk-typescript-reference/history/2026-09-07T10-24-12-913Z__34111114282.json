@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "project": "developer-resources-docs-automation",
+  "projectLabel": "Developer Resources Docs Automation",
+  "suite": "content-app-sdk-typescript-reference",
+  "suiteLabel": "content-app-sdk-typescript-reference",
+  "group": "sdk-docs",
+  "groupLabel": "SDK Docs",
+  "runId": "34111114282",
+  "runUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/34111114282",
+  "artifactsUrl": "https://github.com/priyal-patil/Developer-Resources/actions/runs/34111114282#artifacts",
+  "timestamp": "2026-09-07T10:24:12.913Z",
+  "durationSeconds": null,
+  "totals": {
+    "total": 89,
+    "passed": 45,
+    "failed": 16,
+    "skipped": 28,
+    "warnings": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "failedItems": [
+    {
+      "name": "App SDK Core Objects: getEntries(contentType, params?)",
+      "detail": "frame.evaluate: TypeError: stack.getEntries is not a function\n    at eval (eval at evaluate (:303:30), <anonymous>:6:29)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: getAssets(query?, params?)",
+      "detail": "frame.evaluate: TypeError: stack.getAssets is not a function\n    at eval (eval at evaluate (:303:30), <anonymous>:6:28)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: getGlobalField(uid, params?)",
+      "detail": "frame.evaluate: Error: {\"data\":{\"error_message\":\"The Global Field 'global_field_uid' was not found. Please try again.\",\"error_code\":118,\"errors\":{\"global_field_uid\":[\"is not valid.\"],\"uid\":[\"is not valid.\"]}},\"status\":422,\"statusText\":\"\",\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"api_version\":\"3.2\",\"content-length\":\"177\",\"content-security-policy-report-only\":\"default-src 'self' *.csnonprod.com *.contentstack.com; img-src * 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.csnonprod.com *.contentstack.com *.contentstack.io *.google-analytics.com https://*.salesforce-sites.com https://*.force.com https://*.jquery.com https://*.salesforceliveagent.com https://*.salesforce.com https://*.cdn.apollographql.com https://code.jquery.com https://*.bootstrapcdn.com https://cdnjs.cloudflare.com https://cdn.heapanalytics.com https://fast.appcues.com https://fast.appcues.net https://googletagmanager.com https://js.intercomcdn.com https://service.force.c",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: getEnvironment(name, params?)",
+      "detail": "frame.evaluate: Error: {\"data\":{\"error_message\":\"Environment was not found. Please try again.\",\"error_code\":248},\"status\":422,\"statusText\":\"\",\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"content-security-policy-report-only\":\"default-src 'self' *.csnonprod.com *.contentstack.com; img-src * 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.csnonprod.com *.contentstack.com *.contentstack.io *.google-analytics.com https://*.salesforce-sites.com https://*.force.com https://*.jquery.com https://*.salesforceliveagent.com https://*.salesforce.com https://*.cdn.apollographql.com https://code.jquery.com https://*.bootstrapcdn.com https://cdnjs.cloudflare.com https://cdn.heapanalytics.com https://fast.appcues.com https://fast.appcues.net https://googletagmanager.com https://js.intercomcdn.com https://service.force.com https://tagmanager.google.com https://www.googletagmanager.com https://widget.intercom.io https://widget.usersnap.com https://resources.",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: getWorkflow(uid, params?)",
+      "detail": "frame.evaluate: Error: {\"data\":{\"error_message\":\"Unable to fetch workflow.\",\"error_code\":337},\"status\":422,\"statusText\":\"\",\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"content-security-policy-report-only\":\"default-src 'self' *.csnonprod.com *.contentstack.com; img-src * 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.csnonprod.com *.contentstack.com *.contentstack.io *.google-analytics.com https://*.salesforce-sites.com https://*.force.com https://*.jquery.com https://*.salesforceliveagent.com https://*.salesforce.com https://*.cdn.apollographql.com https://code.jquery.com https://*.bootstrapcdn.com https://cdnjs.cloudflare.com https://cdn.heapanalytics.com https://fast.appcues.com https://fast.appcues.net https://googletagmanager.com https://js.intercomcdn.com https://service.force.com https://tagmanager.google.com https://www.googletagmanager.com https://widget.intercom.io https://widget.usersnap.com https://resources.usersnap.com https:",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: getVariantById(variant_uid)",
+      "detail": "frame.evaluate: Error: {\"data\":{\"error_message\":\"Variant Not Found\",\"error_code\":\"1105\"},\"status\":404,\"statusText\":\"\",\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"no-store, max-age=0\",\"content-length\":\"57\",\"content-security-policy-report-only\":\"default-src 'self' *.csnonprod.com *.contentstack.com; img-src * 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.csnonprod.com *.contentstack.com *.contentstack.io *.google-analytics.com https://*.salesforce-sites.com https://*.force.com https://*.jquery.com https://*.salesforceliveagent.com https://*.salesforce.com https://*.cdn.apollographql.com https://code.jquery.com https://*.bootstrapcdn.com https://cdnjs.cloudflare.com https://cdn.heapanalytics.com https://fast.appcues.com https://fast.appcues.net https://googletagmanager.com https://js.intercomcdn.com https://service.force.com https://tagmanager.google.com https://www.googletagmanager.com https://widget.intercom.io https://wi",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: getPropertySafely(obj, key)",
+      "detail": "frame.evaluate: ReferenceError: dataObject is not defined\n    at eval (eval at evaluate (:303:30), <anonymous>:6:39)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:8:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: setData(data)",
+      "detail": "frame.evaluate: Error: Validation Failed\n    at new t3 (https://sdk-automation-appsdk-test.loca.lt/bundle.js:9863:27)\n    at e3.<anonymous> (https://sdk-automation-appsdk-test.loca.lt/bundle.js:7925:182)\n    at https://sdk-automation-appsdk-test.loca.lt/bundle.js:7886:29\n    at Object.next (https://sdk-automation-appsdk-test.loca.lt/bundle.js:7894:19)\n    at a2 (https://sdk-automation-appsdk-test.loca.lt/bundle.js:7819:24)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: enableResizing()",
+      "detail": "frame.evaluate: TypeError: Cannot read properties of null (reading 'frame')\n    at eval (eval at evaluate (:303:30), <anonymous>:6:25)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: enableAutoResizing()",
+      "detail": "frame.evaluate: TypeError: Cannot read properties of null (reading 'frame')\n    at eval (eval at evaluate (:303:30), <anonymous>:6:29)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: disableAutoResizing()",
+      "detail": "frame.evaluate: TypeError: Cannot read properties of null (reading 'frame')\n    at eval (eval at evaluate (:303:30), <anonymous>:6:29)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: onDashboardResize(callback)",
+      "detail": "frame.evaluate: TypeError: Cannot read properties of null (reading 'frame')\n    at eval (eval at evaluate (:303:30), <anonymous>:6:25)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:11:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: enablePaddingTop()",
+      "detail": "frame.evaluate: TypeError: Cannot read properties of null (reading 'frame')\n    at eval (eval at evaluate (:303:30), <anonymous>:6:25)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: disablePaddingTop()",
+      "detail": "frame.evaluate: TypeError: Cannot read properties of null (reading 'frame')\n    at eval (eval at evaluate (:303:30), <anonymous>:6:25)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: updateDimension(dimension?)",
+      "detail": "frame.evaluate: TypeError: Cannot read properties of null (reading 'frame')\n    at eval (eval at evaluate (:303:30), <anonymous>:6:29)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    },
+    {
+      "name": "App SDK Core Objects: closeModal()",
+      "detail": "frame.evaluate: TypeError: Cannot read properties of null (reading 'frame')\n    at eval (eval at evaluate (:303:30), <anonymous>:6:29)\n    at anonymous (eval at evaluate (:303:30), <anonymous>:9:3)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "docLink": "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+    }
+  ],
+  "docLinks": [
+    "https://www.contentstack.com/docs/developers/sdks/contentstack-app-sdk/typescript/reference"
+  ]
+}
