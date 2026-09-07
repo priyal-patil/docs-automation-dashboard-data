@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-07T10:35:44.537Z",
+    "runId": "34112082767",
+    "path": "data/developer-resources-docs-automation/content-app-sdk-typescript-reference/history/2026-09-07T10-35-44-537Z__34112082767.json",
+    "totals": {
+      "total": 89,
+      "passed": 45,
+      "failed": 16,
+      "skipped": 28,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-07T10:24:12.913Z",
     "runId": "34111114282",
     "path": "data/developer-resources-docs-automation/content-app-sdk-typescript-reference/history/2026-09-07T10-24-12-913Z__34111114282.json",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T10:25:01.356Z",
+  "generatedAt": "2026-09-07T10:36:28.911Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -629,7 +629,7 @@
       "suite": "content-app-sdk-typescript-reference",
       "suiteLabel": "content-app-sdk-typescript-reference",
       "path": "data/developer-resources-docs-automation/content-app-sdk-typescript-reference/latest.json",
-      "lastUpdated": "2026-09-07T10:24:12.913Z",
+      "lastUpdated": "2026-09-07T10:35:44.537Z",
       "group": "sdk-docs",
       "groupLabel": "SDK Docs"
     }
