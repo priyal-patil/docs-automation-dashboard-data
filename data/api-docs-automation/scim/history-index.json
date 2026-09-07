@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-07T07:55:35.870Z",
+    "runId": "34097336255",
+    "path": "data/api-docs-automation/scim/history/2026-09-07T07-55-35-870Z__34097336255.json",
+    "totals": {
+      "total": 19,
+      "passed": 14,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 5,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-08-28T06:19:58.600Z",
     "runId": "33147220291",
     "path": "data/api-docs-automation/scim/history/2026-08-28T06-19-58-600Z__33147220291.json",
