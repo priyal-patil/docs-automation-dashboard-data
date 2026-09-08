@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-08T01:35:02.868Z",
+    "runId": "34176465429",
+    "path": "data/contentstack-docs-automation-suite/data-and-insights/history/2026-09-08T01-35-02-868Z__34176465429.json",
+    "totals": {
+      "total": 6,
+      "passed": 0,
+      "failed": 6,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-07T12:26:27.495Z",
     "runId": "34120783883",
     "path": "data/contentstack-docs-automation-suite/data-and-insights/history/2026-09-07T12-26-27-495Z__34120783883.json",
@@ -395,20 +409,6 @@
     "timestamp": "2026-07-31T01:23:51.750Z",
     "runId": "30595737523",
     "path": "data/contentstack-docs-automation-suite/data-and-insights/history/2026-07-31T01-23-51-750Z__30595737523.json",
-    "totals": {
-      "total": 6,
-      "passed": 0,
-      "failed": 6,
-      "skipped": 0,
-      "warnings": 0,
-      "timedOut": 0,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-07-30T01:12:26.327Z",
-    "runId": "30504444231",
-    "path": "data/contentstack-docs-automation-suite/data-and-insights/history/2026-07-30T01-12-26-327Z__30504444231.json",
     "totals": {
       "total": 6,
       "passed": 0,
