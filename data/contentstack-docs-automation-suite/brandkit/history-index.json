@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-09T01:39:25.304Z",
+    "runId": "34298837355",
+    "path": "data/contentstack-docs-automation-suite/brandkit/history/2026-09-09T01-39-25-304Z__34298837355.json",
+    "totals": {
+      "total": 15,
+      "passed": 0,
+      "failed": 15,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-08T01:34:54.105Z",
     "runId": "34176116342",
     "path": "data/contentstack-docs-automation-suite/brandkit/history/2026-09-08T01-34-54-105Z__34176116342.json",
@@ -402,20 +416,6 @@
       "skipped": 0,
       "warnings": 2,
       "timedOut": 1,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-07-31T01:35:01.986Z",
-    "runId": "30595400399",
-    "path": "data/contentstack-docs-automation-suite/brandkit/history/2026-07-31T01-35-01-986Z__30595400399.json",
-    "totals": {
-      "total": 15,
-      "passed": 2,
-      "failed": 13,
-      "skipped": 0,
-      "warnings": 2,
-      "timedOut": 0,
       "interrupted": 0
     }
   }
