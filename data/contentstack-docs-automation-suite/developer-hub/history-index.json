@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-12T03:08:18.347Z",
+    "runId": "34668588136",
+    "path": "data/contentstack-docs-automation-suite/developer-hub/history/2026-09-12T03-08-18-347Z__34668588136.json",
+    "totals": {
+      "total": 22,
+      "passed": 1,
+      "failed": 21,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-11T02:59:31.576Z",
     "runId": "34555338389",
     "path": "data/contentstack-docs-automation-suite/developer-hub/history/2026-09-11T02-59-31-576Z__34555338389.json",
@@ -395,20 +409,6 @@
     "timestamp": "2026-08-04T02:26:30.114Z",
     "runId": "30870235729",
     "path": "data/contentstack-docs-automation-suite/developer-hub/history/2026-08-04T02-26-30-114Z__30870235729.json",
-    "totals": {
-      "total": 22,
-      "passed": 10,
-      "failed": 12,
-      "skipped": 0,
-      "warnings": 8,
-      "timedOut": 0,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-08-03T02:40:44.362Z",
-    "runId": "30778620570",
-    "path": "data/contentstack-docs-automation-suite/developer-hub/history/2026-08-03T02-40-44-362Z__30778620570.json",
     "totals": {
       "total": 22,
       "passed": 10,
