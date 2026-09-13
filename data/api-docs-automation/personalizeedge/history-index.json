@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-13T00:07:09.477Z",
+    "runId": "34727077151",
+    "path": "data/api-docs-automation/personalizeedge/history/2026-09-13T00-07-09-477Z__34727077151.json",
+    "totals": {
+      "total": 4,
+      "passed": 3,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-12T00:27:21.466Z",
     "runId": "34661590543",
     "path": "data/api-docs-automation/personalizeedge/history/2026-09-12T00-27-21-466Z__34661590543.json",
