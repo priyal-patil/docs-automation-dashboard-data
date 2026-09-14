@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-14T01:30:16.181Z",
+    "runId": "34795635839",
+    "path": "data/developer-resources-docs-automation/kickstart-next-middleware/history/2026-09-14T01-30-16-181Z__34795635839.json",
+    "totals": {
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-13T01:25:36.748Z",
     "runId": "34730121906",
     "path": "data/developer-resources-docs-automation/kickstart-next-middleware/history/2026-09-13T01-25-36-748Z__34730121906.json",
