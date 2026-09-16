@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-16T01:42:27.794Z",
+    "runId": "35044417841",
+    "path": "data/developer-resources-docs-automation/kickstart-next-graphql/history/2026-09-16T01-42-27-794Z__35044417841.json",
+    "totals": {
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-15T01:53:28.444Z",
     "runId": "34918326565",
     "path": "data/developer-resources-docs-automation/kickstart-next-graphql/history/2026-09-15T01-53-28-444Z__34918326565.json",
