@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:27:09.965Z",
+  "generatedAt": "2026-09-19T00:29:03.449Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -75,7 +75,7 @@
       "suite": "personalizeedge",
       "suiteLabel": "Personalize Edge API",
       "path": "data/api-docs-automation/personalizeedge/latest.json",
-      "lastUpdated": "2026-09-18T00:34:54.860Z"
+      "lastUpdated": "2026-09-19T00:29:01.144Z"
     },
     {
       "project": "developer-resources-docs-automation",
