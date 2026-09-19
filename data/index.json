@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:37:14.437Z",
+  "generatedAt": "2026-09-19T01:01:45.801Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -493,7 +493,7 @@
       "suite": "cda",
       "suiteLabel": "Content Delivery API",
       "path": "data/api-docs-automation/cda/latest.json",
-      "lastUpdated": "2026-09-18T01:08:38.602Z"
+      "lastUpdated": "2026-09-19T01:01:44.660Z"
     },
     {
       "project": "developer-resources-docs-automation",
