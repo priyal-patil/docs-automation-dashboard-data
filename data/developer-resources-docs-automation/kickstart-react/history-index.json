@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-20T01:36:58.529Z",
+    "runId": "35481227845",
+    "path": "data/developer-resources-docs-automation/kickstart-react/history/2026-09-20T01-36-58-529Z__35481227845.json",
+    "totals": {
+      "total": 9,
+      "passed": 3,
+      "failed": 3,
+      "skipped": 2,
+      "warnings": 1,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-19T01:37:38.279Z",
     "runId": "35412489975",
     "path": "data/developer-resources-docs-automation/kickstart-react/history/2026-09-19T01-37-38-279Z__35412489975.json",
