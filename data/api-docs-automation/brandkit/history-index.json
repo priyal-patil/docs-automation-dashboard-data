@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-20T00:18:05.260Z",
+    "runId": "35478368375",
+    "path": "data/api-docs-automation/brandkit/history/2026-09-20T00-18-05-260Z__35478368375.json",
+    "totals": {
+      "total": 12,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-19T00:31:38.398Z",
     "runId": "35409599200",
     "path": "data/api-docs-automation/brandkit/history/2026-09-19T00-31-38-398Z__35409599200.json",
