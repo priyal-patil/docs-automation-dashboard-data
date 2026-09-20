@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-20T00:17:59.961Z",
+    "runId": "35478368885",
+    "path": "data/api-docs-automation/genai/history/2026-09-20T00-17-59-961Z__35478368885.json",
+    "totals": {
+      "total": 1,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-19T00:31:29.547Z",
     "runId": "35409602105",
     "path": "data/api-docs-automation/genai/history/2026-09-19T00-31-29-547Z__35409602105.json",
