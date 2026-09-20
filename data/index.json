@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T00:47:59.261Z",
+  "generatedAt": "2026-09-20T01:18:08.524Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -381,7 +381,7 @@
       "suite": "cma",
       "suiteLabel": "Content Management API",
       "path": "data/api-docs-automation/cma/latest.json",
-      "lastUpdated": "2026-09-19T01:31:33.650Z"
+      "lastUpdated": "2026-09-20T01:18:06.862Z"
     },
     {
       "project": "contentstack-docs-automation-suite",
