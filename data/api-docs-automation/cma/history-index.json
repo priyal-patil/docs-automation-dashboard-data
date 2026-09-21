@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-21T01:25:39.537Z",
+    "runId": "35547651307",
+    "path": "data/api-docs-automation/cma/history/2026-09-21T01-25-39-537Z__35547651307.json",
+    "totals": {
+      "total": 0,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-20T01:18:06.862Z",
     "runId": "35478396566",
     "path": "data/api-docs-automation/cma/history/2026-09-20T01-18-06-862Z__35478396566.json",
@@ -395,20 +409,6 @@
     "timestamp": "2026-08-14T23:49:23.145Z",
     "runId": "31848078140",
     "path": "data/api-docs-automation/cma/history/2026-08-14T23-49-23-145Z__31848078140.json",
-    "totals": {
-      "total": 0,
-      "passed": 0,
-      "failed": 0,
-      "skipped": 0,
-      "warnings": 0,
-      "timedOut": 0,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-08-14T11:24:21.929Z",
-    "runId": "31792057672",
-    "path": "data/api-docs-automation/cma/history/2026-08-14T11-24-21-929Z__31792057672.json",
     "totals": {
       "total": 0,
       "passed": 0,
