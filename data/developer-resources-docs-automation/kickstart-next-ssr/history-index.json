@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-22T01:50:02.804Z",
+    "runId": "35676797474",
+    "path": "data/developer-resources-docs-automation/kickstart-next-ssr/history/2026-09-22T01-50-02-804Z__35676797474.json",
+    "totals": {
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-21T01:27:56.175Z",
     "runId": "35550600417",
     "path": "data/developer-resources-docs-automation/kickstart-next-ssr/history/2026-09-21T01-27-56-175Z__35550600417.json",
