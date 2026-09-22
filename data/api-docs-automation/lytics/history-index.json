@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-22T01:05:07.406Z",
+    "runId": "35674372651",
+    "path": "data/api-docs-automation/lytics/history/2026-09-22T01-05-07-406Z__35674372651.json",
+    "totals": {
+      "total": 22,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 22,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-21T00:27:33.722Z",
     "runId": "35547695008",
     "path": "data/api-docs-automation/lytics/history/2026-09-21T00-27-33-722Z__35547695008.json",
@@ -401,20 +415,6 @@
       "failed": 7,
       "skipped": 0,
       "warnings": 10,
-      "timedOut": 0,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-08-04T23:36:11.234Z",
-    "runId": "30960335965",
-    "path": "data/api-docs-automation/lytics/history/2026-08-04T23-36-11-234Z__30960335965.json",
-    "totals": {
-      "total": 10,
-      "passed": 3,
-      "failed": 9,
-      "skipped": 0,
-      "warnings": 0,
       "timedOut": 0,
       "interrupted": 0
     }
