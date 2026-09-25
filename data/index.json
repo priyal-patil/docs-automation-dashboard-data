@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T00:43:25.398Z",
+  "generatedAt": "2026-09-25T00:44:42.941Z",
   "entries": [
     {
       "project": "developer-resources-docs-automation",
@@ -111,7 +111,7 @@
       "suite": "lytics",
       "suiteLabel": "Lytics CDP Management API",
       "path": "data/api-docs-automation/lytics/latest.json",
-      "lastUpdated": "2026-09-24T00:49:56.687Z"
+      "lastUpdated": "2026-09-25T00:44:41.531Z"
     },
     {
       "project": "developer-resources-docs-automation",
