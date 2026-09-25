@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-25T00:46:07.336Z",
+    "runId": "36078530692",
+    "path": "data/api-docs-automation/imagedelivery/history/2026-09-25T00-46-07-336Z__36078530692.json",
+    "totals": {
+      "total": 58,
+      "passed": 58,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-24T00:47:51.867Z",
     "runId": "35939508744",
     "path": "data/api-docs-automation/imagedelivery/history/2026-09-24T00-47-51-867Z__35939508744.json",
@@ -398,20 +412,6 @@
     "totals": {
       "total": 0,
       "passed": 0,
-      "failed": 0,
-      "skipped": 0,
-      "warnings": 0,
-      "timedOut": 0,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-08-17T09:04:59.086Z",
-    "runId": "32012868607",
-    "path": "data/api-docs-automation/imagedelivery/history/2026-08-17T09-04-59-086Z__32012868607.json",
-    "totals": {
-      "total": 58,
-      "passed": 58,
       "failed": 0,
       "skipped": 0,
       "warnings": 0,
