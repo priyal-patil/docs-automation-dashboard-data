@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-25T00:43:23.510Z",
+    "runId": "36078772998",
+    "path": "data/api-docs-automation/genai/history/2026-09-25T00-43-23-510Z__36078772998.json",
+    "totals": {
+      "total": 1,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-24T00:45:59.733Z",
     "runId": "35939830154",
     "path": "data/api-docs-automation/genai/history/2026-09-24T00-45-59-733Z__35939830154.json",
@@ -395,20 +409,6 @@
     "timestamp": "2026-08-17T22:52:44.724Z",
     "runId": "32077909543",
     "path": "data/api-docs-automation/genai/history/2026-08-17T22-52-44-724Z__32077909543.json",
-    "totals": {
-      "total": 1,
-      "passed": 0,
-      "failed": 0,
-      "skipped": 0,
-      "warnings": 0,
-      "timedOut": 0,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-08-16T22:49:23.156Z",
-    "runId": "31977360607",
-    "path": "data/api-docs-automation/genai/history/2026-08-16T22-49-23-156Z__31977360607.json",
     "totals": {
       "total": 1,
       "passed": 0,
