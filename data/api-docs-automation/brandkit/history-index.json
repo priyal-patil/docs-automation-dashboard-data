@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-09-28T01:04:18.623Z",
+    "runId": "36364493456",
+    "path": "data/api-docs-automation/brandkit/history/2026-09-28T01-04-18-623Z__36364493456.json",
+    "totals": {
+      "total": 12,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 0,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-27T00:49:09.597Z",
     "runId": "36283572215",
     "path": "data/api-docs-automation/brandkit/history/2026-09-27T00-49-09-597Z__36283572215.json",
@@ -395,20 +409,6 @@
     "timestamp": "2026-08-15T22:44:09.230Z",
     "runId": "31912866599",
     "path": "data/api-docs-automation/brandkit/history/2026-08-15T22-44-09-230Z__31912866599.json",
-    "totals": {
-      "total": 12,
-      "passed": 0,
-      "failed": 0,
-      "skipped": 0,
-      "warnings": 0,
-      "timedOut": 0,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-08-14T22:46:35.741Z",
-    "runId": "31847856725",
-    "path": "data/api-docs-automation/brandkit/history/2026-08-14T22-46-35-741Z__31847856725.json",
     "totals": {
       "total": 12,
       "passed": 0,
