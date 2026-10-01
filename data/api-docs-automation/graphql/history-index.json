@@ -1,5 +1,19 @@
 [
   {
+    "timestamp": "2026-10-01T01:30:15.588Z",
+    "runId": "36800979933",
+    "path": "data/api-docs-automation/graphql/history/2026-10-01T01-30-15-588Z__36800979933.json",
+    "totals": {
+      "total": 90,
+      "passed": 68,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 22,
+      "timedOut": 0,
+      "interrupted": 0
+    }
+  },
+  {
     "timestamp": "2026-09-30T01:31:11.524Z",
     "runId": "36654986036",
     "path": "data/api-docs-automation/graphql/history/2026-09-30T01-31-11-524Z__36654986036.json",
@@ -401,20 +415,6 @@
       "failed": 1,
       "skipped": 0,
       "warnings": 21,
-      "timedOut": 0,
-      "interrupted": 0
-    }
-  },
-  {
-    "timestamp": "2026-08-20T23:01:07.183Z",
-    "runId": "32426401414",
-    "path": "data/api-docs-automation/graphql/history/2026-08-20T23-01-07-183Z__32426401414.json",
-    "totals": {
-      "total": 90,
-      "passed": 68,
-      "failed": 0,
-      "skipped": 0,
-      "warnings": 22,
       "timedOut": 0,
       "interrupted": 0
     }
